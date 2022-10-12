@@ -1,0 +1,23 @@
+.button,
+.button:visited {
+  border: 0;
+  background: var(--color-secondary1);
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  color: var(--color-secondary1--text);
+  border-radius: 0.5rem;
+  font-weight: 500;
+  transition: background-color 250ms ease-out;
+  display: inline-block;
+  margin: auto;
+}
+.button:hover {
+  background-color: var(--color-secondary1__tint1);
+  color: var(--color-secondary1__tint1--text);
+}
+
+.buttonLink {
+  composes: button;
+  text-decoration: none;
+}

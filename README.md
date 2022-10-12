@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Variant Sweden Homepage
 
-## Getting Started
+Current homepage of Variant.
 
-First, run the development server:
+## Building and running locally
 
-```bash
-npm run dev
-# or
+Install dependencies using `yarn`
+
+```
+yarn
+```
+
+And start up dev server
+
+```
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Navigate to `http://localhost:3000`. Have fun!
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Configuration
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+It should run without configuring any environment variables using mocked data and local storage of images. If you want to integrate with actual CV Partner for fetching employees and Blob Storage to cache/store CV photos you can set that by creating a `.env.local` file based on the [`.env.example` file](./env.example).
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+# Set if you want to integrate with CV Partner
 
-## Learn More
+CV_PARTNER_API_SECRET=<API_KEY>
 
-To learn more about Next.js, take a look at the following resources:
+# Activate Blob Storage mode:
+BLOB_OVERRIDE=true
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Will require Blob Storage settings:
+AZURE_STORAGE_ACCOUNT_ACCESS_KEY=<ACCESS_KEY>
+AZURE_STORAGE_ACCOUNT_NAME=variantno
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Architecture and design decisions
 
-## Deploy on Vercel
+Organizing is done through module folders where all relevant files are located. This is to easer be able to remove/delete code and complete sets of code. However, there are some assets (e.g. manifest files and some images) which are more practical as public files (inside `public/`). These will be available as static files hosted on the root path.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Styles are used as CSS Modules with as specific naming as possible. If nested components, use [BEM naming convention](http://getbem.com/naming/).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Reusable or generic components should be moved to the [Styleguide monorepo](https://github.com/varianter/styleguide).
+
+This site should be static and exportable as clean HTML.

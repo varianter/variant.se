@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@azure/storage-blob": "^12.11.0",
+    "@variant/components": "^2.0.11",
+    "@variant/profile": "^3.0.1",
+    "gray-matter": "^4.0.3",
     "next": "12.3.1",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -19,6 +23,9 @@
     "@types/react-dom": "18.0.6",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
+    "mkdirp": "^1.0.4",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.8.4",
     "typescript": "4.8.4"
   }
 }
