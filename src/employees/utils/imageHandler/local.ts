@@ -1,12 +1,15 @@
-import { promises as fs, createWriteStream } from 'fs';
-import path from 'path';
-import mkdirp from 'mkdirp';
-import { ApiEmployee } from 'src/employees/types';
+import { promises as fs, createWriteStream } from "fs";
+import path from "path";
+import mkdirp from "mkdirp";
+import { ApiEmployee } from "src/employees/types";
 
 // Temp comment to retrigger deployemtn
-const employeeDirectory = path.join(process.cwd(), 'public/employees');
+const employeeDirectory = path.join(process.cwd(), "public/employees");
 
-export default async (employee: ApiEmployee, _regenerate: boolean = false) => {
+export default async function localImageHandler(
+  employee: ApiEmployee,
+  _regenerate: boolean = false
+) {
   // Check if images exsist already
   const userFileName = toFileName(employee.name);
 
@@ -26,13 +29,13 @@ export default async (employee: ApiEmployee, _regenerate: boolean = false) => {
   } finally {
     return `/employees/${userFileName}.png`;
   }
-};
+}
 
 export async function deleteAll() {}
 
 const toFileName = (name: string): string => {
   // Could be unstable when string is large
-  const baseString = name.trimStart().replace(' ', '-');
+  const baseString = name.trimStart().replace(" ", "-");
   let hash = 0,
     i,
     chr;
@@ -47,14 +50,14 @@ const toFileName = (name: string): string => {
 const downloadAndStore: (
   path: string,
   dir: string,
-  image: ApiEmployee['image'],
+  image: ApiEmployee["image"]
 ) => Promise<void> = async (fileName, dirPath, image) => {
   const request = await fetch(image.fit_thumb.url);
   const buffer = Buffer.from(await request.arrayBuffer());
   const outputFileName = `${fileName}.png`;
   return new Promise<void>((resolve) => {
     let stream = createWriteStream(path.join(dirPath, outputFileName));
-    stream.on('finish', resolve);
+    stream.on("finish", resolve);
     stream.write(buffer);
     stream.end();
   });

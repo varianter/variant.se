@@ -1,8 +1,8 @@
-import styles from './index.module.css';
-import Layout from './layout';
+import styles from "src/stockholmsvyer/index.module.css";
+import Layout from "src/stockholmsvyer/layout";
 
-const logo = require('./assets/variant.svg');
-const varianthuset = require('./assets/varianthuset.png');
+const logo = require("src/stockholmsvyer/assets/variant.svg");
+const varianthuset = require("src/stockholmsvyer/assets/varianthuset.png");
 
 export default function Home() {
   return (
@@ -267,10 +267,10 @@ export default function Home() {
 }
 
 type WrapperProps = React.PropsWithChildren<{
-  mode?: 'purple' | 'default';
+  mode?: "purple" | "default";
   className?: string;
 }>;
-function Wrapper({ children, mode = 'default', className }: WrapperProps) {
+function Wrapper({ children, mode = "default", className }: WrapperProps) {
   const style = styles[`wrapper__${mode}`];
   return (
     <section className={and(styles.wrapper, style, className)}>
@@ -280,10 +280,10 @@ function Wrapper({ children, mode = 'default', className }: WrapperProps) {
 }
 
 type ContentProps = React.PropsWithChildren<{
-  mode?: 'right' | 'left' | 'right_bottom' | 'left_bottom' | 'center_bottom';
+  mode?: "right" | "left" | "right_bottom" | "left_bottom" | "center_bottom";
   className?: string;
 }>;
-function Content({ children, mode = 'right_bottom', className }: ContentProps) {
+function Content({ children, mode = "right_bottom", className }: ContentProps) {
   const style = styles[`content__${mode}`];
   return (
     <div className={and(styles.content, style, className)}>{children}</div>
@@ -298,5 +298,5 @@ function Block({ children, className }: BlockProps) {
 }
 
 function and(...classes: (string | undefined)[]) {
-  return classes.filter(Boolean).join(' ');
+  return classes.filter(Boolean).join(" ");
 }

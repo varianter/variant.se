@@ -1,6 +1,6 @@
-import Head from 'next/head';
-import Layout from 'src/layout';
-import style from '../stockholm.module.css';
+import Head from "next/head";
+import Layout from "src/layout";
+import style from "src/stockholm/stockholm.module.css";
 
 //const bergenLufthavn = require('./bergen-lufthavn.png');
 
@@ -37,7 +37,7 @@ export default function VariantTur() {
           <div className={style.content}>
             <img
               className={style.lufthavn}
-              src=""//{/*bergenLufthavn*/ }
+              src="" //{/*bergenLufthavn*/ }
               alt="Bilde av bane til Bergen Lufthavn av Jørgen Håland fra Unsplash"
             />
             <p>

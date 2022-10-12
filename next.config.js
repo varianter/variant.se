@@ -1,4 +1,3 @@
-const withPlugins = require("next-compose-plugins");
 const withImages = require("next-images");
 
 const regexEqual = (x, y) => {
@@ -48,4 +47,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withPlugins([withImages], nextConfig);
+module.exports = withImages(nextConfig);

@@ -2,7 +2,6 @@ import { InferGetStaticPropsType, NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
 import Arrow from "src/components/arrow";
-import BlobLink from "src/components/blob-link";
 import { EmployeeTile } from "src/employees";
 import { getContactsByEmails } from "src/employees/utils/getEmployeesList";
 import JobListingItem from "src/jobs/list-item";
@@ -97,7 +96,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 href="https://handbook.variant.no"
                 title="Håndboken til Variant"
               >
-                vår öppna handbok.
+                vår öppna handbok
               </a>
               .
             </p>
@@ -164,12 +163,12 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               alt="Tidslinje som visar progression med 10 varianter i januari 2024."
             />
 
-            <BlobLink
+            {/* <BlobLink
               text="Läs våra Stockholms- scenarier"
-              href="stockholm/vyer"
+              href="/vyer"
               size={220}
               className={style.timelineButton}
-            />
+            /> */}
 
             <p className={style.timelineText}>
               Vi vet vart vi vill, och vi har precis påbörjat Stockholmsarbetet.
