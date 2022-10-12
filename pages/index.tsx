@@ -1,3 +1,4 @@
+import PageTitle from "@components/page-title";
 import { InferGetStaticPropsType, NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
@@ -43,7 +44,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   const [firstEmployee, secondEmployee] = employees;
 
   return (
-    <Layout>
+    <Layout homepage>
       <div>
         <Head>
           <title>En ny Variant i Stockholm</title>
@@ -82,7 +83,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             />
 
             <header className={style.intro}>
-              <h2 className={style.title}>Hej, en ny Variant i Stockholm!</h2>
+              <PageTitle title="Hej, en ny Variant i Stockholm!" element="h2" />
             </header>
 
             <p className="lead">
