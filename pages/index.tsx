@@ -92,7 +92,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               VD. Vill du vara med och forma ett annorlunda konsultföretag?
             </p>
             <p>
-              Läs mer om oss och våran värder i{" "}
+              Läs mer om oss och våra värderingar i{" "}
               <a
                 href="https://handbook.variant.no"
                 title="Håndboken til Variant"
