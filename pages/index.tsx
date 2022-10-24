@@ -87,9 +87,10 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </header>
 
             <p className="lead">
-              Under 2023 kommer ett helt nytt konsultföretag till Stockholm, med
-              ett helt nytt tänkesätt och värdegrund. Nu är vi redo att hitta en
-              VD. Vill du vara med och forma ett annorlunda konsultföretag?
+              I 2023 etablerar vi ett helt nytt konsultföretag i Stockholm – 
+              med ett helt nytt tänkesätt och värdegrund. Vill du vara med 
+              och forma ett lite annorlunda företag? Just nu söker vi efter 
+              den som ska styra skutan, eller VD som ni säger i Sverige.
             </p>
             <p>
               Läs mer om oss och våra värderingar i{" "}
@@ -113,15 +114,15 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             <h3 className="fancy">Varför Stockholm?</h3>
 
             <p className={and("lead", style.map__text__lead)}>
-              Vår vision är att skapa förtroende, transparens och jämlikhet till
+              Vår vision är att skapa förtroende, transparens och jämlikhet i
               europeiska företag. Vi började i Norge med kontor i Norges tre
               största städer. Sverige och Stockholm är nu nästa naturliga steg.
             </p>
 
             <p className={and("first", style.map__text__first)}>
-              Dessutom är Stockholm en spännande marknad med spännande kunder,
-              spännande kompetensmiljöer och studieorter och inte minst
-              spännande människor.
+              Dessutom är Stockholm en spännande marknad med spännande kunder, 
+              spännande kompetensmiljö och studieort och inte minst spännande 
+              människor.
             </p>
 
             <img
