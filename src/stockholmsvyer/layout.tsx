@@ -18,21 +18,21 @@ export default function Layout({ children, title = 'Variant' }: LayoutProps) {
         <meta name="twitter:site" content="@variant_as" />
         <meta
           property="og:title"
-          content="Hallaien! Vil du utvikle Bergen?"
+          content="Hej! Vill du utveckla Stockholm?"
           key="og:title"
         />
         <meta
           property="og:description"
-          content="Her har vi skrevet litt om våre tanker om å bygge Variant i Bergen. Nå er vi spente på hva du tenker."
+          content="Här har vi skrivit lite om våra tankar kring att bygga Variant i Stockholm. Nu är vi nyfikna på vad du tycker."
           key="og:description"
         />
         <meta
           name="description"
-          content="Her har vi skrevet litt om våre tanker om å bygge Variant i Bergen. Nå er vi spente på hva du tenker."
+          content="Här har vi skrivit lite om våra tankar kring att bygga Variant i Stockholm. Nu är vi nyfikna på vad du tycker."
           key="description"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.variant.no/bergen/vyer" />
+        <meta property="og:url" content="https://www.variant.se/vyer" />
         <meta
           property="og:image"
           content="https://www.variant.no/og-header-min.png"
