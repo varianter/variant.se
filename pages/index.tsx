@@ -10,6 +10,7 @@ import { getFileListingData } from "src/jobs/utils/getListings";
 import Layout from "src/layout";
 import style from "src/stockholm/stockholm.module.css";
 import { and } from "src/utils/css";
+import BlobLink  from "src/components/blob-link"
 
 const stockholmBlobUrl = require("src/stockholm/assets/stockholm.png");
 const timelineUrl = require("src/stockholm/assets/RoadmapStockholm.png");
@@ -165,12 +166,12 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               alt="Tidslinje som visar progression med 10 varianter i januari 2024."
             />
 
-            {/* <BlobLink
+            <BlobLink
               text="Läs våra Stockholms- scenarier"
               href="/vyer"
               size={220}
               className={style.timelineButton}
-            /> */}
+            /> 
 
             <p className={style.timelineText}>
               Vi vet vart vi vill, och vi har precis påbörjat Stockholmsarbetet.
