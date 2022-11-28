@@ -10,7 +10,7 @@ import { getFileListingData } from "src/jobs/utils/getListings";
 import Layout from "src/layout";
 import style from "src/stockholm/stockholm.module.css";
 import { and } from "src/utils/css";
-import BlobLink  from "src/components/blob-link"
+import BlobLink from "src/components/blob-link";
 
 const stockholmBlobUrl = require("src/stockholm/assets/stockholm.png");
 const timelineUrl = require("src/stockholm/assets/RoadmapStockholm.png");
@@ -86,12 +86,13 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             <header className={style.intro}>
               <PageTitle title="Hej, en ny Variant i Stockholm!" element="h2" />
             </header>
-
             <p className="lead">
-              I 2023 etablerar vi ett helt nytt konsultföretag i Stockholm – 
-              med ett helt nytt tänkesätt och värdegrund. Vill du vara med 
-              och forma ett lite annorlunda företag? Just nu söker vi efter 
-              den som ska styra skutan, eller VD som ni säger i Sverige.
+              I 2023 etablerar vi ett helt nytt konsultföretag i Stockholm – med
+              ett nytt tänkesätt och värdegrund. Variant är fristående och
+              oberoende, grundlagt i Norge och med en unik infallsvinkel till
+              utveckling och design inom konsultbranschen. Vill du vara med och
+              forma ett lite annorlunda företag? Just nu söker vi efter den som
+              ska styra skutan, eller VD som ni säger i Sverige.
             </p>
             <p>
               Läs mer om oss och våra värderingar i{" "}
@@ -121,8 +122,8 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </p>
 
             <p className={and("first", style.map__text__first)}>
-              Dessutom är Stockholm en spännande marknad med spännande kunder, 
-              spännande kompetensmiljö och studieort och inte minst spännande 
+              Dessutom är Stockholm en spännande marknad med spännande kunder,
+              spännande kompetensmiljö och studieort och inte minst spännande
               människor.
             </p>
 
@@ -171,7 +172,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               href="/vyer"
               size={220}
               className={style.timelineButton}
-            /> 
+            />
 
             <p className={style.timelineText}>
               Vi vet vart vi vill, och vi har precis påbörjat Stockholmsarbetet.
