@@ -1,19 +1,19 @@
-import React, { PropsWithChildren, useMemo } from 'react';
+import React, { PropsWithChildren, useMemo } from "react";
 
-import PageTitle from '@components/page-title';
-import MarkdownIt from 'markdown-it';
-import { InferGetStaticPropsType, NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
-import { getStaticProps } from 'pages/jobs/[listing]';
-import { ButtonLink } from 'src/components/button';
-import { EmployeeItem } from 'src/employees/types';
-import Layout from 'src/layout';
-import style from './listings.module.css';
-import { Heading3 } from '@components/heading';
+import PageTitle from "@components/page-title";
+import MarkdownIt from "markdown-it";
+import { InferGetStaticPropsType, NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
+import { getStaticProps } from "pages/jobs/[listing]";
+import { ButtonLink } from "src/components/button";
+import { EmployeeItem } from "src/employees/types";
+import Layout from "src/layout";
+import style from "./listings.module.css";
+import { Heading3 } from "@components/heading";
 
 const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
-  React.memo(({ listing }) => {
+  React.memo(function Listing({ listing }) {
     const innerHtml = useMemo(() => {
       const md = new MarkdownIt({
         linkify: true,
@@ -65,7 +65,7 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
             <PageTitle title={listing.h1_title} />
             <div className={style.button__top}>
               <ButtonLink
-                href={listing.careers_apply_url ?? 'https://jobs.variant.no/'}
+                href={listing.careers_apply_url ?? "https://jobs.variant.no/"}
               >
                 Søk på stillingen
               </ButtonLink>
@@ -86,7 +86,7 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
           </div>
           <div className={style.button__bottom}>
             <ButtonLink
-              href={listing.careers_apply_url ?? 'https://jobs.variant.no/'}
+              href={listing.careers_apply_url ?? "https://jobs.variant.no/"}
             >
               Søk på stillingen
             </ButtonLink>
@@ -148,7 +148,7 @@ export const ContactTile = ({
         </a>
         {telephone && (
           <a
-            href={`tel:+47${telephone.replace(/\s*/g, '')}`}
+            href={`tel:+47${telephone.replace(/\s*/g, "")}`}
             className={style.contact__type}
           >
             📞 {telephone}
