@@ -102,9 +102,7 @@ function Layout({
                 </a>
               </li>
               <li>
-                <a href="https://www.variant.no/kalkulator">
-                  <a>Lønnskalkulator</a>
-                </a>
+                <a href="https://www.variant.no/kalkulator">Lønnskalkulator</a>
               </li>
               <li>
                 <a
