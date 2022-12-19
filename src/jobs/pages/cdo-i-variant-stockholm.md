@@ -12,7 +12,7 @@ meta_image: https://www.variant.se/images/cdo.jpg
 
 ![Flotte Varianter](/images/design-takterasse.png)
 
-For det er akkurat det vi ønsker du skal gjøre – sammen med oss. Gjennom tillit og radikal åpenhet skal vi etablere neste generasjons selskapskultur der de ansattes potensial virkelig får blomstre og komme til nytte. En kultur som består av gjensidig raushet, åpenhet og læreglede. En kultur som har mot til å stå som et eksempel for andre og som har en ydmykhet til å lære av de samme. Vi har gjort det flere ganger i Norge, nå ønsker vi å utvikle Stockholm på samme måte. [Les mer om ambisjonene våre for Stockholm](https://www.variant.se/vyer). I tillegg har Odd Morten skrevet litt om [hvorfor vi etablerer oss i Stockholm](https://blog.variant.no/hej-stockholm-ebf1309eb32a).
+For det er akkurat det vi ønsker du skal gjøre – sammen med oss. Gjennom tillit og radikal åpenhet skal vi etablere neste generasjons selskapskultur der de ansattes potensial virkelig får blomstre og komme til nytte. En kultur som består av gjensidig raushet, åpenhet og læreglede. En kultur som har mot til å stå som et eksempel for andre og som har en ydmykhet til å lære av de samme. Vi har gjort det flere ganger i Norge, nå ønsker vi å utvikle Stockholm på samme måte. [Les mer om ambisjonene våre for Stockholm](https://www.variant.se/vyer). I tillegg har Odd Morten skrevet litt om [hvorfor vi etablerer oss i Stockholm](https://blog.variant.no/hej-stockholm-ebf1309eb32a). Om du vil vite hva Variant virkelig er, er [den åpne håndboken vår den perfekte start](https://handbook.variant.se/)!
 
 ## Hvem ser vi etter?
 
@@ -51,6 +51,7 @@ For oss er det helt selvsagt at vi må investere i kunnskap. Læreglede kommer i
 
 Konseptet og filosofien som er beskrevet over har vi behandlet i detalj, foråsidetsånn:
 
+- [Åpen handbok med alt du vil vite](https://handbook.variant.se/)
 - Tillitsbasert ledelse: [del 1](https://medium.com/variant-as/tillitsbasert-ledelse-del-1-hva-og-hvorfor-86f6aa485cf9), [del 2](https://medium.com/variant-as/tillitsbasert-ledelse-del-2-sette-retning-449452fcc6a6)
 - [Bloggposter om ledelse i Variant](https://blog.variant.no/tagged/ledelse)
 
