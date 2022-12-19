@@ -42,7 +42,7 @@ Vi er sterke tilhengere av at våre ledere forstår situasjonen til de de skal l
 Vi tilstreber åpenhet i alt vårt arbeid. Også når vi ser etter ledere. Derfor forsøker vi å være forutsigbar med tanke på de ulike insentivene vi tilby. Totalt består dette av fastlønn og bonus, et ledertillegg, utbytte fra aksjeandel og verdistigning i eierandel:
 ​
 
-- Lønn. Lederlønninger i Variant skal selvfølgelgi være konkurransedyktige. Lønnen utvikler seg trinnvis sammen med størrelsen på selskapet. Dette for å opprettholde konkurransedyktighet samtidig som selskapets lønnskostnader skal harmonere til dets økonomi. I starten vil månedslønnen være 92 000 og øke mot 125 000 over tre år.
+- Lønn. Lederlønninger i Variant skal selvfølgelig være konkurransedyktige. Lønnen utvikler seg trinnvis sammen med størrelsen på selskapet. Dette for å opprettholde konkurransedyktighet samtidig som selskapets lønnskostnader skal harmonere til dets økonomi. I starten vil månedslønnen være mellom 85 000 og 95 000 avhengig av erfaring.
 - Bonus. Alle selskapets ansatte deler likt en resultatbonus tilsvarende 30% av overskuddet. VD er inkludert også i dette.
 - VD tilbys å kjøpe 10% av aksjene i Variant Stockholm AB. Dette vil årlig medføre utbetalt utbytte. Variant benytter aktiv utbyttepolitikk, og det er å forvente betydelig utbetalinger hvert år.
 - Selskapets verdi vil øke med antall ansatte. Ved tidlig inntreden vil hver aksje ha en lav verdi, og som raskt stiger i verdi etter hvert som antall ansatte øker.
