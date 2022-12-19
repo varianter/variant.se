@@ -2,27 +2,27 @@ import Head from "next/head";
 import Layout from "src/layout";
 import style from "src/stockholm/stockholm.module.css";
 
-//const bergenLufthavn = require('./bergen-lufthavn.png');
+const Gatelykt = require('./gatelykt.png');
 
 export default function VariantTur() {
   return (
     <Layout>
       <div>
         <Head>
-          <title>Verdiutvikling Variant Bergen AS</title>
+          <title>Verdiutvikling Variant Stockholm AB</title>
           <meta
             property="og:title"
-            content="Verdiutvikling Variant Bergen AS"
+            content="Verdiutvikling Variant Stockholm AB"
             key="og:title"
           />
           <meta
             property="og:description"
-            content="Vi er ambisiøse på Bergens vegne. Variants egenart bygger på at en relativt stor gruppe flinke mennesker sammen utfordrer hverandre og bygger på hverandre. Dette er et selskap som våger å vokse fort."
+            content="Vi er ambisiøse på Stockholms vegne. Variants egenart bygger på at en relativt stor gruppe flinke mennesker sammen utfordrer hverandre og bygger på hverandre. Dette er et selskap som våger å vokse fort."
             key="og:description"
           />
           <meta
             name="description"
-            content="Vi er ambisiøse på Bergens vegne. Variants egenart bygger på at en relativt stor gruppe flinke mennesker sammen utfordrer hverandre og bygger på hverandre. Dette er et selskap som våger å vokse fort."
+            content="Vi er ambisiøse på Stockholms vegne. Variants egenart bygger på at en relativt stor gruppe flinke mennesker sammen utfordrer hverandre og bygger på hverandre. Dette er et selskap som våger å vokse fort."
             key="description"
           />
         </Head>
@@ -31,19 +31,19 @@ export default function VariantTur() {
             <h2 className={style.title}>
               Verdiutvikling
               <br />
-              Variant Bergen AS
+              Variant Stockholm AB
             </h2>
           </header>
           <div className={style.content}>
             <img
               className={style.lufthavn}
-              src="" //{/*bergenLufthavn*/ }
-              alt="Bilde av bane til Bergen Lufthavn av Jørgen Håland fra Unsplash"
+              src={Gatelykt}
+              alt="Gatelykt ved Kungsträdgården. Foto Rebekka Sveås"
             />
             <p>
               En god del av kompensasjonen som leder i Variant er knyttet til
               verdiutvikling av selskapet og avkastning på aksjer. Begge disse
-              momentene er relatert til vekst. Vi er ambisiøse på Bergens vegne.
+              momentene er relatert til vekst. Vi er ambisiøse på Stockholms vegne.
               Variants egenart bygger på at en relativt stor gruppe flinke
               mennesker sammen utfordrer hverandre og bygger på hverandre. Dette
               er et selskap som våger å vokse fort. Vi har en modell for
@@ -62,9 +62,9 @@ export default function VariantTur() {
                 <thead>
                   <tr>
                     <th></th>
-                    <th className={style.forecast_heading}>2022</th>
                     <th className={style.forecast_heading}>2023</th>
                     <th className={style.forecast_heading}>2024</th>
+                    <th className={style.forecast_heading}>2025</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -75,25 +75,25 @@ export default function VariantTur() {
                     <td className={style.number}>30 varianter</td>
                   </tr>
                   <tr>
-                    <td>Omsetning (i kr)</td>
+                    <td>Omsetning (i SEK)</td>
                     <td className={style.number}>3 000 000</td>
                     <td className={style.number}>21 000 000</td>
                     <td className={style.number}>45 000 000</td>
                   </tr>
                   <tr>
-                    <td>Resultat før skatt (i kr)</td>
+                    <td>Resultat før skatt (i SEK)</td>
                     <td className={style.number}>100 000</td>
                     <td className={style.number}>3 500 000</td>
                     <td className={style.number}>5 500 000</td>
                   </tr>
                   <tr>
-                    <td>Totalt utbytte for selskapet (i kr)</td>
+                    <td>Totalt utbytte for selskapet (i SEK)</td>
                     <td className={style.number}>50 000</td>
                     <td className={style.number}>2 000 000</td>
                     <td className={style.number}>3 500 000</td>
                   </tr>
                   <tr>
-                    <td>Selskapets totale verdiutvikling (i kr)</td>
+                    <td>Selskapets totale verdiutvikling (i SEK)</td>
                     <td className={style.number}>8 000 000</td>
                     <td className={style.number}>20 000 000</td>
                     <td className={style.number}>60 000 000</td>
