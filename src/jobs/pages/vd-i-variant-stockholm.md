@@ -1,6 +1,6 @@
 ---
-title: VD for Variant Stockholm AB
-h1_title: VD for Variant Stockholm AB
+title: VD for Variant Stockholm
+h1_title: VD for Variant Stockholm
 slug: vd-i-variant-stockholm
 contact_emails: oms@variant.no
 meta_title: Vi søker VD til Variant Stockholm
