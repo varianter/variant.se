@@ -2,8 +2,6 @@ import Head from "next/head";
 import Layout from "src/layout";
 import style from "src/stockholm/stockholm.module.css";
 
-const Gatelykt = require('./gatelykt.png');
-
 export default function VariantTur() {
   return (
     <Layout>
@@ -37,18 +35,18 @@ export default function VariantTur() {
           <div className={style.content}>
             <img
               className={style.lufthavn}
-              src={Gatelykt}
+              src="/images/gatelykt.png"
               alt="Gatelykt ved Kungsträdgården. Foto Rebekka Sveås"
             />
             <p>
               En god del av kompensasjonen som leder i Variant er knyttet til
               verdiutvikling av selskapet og avkastning på aksjer. Begge disse
-              momentene er relatert til vekst. Vi er ambisiøse på Stockholms vegne.
-              Variants egenart bygger på at en relativt stor gruppe flinke
-              mennesker sammen utfordrer hverandre og bygger på hverandre. Dette
-              er et selskap som våger å vokse fort. Vi har en modell for
-              bærekraftig vekst, og et realistisk mål om å bygge et fagmiljø med
-              30 dyktige varianter på 3 år.
+              momentene er relatert til vekst. Vi er ambisiøse på Stockholms
+              vegne. Variants egenart bygger på at en relativt stor gruppe
+              flinke mennesker sammen utfordrer hverandre og bygger på
+              hverandre. Dette er et selskap som våger å vokse fort. Vi har en
+              modell for bærekraftig vekst, og et realistisk mål om å bygge et
+              fagmiljø med 30 dyktige varianter på 3 år.
             </p>
 
             <p>
