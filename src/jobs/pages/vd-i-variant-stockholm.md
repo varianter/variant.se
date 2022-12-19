@@ -1,7 +1,7 @@
 ---
 title: VD for Variant Stockholm AB
 h1_title: VD for Variant Stockholm AB
-slug: vd
+slug: vd-i-variant-stockholm
 contact_emails: oms@variant.no
 ---
 
