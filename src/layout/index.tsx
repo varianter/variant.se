@@ -1,11 +1,12 @@
 import Head from "next/head";
 import Link from "next/link";
-import { PropsWithChildren } from "react";
+import { PropsWithChildren, useState } from "react";
 import AnimatingBackground from "src/background";
 import { and } from "src/utils/css";
 import style from "./layout.module.css";
 
 import favicon from "@variant/profile/lib/logo/favicon.png";
+import PageHeader from "@components/page-header";
 
 type LayoutProps = PropsWithChildren<{
   title?: string;
@@ -23,6 +24,8 @@ function Layout({
   homepage = false,
   zenMode = false,
 }: LayoutProps) {
+  const [isMenuVisible, setMenuVisible] = useState(false);
+
   const mainClass = and(
     style.main,
     !zenMode ? style["main--overflow"] : undefined,
@@ -30,7 +33,10 @@ function Layout({
   );
 
   return (
-    <div className={mainClass} style={{ position: "relative" }}>
+    <div
+      className={mainClass}
+      style={isMenuVisible ? { position: "fixed" } : { position: "relative" }}
+    >
       <Head>
         <title>{title}</title>
         <link rel="icon" href={favicon} />
@@ -41,12 +47,12 @@ function Layout({
         <meta property="og:type" content="website" key="og:type" />
         <meta
           property="og:url"
-          content="https://www.variant.no/"
+          content="https://www.variant.se/"
           key="og:url"
         />
         <meta
           property="og:image"
-          content="https://www.variant.no/og-header-min.png"
+          content="https://www.variant.se/og-header-min.png"
           key="og:image"
         />
       </Head>
@@ -56,29 +62,11 @@ function Layout({
           fullWidth ? style.main__innerFullWidth : ""
         )}
       >
-        <header className={style.header}>
-          {homepage ? (
-            <h1 className={style.header__logo}>
-              <Link href="/">
-                <a>
-                  <img src={require("./variant.svg")} alt="Variant" />
-                </a>
-              </Link>
-            </h1>
-          ) : (
-            <div className={style.header__logo}>
-              <Link href="/">
-                <a>
-                  <img
-                    src={require("./variant.svg")}
-                    alt="Variant"
-                    aria-label="Variant startside"
-                  />
-                </a>
-              </Link>
-            </div>
-          )}
-        </header>
+        <PageHeader
+          zenMode={zenMode}
+          homepage={homepage}
+          onVisibleChange={setMenuVisible}
+        />
         <div>{children}</div>
       </div>
       <AnimatingBackground crazy={crazy} />
@@ -89,7 +77,7 @@ function Layout({
             <h2>Utforsk</h2>
             <ul>
               <li>
-                <a href="https://handbook.variant.no">Håndbok</a>
+                <a href="https://handbook.variant.no">Håndbok (Norge)</a>
               </li>
               <li>
                 <a href="http://variant.blog" rel="noopener">
@@ -100,9 +88,6 @@ function Layout({
                 <a href="https://github.com/varianter" rel="noopener">
                   Open Source
                 </a>
-              </li>
-              <li>
-                <a href="https://www.variant.no/kalkulator">Lønnskalkulator</a>
               </li>
               <li>
                 <a

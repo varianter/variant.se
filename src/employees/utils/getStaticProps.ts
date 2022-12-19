@@ -1,5 +1,5 @@
-import { Office } from 'src/office-selector';
-import { getEmployeesByOffice, getEmployeesList } from './getEmployeesList';
+import { Office } from "src/office-selector";
+import { getEmployeesByOffice, getEmployeesList } from "./getEmployeesList";
 
 export async function getStaticPropsEmployees(officeName?: Office) {
   // Set so we can run local as fallback.
