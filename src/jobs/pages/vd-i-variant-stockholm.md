@@ -3,6 +3,9 @@ title: VD for Variant Stockholm AB
 h1_title: VD for Variant Stockholm AB
 slug: vd-i-variant-stockholm
 contact_emails: oms@variant.no
+meta_title: Vi søker VD til Variant Stockholm
+meta_description: Vi søker etter deg som vil revolusjonere Stockholm – sammen med flere og sammen med oss!
+meta_image: https://www.variant.se/images/vd.jpg
 ---
 
 ​​
@@ -45,8 +48,8 @@ Vi tilstreber åpenhet i alt vårt arbeid. Også når vi ser etter ledere. Derfo
 - Selskapets verdi vil øke med antall ansatte. Ved tidlig inntreden vil hver aksje ha en lav verdi, og som raskt stiger i verdi etter hvert som antall ansatte øker.
 
 Vi er ambisiøse og søker deg som også har lyst til å oppnå noe. Vi har en modell for bærekraftig vekst og et realistisk mål om å bygge et fagmiljø med [30 dyktige fagpersoner på 3 år](/verdiutvikling).
-  ​
-  ​
+​
+​
 
 ## Om Variant
 

@@ -1,11 +1,11 @@
 ---
 title: Chief Technology Officer for Variant Stockholm
 h1_title: Chief Technology Officer for Variant Stockholm
-slug: chief-technology-officer-i-variant-stockholm
+slug: cto-for-variant-stockholm
 contact_emails: mb@variant.no, mk@variant.no
 meta_title: Vi søker CTO til Variant Stockholm
 meta_description: Vi søker etter deg som vil revolusjonere Stockholm – sammen med flere og sammen med oss!
-meta_image: https://www.variant.no/images/cto-bergen.jpg
+meta_image: https://www.variant.se/images/cto.jpg
 ---
 
 ## Vi søker etter deg som vil utvikle Stockholm!
@@ -45,7 +45,7 @@ Vi ønsker å være så åpen som mulig i alt vårt arbeid, det gjelder også me
 - Vår nye Chief Technology Officer tilbys å kjøpe 10 prosent av aksjene i Variant Stockholm AB. Dette vil medføre et årlig utbetalt utbytte. Variant benytter aktiv utbyttepolitikk, og det er å forvente betydelige utbetalinger hvert år.
 - Selskapets verdi vil øke med antall ansatte. Ved tidlig inntreden vil hver aksje ha en lav verdi, og denne stiger raskt i verdi etter hvert som antallet ansatte øker. Vi har en modell for fornuftig vekst og et realistisk mål om å bygge et fagmiljø med 45 dyktige fagpersoner på 3 år.
 
-Kompensasjonen er med andre ord knyttet til verdiutviklingen av selskapet. {Prognose her?}
+Kompensasjonen er med andre ord knyttet til verdiutviklingen av selskapet. Vi er ambisiøse og søker deg som også har lyst til å oppnå noe. Vi har en modell for bærekraftig vekst og et realistisk mål om å bygge et fagmiljø med [30 dyktige fagpersoner på 3 år](/verdiutvikling).
 
 ## Om Variant
 
@@ -57,9 +57,9 @@ For oss er det helt selvsagt at vi må investere i kunnskap. Læreglede kommer i
 
 Konseptet og filosofien som er beskrevet over har vi behandlet i detalj, foråsidetsånn:
 
-- [Åpen håndbok](https://www.variant.se/handbok) {NY LENKE}
+- [Åpen håndbok](https://handbook.variant.se/)
 - Tillitsbasert ledelse: [del 1](https://medium.com/variant-as/tillitsbasert-ledelse-del-1-hva-og-hvorfor-86f6aa485cf9), [del 2](https://medium.com/variant-as/tillitsbasert-ledelse-del-2-sette-retning-449452fcc6a6)
-- [Om lønn](https://medium.com/variant-as/bonusutbetaling-og-l%C3%B8nnsjusteringer-c6d340f0a6d) {NY LENKE}
+- [Bloggposter om ledelse i Variant](https://blog.variant.no/tagged/ledelse)
 
 ## Kontakt
 

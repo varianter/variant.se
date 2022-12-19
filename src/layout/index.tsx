@@ -47,12 +47,12 @@ function Layout({
         <meta property="og:type" content="website" key="og:type" />
         <meta
           property="og:url"
-          content="https://www.variant.no/"
+          content="https://www.variant.se/"
           key="og:url"
         />
         <meta
           property="og:image"
-          content="https://www.variant.no/og-header-min.png"
+          content="https://www.variant.se/og-header-min.png"
           key="og:image"
         />
       </Head>
@@ -88,9 +88,6 @@ function Layout({
                 <a href="https://github.com/varianter" rel="noopener">
                   Open Source
                 </a>
-              </li>
-              <li>
-                <a href="https://www.variant.no/kalkulator">Lønnskalkulator</a>
               </li>
               <li>
                 <a
