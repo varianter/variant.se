@@ -77,7 +77,7 @@ function Layout({
             <h2>Utforsk</h2>
             <ul>
               <li>
-                <a href="https://handbook.variant.no">Håndbok</a>
+                <a href="https://handbook.variant.no">Håndbok (Norge)</a>
               </li>
               <li>
                 <a href="http://variant.blog" rel="noopener">

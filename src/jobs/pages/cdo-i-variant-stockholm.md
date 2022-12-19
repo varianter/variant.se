@@ -51,7 +51,6 @@ For oss er det helt selvsagt at vi må investere i kunnskap. Læreglede kommer i
 
 Konseptet og filosofien som er beskrevet over har vi behandlet i detalj, foråsidetsånn:
 
-- [Åpen håndbok](https://handbook.variant.se/)
 - Tillitsbasert ledelse: [del 1](https://medium.com/variant-as/tillitsbasert-ledelse-del-1-hva-og-hvorfor-86f6aa485cf9), [del 2](https://medium.com/variant-as/tillitsbasert-ledelse-del-2-sette-retning-449452fcc6a6)
 - [Bloggposter om ledelse i Variant](https://blog.variant.no/tagged/ledelse)
 
