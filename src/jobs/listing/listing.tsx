@@ -28,7 +28,7 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
         <Head>
           <meta
             property="og:url"
-            content={`https://www.variant.no/jobs/${listing.name}`}
+            content={`https://www.variant.se/jobs/${listing.name}`}
             key="og:url"
           />
           {listing.meta_title && (
@@ -65,7 +65,7 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
             <PageTitle title={listing.h1_title} />
             <div className={style.button__top}>
               <ButtonLink
-                href={listing.careers_apply_url ?? "https://jobs.variant.no/"}
+                href={listing.careers_apply_url ?? "https://jobs.variant.se/"}
               >
                 Søk på stillingen
               </ButtonLink>
@@ -86,7 +86,7 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
           </div>
           <div className={style.button__bottom}>
             <ButtonLink
-              href={listing.careers_apply_url ?? "https://jobs.variant.no/"}
+              href={listing.careers_apply_url ?? "https://jobs.variant.se/"}
             >
               Søk på stillingen
             </ButtonLink>

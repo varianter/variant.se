@@ -1,13 +1,13 @@
-import Head from 'next/head';
-import React, { PropsWithChildren } from 'react';
+import Head from "next/head";
+import React, { PropsWithChildren } from "react";
 
-const favicon = require('@variant/profile/lib/logo/favicon.png');
+const favicon = require("@variant/profile/lib/logo/favicon.png");
 
 type LayoutProps = PropsWithChildren<{
   title?: string;
 }>;
 
-export default function Layout({ children, title = 'Variant' }: LayoutProps) {
+export default function Layout({ children, title = "Variant" }: LayoutProps) {
   return (
     <main>
       <Head>
@@ -35,7 +35,7 @@ export default function Layout({ children, title = 'Variant' }: LayoutProps) {
         <meta property="og:url" content="https://www.variant.se/vyer" />
         <meta
           property="og:image"
-          content="https://www.variant.no/og-header-min.png"
+          content="https://www.variant.se/og-header-min.png"
         />
       </Head>
 
