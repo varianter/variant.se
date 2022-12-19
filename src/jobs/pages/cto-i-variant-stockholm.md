@@ -40,7 +40,7 @@ Vi er tilhengere av at våre ledere forstår behovene til både egne konsulent-k
 
 Vi ønsker å være så åpen som mulig i alt vårt arbeid, det gjelder også med tanke på de ulike insentivene våre. Vi tilbyr både fastlønn og bonus, et ledertillegg, utbytte fra aksjeandel og verdistigning i eierandel:
 
-- Lønn. Lederlønninger i Variant skal selvfølgelig være konkurransedyktige. Lønnen utvikler seg trinnvis sammen med størrelsen på selskapet. Dette for å opprettholde konkurransedyktighet samtidig som selskapets lønnskostnader skal harmonere til dets økonomi. I starten vil månedslønnen være mellom 85 000 og 95 000 avhengig av erfaring.
+- Lønn. Lederlønninger i Variant skal selvfølgelig være konkurransedyktige. Lønnen utvikler seg trinnvis sammen med størrelsen på selskapet. Dette for å opprettholde konkurransedyktighet samtidig som selskapets lønnskostnader skal harmonere til dets økonomi. I starten vil månedslønnen være mellom 85&nbsp;000 og 95&nbsp;000 avhengig av erfaring.
 - Bonus. Du vil, i likhet med alle ansatte, få en flat resultatbonus per kvartal. Bonusen utgjør 30 prosent av overskuddet.
 - Vår nye Chief Technology Officer tilbys å kjøpe 10 prosent av aksjene i Variant Stockholm AB. Dette vil medføre et årlig utbetalt utbytte. Variant benytter aktiv utbyttepolitikk, og det er å forvente betydelige utbetalinger hvert år.
 - Selskapets verdi vil øke med antall ansatte. Ved tidlig inntreden vil hver aksje ha en lav verdi, og denne stiger raskt i verdi etter hvert som antallet ansatte øker. Vi har en modell for fornuftig vekst og et realistisk mål om å bygge et fagmiljø med 45 dyktige fagpersoner på 3 år.
