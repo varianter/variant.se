@@ -13,7 +13,7 @@ meta_image: https://www.variant.se/images/vd.jpg
 
 ## Vi søker etter deg som vil utvikle Stockholm
 
-![Et av norges vakreste fjell, Inderdalstårnet. Foto Odd Morten Sveås](/images/innerdalstarnet.svg)
+![Et av norges vakreste fjell, Inderdalstårnet. Foto Odd Morten Sveås](/images/innerdalstarnet.png)
 Det er det vi ønsker du skal gjøre, - sammen med flere og sammen med oss. Etablere neste generasjons selskapskultur hvor medarbeideres potensial utnyttes til det fulle ved å gi tillit og transparens. En kultur som består av gjensidig raushet, åpenhet og læreglede. En kultur som har mot til å stå som et eksempel for andre og ydmykhet til å lære av det samme.
 ​
 Les mer om våre Stockholmsvyer i [denne brosjyren](https://variant.se/vyer). I tillegg har vår konserndirektør, Odd Morten, skrevet litt om [hvorfor vi etablerer oss ved Mälerens utløp](https://blog.variant.no/hej-stockholm-ebf1309eb32a). Om du vil vite hva Variant virkelig er, er [den åpne håndboken vår den perfekte start](https://handbook.variant.se/)!
