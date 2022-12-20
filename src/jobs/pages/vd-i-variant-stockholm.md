@@ -2,7 +2,7 @@
 title: VD for Variant Stockholm
 h1_title: VD for Variant Stockholm
 slug: vd-i-variant-stockholm
-contact_emails: oms@variant.no
+contact_emails: oms@variant.no, ah@variant.no
 meta_title: Vi søker VD til Variant Stockholm
 meta_description: Vi søker etter deg som vil revolusjonere Stockholm – sammen med flere og sammen med oss!
 meta_image: https://www.variant.se/images/vd.jpg
