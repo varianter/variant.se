@@ -70,4 +70,4 @@ Konseptet og filosofien som er beskrevet over har vi behandlet i detalj, foråsi
 ## Kontakt
 
 ​
-Har du spørsmål eller ønsker å snakke med oss om dette? Ikke vær redd for å kontakte vår konsernleder Odd Morten Sveås.
+Har du spørsmål eller ønsker å snakke med oss om dette? Ikke vær redd for å kontakte vår konsernleder Odd Morten Sveås, eller vår styreleder Anders Hammervold
