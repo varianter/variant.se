@@ -8,7 +8,7 @@ meta_description: Vi søker etter deg som vil revolusjonere Stockholm – sammen
 meta_image: https://www.variant.se/images/cdo.jpg
 ---
 
-## Vi søker deg som vil utvikle Bergen!
+## Vi søker deg som vil utvikle Stockholm!
 
 ![Flotte Varianter](/images/design-takterasse.png)
 
