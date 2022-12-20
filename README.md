@@ -44,3 +44,9 @@ Styles are used as CSS Modules with as specific naming as possible. If nested co
 Reusable or generic components should be moved to the [Styleguide monorepo](https://github.com/varianter/styleguide).
 
 This site should be static and exportable as clean HTML.
+
+## License
+
+See [LICENSE](./LICENSE).
+
+Illustration is Copyright Sandra Blikås, source code in MIT and text content CC BY-SA 4.0.
