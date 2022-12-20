@@ -151,7 +151,7 @@ export const ContactTile = ({
             href={`tel:+47${telephone.replace(/\s*/g, "")}`}
             className={style.contact__type}
           >
-            📞 {telephone}
+            📞 +47 {telephone}
           </a>
         )}
       </div>
