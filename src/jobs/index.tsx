@@ -80,8 +80,8 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               </p>
               <p>
                 Sjekk ut den{" "}
-                <a href="https://handbook.variant.no" rel="noopeneer">
-                  åpne håndboken vår for Norge
+                <a href="https://handbook.variant.se" rel="noopeneer">
+                  åpne håndboken vår
                 </a>{" "}
                 om du vil se mer om hva vi står for.
               </p>
