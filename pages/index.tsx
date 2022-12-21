@@ -97,7 +97,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             <p>
               Läs mer om oss och våra värderingar i{" "}
               <a
-                href="https://handbook.variant.no"
+                href="https://handbook.variant.se"
                 title="Håndboken til Variant"
               >
                 vår öppna handbok
