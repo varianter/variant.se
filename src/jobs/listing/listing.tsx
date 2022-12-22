@@ -11,6 +11,7 @@ import { EmployeeItem } from "src/employees/types";
 import Layout from "src/layout";
 import style from "./listings.module.css";
 import { Heading3 } from "@components/heading";
+import Podcast from "@components/podcast/Podcast";
 
 const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
   React.memo(function Listing({ listing }) {
@@ -92,6 +93,20 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
             </ButtonLink>
           </div>
         </section>
+        <Podcast
+          item={{
+            media: {
+              url: "https://media.transistor.fm/99253ea9/98eaec4d.mp3",
+            },
+            description:
+              "Vi har åpnet jobbannonser for VD, CDO og CTO til nyoppstartet Variant Stockholm. I denne podcasten snakker Odd Morten og Anders om hva det går ut på og hvem vi ser etter.",
+            title: "Åpne annonser for Variant Stockholm",
+            duration: 251,
+            publishDate: "22. desember, 2022",
+            imageCoverUrl:
+              "https://images.transistor.fm/file/transistor/images/show/29090/full_1671741944-artwork.jpg",
+          }}
+        />
         <>
           <svg height={0} width={0}>
             <defs>
