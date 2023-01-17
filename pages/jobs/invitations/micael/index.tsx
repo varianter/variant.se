@@ -131,19 +131,19 @@ export default function Invitation() {
         </Head>
         <section className={style.omVariant}>
           <header>
-            <h2 className={style.omVariant__title}>Velkommen Lisa!</h2>
+            <h2 className={style.omVariant__title}>Velkommen Micael!</h2>
           </header>
           <div>
             <p>
               Det er med stor glede vi inviterer til en liten dag hos oss på
-              Varianthuset i Trondheim 24. januar. Målet med dagen er å bli
+              Varianthuset i Trondheim 23. januar. Målet med dagen er å bli
               bedre kjent med deg, men også at du får truffet flere av oss.
               Adressen er Thomas Angells gate 10. Det er midt i sentum.
             </p>
           </div>
 
           <div>
-            <h3 className="fancy">Tidsplan 24. januar</h3>
+            <h3 className="fancy">Tidsplan 23. januar</h3>
             <ul className={style.agenda}>
               <li>
                 <span className={style.time}>12.00-13.00</span> 💪🏻 Styrkesamtale
