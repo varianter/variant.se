@@ -9,6 +9,7 @@ import { InferGetStaticPropsType, NextPage } from "next";
 import { getStaticProps } from "pages/jobs";
 import style from "./index.module.css";
 import JobListingItem from "./list-item";
+import Podcast from "@components/podcast/Podcast";
 
 const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   listings,
@@ -80,13 +81,27 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               </p>
               <p>
                 Sjekk ut den{" "}
-                <a href="https://handbook.variant.no" rel="noopeneer">
-                  åpne håndboken vår for Norge
+                <a href="https://handbook.variant.se" rel="noopeneer">
+                  åpne håndboken vår
                 </a>{" "}
                 om du vil se mer om hva vi står for.
               </p>
             </div>
           </article>
+          <Podcast
+            item={{
+              media: {
+                url: "https://media.transistor.fm/99253ea9/98eaec4d.mp3",
+              },
+              description:
+                "Vi har åpnet jobbannonser for VD, CDO og CTO til nyoppstartet Variant Stockholm. I denne podcasten snakker Odd Morten og Anders om hva det går ut på og hvem vi ser etter.",
+              title: "Åpne annonser for Variant Stockholm",
+              duration: 251,
+              publishDate: "22. desember, 2022",
+              imageCoverUrl:
+                "https://images.transistor.fm/file/transistor/images/show/29090/full_1671741944-artwork.jpg",
+            }}
+          />
         </section>
         <section className={style.job__listing}>
           <Heading2>Ledige stillinger</Heading2>
