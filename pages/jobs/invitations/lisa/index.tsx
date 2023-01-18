@@ -149,11 +149,11 @@ export default function Invitation() {
                 <span className={style.time}>12.00-13.00</span> 💪🏻 Styrkesamtale
               </li>
               <li>
-                <span className={style.time}>13.00-15.00</span> 👩‍👦‍👦
+                <span className={style.time}>13.30-15.30</span> 👩‍👦‍👦
                 Samarbeidscase{' '}
               </li>
               <li>
-                <span className={style.time}>15.30-17.00</span> 🥘 Enkel middag
+                <span className={style.time}>16.00-18.00</span> 🥘 Enkel middag på Brasserie Britannia 
               </li>
             </ul>
           </div>

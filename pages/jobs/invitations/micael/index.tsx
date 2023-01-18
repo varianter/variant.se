@@ -143,17 +143,21 @@ export default function Invitation() {
           </div>
 
           <div>
+          <h3 className="fancy">Tidsplan 22. januar</h3>
+            <ul className={style.agenda}>
+              <li>
+                <span className={style.time}>19.45-21.30</span> 🥘 Enkel middag på Brasserie Britannia
+              </li>
+            </ul>
+
             <h3 className="fancy">Tidsplan 23. januar</h3>
             <ul className={style.agenda}>
               <li>
-                <span className={style.time}>12.00-13.00</span> 💪🏻 Styrkesamtale
+                <span className={style.time}>09.00-10.00</span> 💪🏻 Styrkesamtale
               </li>
               <li>
-                <span className={style.time}>13.00-15.00</span> 👩‍👦‍👦
+                <span className={style.time}>10.00-12.00</span> 👩‍👦‍👦
                 Samarbeidscase{' '}
-              </li>
-              <li>
-                <span className={style.time}>15.30-17.00</span> 🥘 Enkel middag
               </li>
             </ul>
           </div>
