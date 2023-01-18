@@ -53,7 +53,7 @@ function MainInfo() {
 
         <p className={style.prep}>
           Til caset ønsker vi at du forbereder en innledning der du forteller
-          litt om dine tanker rundt Bergens føste år. Hvilke mål skal vi sette oss, 
+          litt om dine tanker rundt Stockholms føste år. Hvilke mål skal vi sette oss, 
           og hvordan skal vi nå disse målene.  Format er helt opp til deg. Lengden bør 
           ikke være mer enn 10 minutter, og kort er bedre enn langt.
         </p>
