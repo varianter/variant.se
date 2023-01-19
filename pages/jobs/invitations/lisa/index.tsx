@@ -70,8 +70,8 @@ function MainInfo() {
         <div className={style.profileBlock}>
           <img
             className={style.profileImage}
-            src="/images/kristin.png"
-            alt="Kristin Qvenild Nesset"
+            src="/images/jacob.png"
+            alt="Jacob Berglund"
           />
 
           <img
