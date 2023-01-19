@@ -59,8 +59,8 @@ function MainInfo() {
         </p>
 
         <p>
-          Etter din innledning vil du, Tonje, Anders, Jacob og Odd Morten
-          spinne videre på dine tanker. Marius stiller som observatør. Vi kommer
+          Etter din innledning vil du, Tonje, Anders, Marius og Odd Morten
+          spinne videre på dine tanker. Jacob stiller som observatør. Vi kommer
           til å utfordre eller male videre, og ønsker at du gjør det samme.
           Altså slik vi faktisk kommer til å jobbe når vi samarbeider om å bygge
           et selskap i framtiden. Idéer som du bringer til torgs, skal vi ikke
