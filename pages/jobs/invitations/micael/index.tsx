@@ -28,10 +28,7 @@ function MainInfo() {
         </p>
         <p>
           Tonje kommer til å gjennomføre denne samtalen, og som et resultat får
-          du ditt eget styrkekart. I forkant av din reise til Trondheim ønsker vi at 
-          du gjennomfører en kartlegging av kommunikasjonspreferanser. Dette gjøre på 
-          en nettside, og du vil få en epost som beskriver innloggingsdetaljer og hvordan 
-          dette gjøres. 
+          du ditt eget styrkekart. 
         </p>
       </div>
 
