@@ -59,7 +59,7 @@ function MainInfo() {
         </p>
 
         <p>
-          Etter din innledning vil du, Tonje, Anders, Kristin og Odd Morten
+          Etter din innledning vil du, Tonje, Anders, Jacob og Odd Morten
           spinne videre på dine tanker. Marius stiller som observatør. Vi kommer
           til å utfordre eller male videre, og ønsker at du gjør det samme.
           Altså slik vi faktisk kommer til å jobbe når vi samarbeider om å bygge
