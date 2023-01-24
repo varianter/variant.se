@@ -103,10 +103,10 @@ function MainInfo() {
       <div>
         <h3 className="fancy">Utlegg</h3>
         <p>
-          Vi setter stor pris på at du er villig til å bruke en dag på oss her i
-          Trondheim. Vi dekker selvsagt kostnader til selve reisen. Vi ber deg
+          Vi setter stor pris på at dere er villig til å bruke en dag på oss her i
+          Trondheim. Vi dekker selvsagt kostnader til selve reisen. Vi ber dere
           derfor å legge ut for turen, og så sende oss kopi av kvitteringer
-          sammen med bankkontonummer på mail til{' '}
+          sammen med bankkontonummer og SWIFT-kode på mail til{' '}
           <a
             href="mailto:faktura.norge@variant.no?subject=Utlegg i forbindelse med intervju&body=Vedlagt kvitteringer for min reise til Trondheim i forbindelse med intervju.%0D%0A
                 %0D%0A
