@@ -16,15 +16,15 @@ Vi står i startgroparna för att dra igång Variant Sverige. Vi letar efter dig
 
 Variant är summan av människorna som jobbar här, ju mer olika vi är – desto bättre! Det är nämligen det som sätter grunden för vad vi kan bli. Här kommer tankar om vem vi letar efter:
 
-Är en designförespråkare med förmåga att skapa en helhet mellan nya och befintliga tjänster/produkter.
-Jobbat minst 2 år som UX designer
-Erfarenhet av flera olika researchmetoder
-Gillar att förbättra användarupplevelsen av befintliga produkter, genom att arbeta med flöde och användargränssnitt.
-Kan omsätta insikter från research till god digital design.
-Skapa bra och inkluderande design.
-Kunna väga en organisations affärsmål med användarnas behov
-Vill arbeta nära utvecklare och produktägare.
-Gärna kunskap och erfarenhet från både app och webb.
+- Är en designförespråkare med förmåga att skapa en helhet mellan nya och befintliga tjänster/produkter.
+- Jobbat minst 2 år som UX designer
+- Erfarenhet av flera olika researchmetoder
+- Gillar att förbättra användarupplevelsen av befintliga produkter, genom att arbeta med flöde och användargränssnitt.
+- Kan omsätta insikter från research till god digital design.
+- Skapa bra och inkluderande design.
+- Kunna väga en organisations affärsmål med användarnas behov
+- Vill arbeta nära utvecklare och produktägare.
+- Gärna kunskap och erfarenhet från både app och webb.
 
 Du behöver självklart inte pricka in alla punkter ovan, vi söker dig som vill utvecklas! 🌱
 
