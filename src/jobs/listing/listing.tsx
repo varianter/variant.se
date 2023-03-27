@@ -68,7 +68,7 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
               <ButtonLink
                 href={listing.careers_apply_url ?? "https://jobs.variant.se/"}
               >
-                Søk på stillingen
+                Sök jobbet
               </ButtonLink>
             </div>
           </div>
@@ -89,7 +89,7 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
             <ButtonLink
               href={listing.careers_apply_url ?? "https://jobs.variant.se/"}
             >
-              Søk på stillingen
+              Sök jobbet
             </ButtonLink>
           </div>
         </section>
