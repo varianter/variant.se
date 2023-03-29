@@ -74,10 +74,10 @@ function Layout({
       <footer className={style.footer}>
         <div className={style.footer__inner}>
           <div className={style.footer__item}>
-            <h2>Utforsk</h2>
+            <h2>Utforska</h2>
             <ul>
               <li>
-                <a href="https://handbook.variant.se">Håndbok</a>
+                <a href="https://handbook.variant.se">Personalhandbok</a>
               </li>
               <li>
                 <a href="http://variant.blog" rel="noopener">
@@ -89,124 +89,38 @@ function Layout({
                   Open Source
                 </a>
               </li>
-              <li>
-                <a
-                  href="https://blog.variant.no/tagged/b%C3%A6rekraft"
-                  rel="noopener"
-                  title="Les mer om Variants bærekraftsinitiativ"
-                >
-                  Bærekraft
-                </a>
-              </li>
             </ul>
           </div>
           <div className={style.footer__item}>
-            <h2>Still oss spørsmål</h2>
+            <h2>Kontakt</h2>
             <ul>
               <li>
                 Ring på{" "}
-                <a href="tel:+4792807375" title="Ring oss">
-                  928 07 375
+                <a href="tel:+46706546267" title="Ring oss">
+                  +4670 6546267
                 </a>
               </li>
               <li>
-                Mail på{" "}
-                <a href="mailto:post@variant.no" title="Send oss epost">
-                  post@variant.no
+                Mejl på{" "}
+                <a href="mailto:post@variant.se" title="Send oss mejl">
+                  post@variant.se
                 </a>
               </li>
               <li>
-                Tweet på{" "}
+                Se foton på{" "}
                 <a
-                  href="https://twitter.com/variant_as"
-                  title="Følg oss på Twitter"
+                  href="https://www.instagram.com/variant_swe/"
+                  title="Instagram"
                 >
-                  @variant_as
-                </a>
-              </li>
-              <li>
-                Se bilder på{" "}
-                <a
-                  href="https://instagram.com/variant_as"
-                  title="Følg oss på Instagram"
-                >
-                  @variant_as
+                  @variant_swe
                 </a>
               </li>
             </ul>
-          </div>
-          <div className={style.footer__item}>
-            <h2>Møt oss</h2>
-
-            <p>
-              Vi holder til i vårt eget hus i{" "}
-              <a
-                href="https://www.google.com/maps/place/Varianthuset/@63.4328051,10.397323,17z/data=!3m1!4b1!4m5!3m4!1s0x466d312df4ea1347:0xf63e949e041942ee!8m2!3d63.4328051!4d10.3995117"
-                rel="noreferrer"
-                target="_blank"
-                title="Kart til Varianthuset i Trondheim"
-              >
-                Thomas Angells gate 10
-              </a>{" "}
-              i Trondheim, i våre egne lokaler i{" "}
-              <a
-                href="https://www.google.com/maps/place/Variant+Oslo/@59.910812,10.7393748,17z/data=!4m5!3m4!1s0x46416f4127442c2b:0xe0534eff4f975859!8m2!3d59.9108093!4d10.7415635"
-                rel="noreferrer"
-                target="_blank"
-                title="Kart til Variant Oslo"
-              >
-                Tollbugata 24
-              </a>{" "}
-              i Oslo og på{" "}
-              <a
-                href="https://g.page/Vaskerelven-39-5323"
-                rel="noreferrer"
-                target="_blank"
-                title="Kart til Variant Bergen"
-              >
-                Spaces Vaskerelven
-              </a>{" "}
-              i Bergen. Kom innom for en kopp kaffe eller bare en hyggelig prat.
-            </p>
           </div>
         </div>
         <div
           className={and(style.footer__inner, style["footer__inner--bottom"])}
-        >
-          <div
-            className={and(style.footer__item, style["footer__item--address"])}
-          >
-            <address>
-              <strong>Variant Trondheim AS</strong>
-              <br />
-              Thomas Angells gate 10 <br />
-              7011 Trondheim
-            </address>
-          </div>
-          <div
-            className={and(style.footer__item, style["footer__item--address"])}
-          >
-            <address>
-              <strong>Variant Oslo AS</strong>
-              <br />
-              Tollbugata 24
-              <br />
-              0157 Oslo
-            </address>
-          </div>
-          <div
-            className={and(style.footer__item, style["footer__item--address"])}
-          >
-            <address>
-              <strong>Variant Bergen AS</strong>
-              <br />
-              C/O Spaces Vaskerelven <br />
-              Vaskerelven 39
-              <br />
-              5014 Bergen
-            </address>
-          </div>
-        </div>
+        ></div>
       </footer>
     </div>
   );
