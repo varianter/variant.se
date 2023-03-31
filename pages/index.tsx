@@ -92,7 +92,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               oberoende, grundlagt i Norge och med en unik infallsvinkel till
               utveckling och design inom konsultbranschen. Vill du vara med och
               forma ett lite annorlunda företag? Just nu söker vi efter den som
-              ska styra skutan, eller VD som ni säger i Sverige.
+              ska styra skutan, eller VD som vi säger i Sverige.
             </p>
             <p>
               Läs mer om oss och våra värderingar i{" "}
