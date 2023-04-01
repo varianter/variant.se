@@ -19,7 +19,7 @@ export default function JobListingItem({ item }: JobListingItemProps) {
         <span>{item.location}</span>
       </div>
       <ButtonNextLink href={`/jobs/${item.name}`}>
-        Se på stillingen
+        Läs hela annonsen
       </ButtonNextLink>
     </section>
   );
