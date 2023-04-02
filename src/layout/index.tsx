@@ -97,7 +97,7 @@ function Layout({
               <li>
                 Ring på{" "}
                 <a href="tel:+46706546267" title="Ring oss">
-                  +4670 6546267
+                  +46 70 6546267
                 </a>
               </li>
               <li>
