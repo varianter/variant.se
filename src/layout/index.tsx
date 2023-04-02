@@ -52,7 +52,7 @@ function Layout({
         />
         <meta
           property="og:image"
-          content="https://www.variant.se/og-header-min.jpg"
+          content="https://www.variant.se/images/og-header-min.jpg"
           key="og:image"
         />
         <meta
