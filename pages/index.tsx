@@ -202,7 +202,6 @@ export const getStaticProps = async () => {
   try {
     const listings = await getFileListingData("stockholm");
     const employees = await getContactsByEmails([
-      "sara.doltz@variant.se",
       "david.dinka@variant.se",
       "sara.hernandez@variant.se",
     ]);
