@@ -90,7 +90,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               Vår mission är att utveckla samhället vi lever i. Och samtidigt visa upp en ny typ av arbetsgivare 
               som är generös, transparent och nyfiken. Du som anställd får insyn i både löner, rekrytering och säljprocess. 
               Vi tror nämligen att du blir mer engagerad när det finns möjlighet att påverka. 
-            Vi är en ny Variant av digital byrå helt enkelt.
+            Här är vi, en ny Variant av digital byrå helt enkelt.
             </p>
             <p>
               Läs mer om oss och våra värderingar i{" "}
@@ -220,8 +220,8 @@ export const getStaticProps = async () => {
   try {
     const listings = await getFileListingData("stockholm");
     const employees = await getContactsByEmails([
-      "oms@variant.no",
-      "ah@variant.no",
+      "sara.doltz@variant.se",
+      "david.dinka@variant.se",
     ]);
 
     return {
