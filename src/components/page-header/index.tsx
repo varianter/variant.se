@@ -116,6 +116,11 @@ export default function PageHeader({
                 </Link>
               </li>
               <li>
+                <Link href="/varianter">
+                  <a>Alla varianter</a>
+                </Link>
+              </li>
+              <li>
                 <a href="https://handbook.variant.se">Personalhandbok</a>
               </li>
               <li>

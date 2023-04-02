@@ -1,22 +1,15 @@
-import { Office } from "src/office-selector";
-import { getEmployeesByOffice, getEmployeesList } from "./getEmployeesList";
+import { getContactsByEmails, getEmployeesByOffice } from "./getEmployeesList";
 
-export async function getStaticPropsEmployees(officeName?: Office) {
+export async function getStaticPropsEmployees() {
   // Set so we can run local as fallback.
-  const employeeList = officeName
-    ? await getEmployeesByOffice(officeName)
-    : await getEmployeesList();
+  const employeeList = await getEmployeesByOffice("stockholm");
+  const extraEmployee = await getContactsByEmails(["mb@variant.no"]);
 
   if (employeeList) {
     return {
-      props: officeName
-        ? {
-            employeeList,
-            officeName,
-          }
-        : {
-            employeeList,
-          },
+      props: {
+        employeeList: employeeList.concat(extraEmployee),
+      },
       revalidate: 24 * 60 * 60,
     };
   }

@@ -2,65 +2,63 @@
 title: Chief Technology Officer for Variant Stockholm
 h1_title: Chief Technology Officer for Variant Stockholm
 slug: cto-for-variant-stockholm
-contact_emails: mb@variant.no, mk@variant.no
+contact_emails: sara.doltz@variant.se, david.dinka@variant.se, sara.hernandez@variant.se
 meta_title: Vi søker CTO til Variant Stockholm
 meta_description: Vi søker etter deg som vil revolusjonere Stockholm – sammen med flere og sammen med oss!
 meta_image: https://www.variant.se/images/cto.jpg
 ---
 
-## Vi søker etter deg som vil utvikle Stockholm!
+## Vi söker dig som vill utveckla Stockholm
 
 ![Varianter på en takterrasse](/images/utvikler-takterrasse.png)
 
-For det er akkurat det vi ønsker du skal gjøre – sammen med oss. Gjennom tillit og radikal åpenhet skal vi etablere neste generasjons selskapskultur der de ansattes potensial virkelig får blomstre og komme til nytte. En kultur som består av gjensidig raushet, åpenhet og læreglede. En kultur som har mot til å stå som et eksempel for andre og som har en ydmykhet til å lære av de samme. Vi har gjort det flere ganger i Norge, nå ønsker vi å utvikle Stockholm på samme måte.
+För det är precis det vi vill att du ska göra – tillsammans med oss. Genom tillit och radikal öppenhet ska vi etablera nästa generations företagskultur där medarbetarnas potential verkligen kan blomstra och komma till användning. En kultur som består av ömsesidig generositet, öppenhet och glädje att lära. En kultur som har modet att vara ett exempel för andra och som har ödmjukheten att lära av densamma. Vi har gjort det flera gånger i Norge, nu vill vi utveckla Stockholm på samma sätt. [Läs mer om våra ambitioner för Stockholm](https://www.variant.se/vyer).
 
-[Les mer om ambisjonene våre for Stockholm](https://www.variant.se/vyer). I tillegg har Odd Morten skrevet litt om [hvorfor vi etablerer oss i Stockholm](https://blog.variant.no/hej-stockholm-ebf1309eb32a). Om du vil vite hva Variant virkelig er, er [den åpne håndboken vår den perfekte start](https://handbook.variant.se/)!
+## Vem letar vi efter?
 
-## Hvem ser vi etter?
+Vi söker en teknikchef som kan motivera andra utvecklare inom företaget, med en god portion entusiasm och nyfikenhet.
 
-Vi ser etter en teknologisjef som kan motivere andre teknologer innad i firmaet, med en god porsjon entusiasme og nysgjerrighet.
+Du ska trivas med att hålla dig uppdaterad i utvecklingen, men samtidigt har vårt ämne blivit mer än att bara slipa fram så många rader kod som möjligt. Vi lever i skärningspunkten mellan design och utveckling och därför tror vi att det är meriterande om du har arbetat i tvärfunktionella team tidigare. Du ska helst ha arbetat som utvecklare inom konsultbranschen. Du ska kunna se våra kunders möjligheter, behov och lösningar.
 
-Du bør like å holde deg oppdatert innen utvikling, men samtidig har faget vårt blitt mer enn å bare kverne ut flest mulig kodelinjer. Vi lever i skjæringspunktet mellom design og utvikling, og derfor tror vi det er en fordel om du har jobbet i kryssfunksjonelle team før. Du må gjerne ha jobbet som en utvikler i konsulentbransjen. Du må kunne se muligheter, behov og løsninger hos våre kunder.
+Som CTO kommer du att vara en brobyggare. Vi tror att en öppen professionell miljö kommer att stärka oss som företag, samtidigt som det berikar kollegor i branschen och kunder vi arbetar för. Därför strävar vi efter att vara en synlig och engagerad yrkesmiljö, i flera kanaler. Glädjen att lära smittar, så du bör vara generös med att dela med dig av din egen expertis och dina erfarenheter och kunna hjälpa andra att göra detsamma. Gärna genom Meetups, YouTube, poddar, Open Source eller i den kanal du gillar bäst. Ett viktigt jobb som CTO i ett konsultföretag är att hjälpa till att förvalta Variants professionella varumärke samt att etablera en kultur som lever upp till detta.
 
-Som Chief Technology Officer vil du være en brobygger. Vi tror at et åpent fagmiljø vil styrke oss som selskap, samtidig som det beriker kolleger i bransjen, og kunder vi jobber hos. Derfor har vi som mål å være et synlig og engasjert fagmiljø, i flere kanaler. Læreglede smitter, så du bør være raus med å dele av din egen kompetanse, og kunne hjelpe andre til å gjøre det samme. Gjerne gjennom Meetups, YouTube, podcasts, Open Source eller i den kanalen du liker best. En viktig jobb som CTO i konsulentselskap er å bidra til å forvalte Variants brand som faglig sterke og etablere en kultur som etterlever dette.
+Det viktigaste är i alla fall att du är duktig på människor och kan leda, motivera och utveckla andra.
 
-Uansett, det viktigste er at du er dyktig med mennesker og evner å lede, motivere og utvikle andre.
-
-## Ansvar og oppgaver
+## Ansvar
 
 <div class="left"><img alt="Sarah hos Variant holder et foredrag" src="/images/utvikler-sarah.png"/></div>
 
-Du vil bli en del av ledergruppen i Variant Stockholm AB, og gjennom dette være med på å forme selskapets retning og kultur. Du vil ha personalansvar og være medansvarlig for tjenesteutvikling, salg og rekruttering.
+Du kommer att bli en del av ledningsgruppen på Variant Sverige AB, och genom detta vara med och forma företagets inriktning och kultur. Du kommer att ha personalansvar och vara medansvarig för tjänsteutveckling, försäljning och rekrytering.
 
-Du vil også ha ansvar for selskapets faglige utvikling innen teknologi. Feltet vi jobber innenfor endrer seg hyppig, og det kan være muligheter vi ikke har tenkt på fra før. Det betyr ikke at vi trenger å slenge oss med på alle nye trender, men vi håper allikevel at du kan foreslå nye fokusområder som du mener kan bli viktig for selskapet og bransjen. Du vil også samarbeide med CTO-ene i kosernet, Trondheim, Oslo og Bergen der det er naturlig.
+Du kommer även att ansvara för företagets professionella utveckling inom teknik. Fältet vi arbetar inom förändras ofta, och det kan finnas möjligheter som vi inte har tänkt på tidigare. Det betyder inte att vi behöver kasta oss in i alla nya trender, men vi hoppas ändå att du kan tipsa om nya fokusområden som du tror kan vara viktiga för företaget och branschen. Det kommer också vara naturligt att samarbeta med andra CTO:er på Variant, i Trondheim, Oslo och Bergen.
 
-Vi er tilhengere av at våre ledere forstår behovene til både egne konsulent-kolleger og kundene våre. Våre ledere bruker derfor en stor del av sin tid som operative konsulenter ute i kundeoppdrag.
+Vi är anhängare av att våra chefer förstår behoven hos både sina egna konsultkollegor och våra kunder. Våra chefer lägger därför en stor del av sin tid som verksamhetskonsulter på kunduppdrag.
 
-## Lønn og kompensasjoner
+## Lön och ersättningar
 
-Vi ønsker å være så åpen som mulig i alt vårt arbeid, det gjelder også med tanke på de ulike insentivene våre. Vi tilbyr både fastlønn og bonus, et ledertillegg, utbytte fra aksjeandel og verdistigning i eierandel:
+Vi vill vara så öppna som möjligt i allt vi gör, det gäller även våra olika incitament. Vi erbjuder både fast lön och bonus, chefstillägg, utdelning från aktieinnehav och värdeökning på aktieinnehav:
 
-- Lønn. Lederlønninger i Variant skal selvfølgelig være konkurransedyktige. Lønnen utvikler seg trinnvis sammen med størrelsen på selskapet. Dette for å opprettholde konkurransedyktighet samtidig som selskapets lønnskostnader skal harmonere til dets økonomi.
-- Bonus. Du vil, i likhet med alle ansatte, få en flat resultatbonus per kvartal. Bonusen utgjør 30 prosent av overskuddet.
-- Vår nye Chief Technology Officer tilbys å kjøpe 10 prosent av aksjene i Variant Stockholm AB. Dette vil medføre et årlig utbetalt utbytte. Variant benytter aktiv utbyttepolitikk, og det er å forvente betydelige utbetalinger hvert år.
-- Selskapets verdi vil øke med antall ansatte. Ved tidlig inntreden vil hver aksje ha en lav verdi, og denne stiger raskt i verdi etter hvert som antallet ansatte øker. Vi har en modell for fornuftig vekst og et realistisk mål om å bygge et fagmiljø med 45 dyktige fagpersoner på 3 år.
+- Betalning. Chefslöner i Variant ska givetvis vara konkurrenskraftiga. Lönen utvecklas successivt i takt med företagets storlek. Detta för att upprätthålla konkurrenskraften samtidigt som företagets lönekostnader ska harmonisera med dess ekonomi.
+- Bonus. Du, som alla anställda, får en fast prestationsbonus per kvartal. Bonusen är 30 procent av vinsten.
+- Vår nya Chief Design Officer erbjuds att köpa procent av aktierna i Variant Stockholm AB. Detta kommer att resultera i en årlig utdelning. Variant använder en aktiv utdelningspolicy och betydande utbetalningar kan förväntas varje år.
+- Företagets värde kommer att öka med antalet anställda. Vid tidig inträde kommer varje aktie att ha ett lågt värde och detta kommer snabbt att stiga i värde i takt med att antalet anställda ökar. Vi har en modell för realistisk tillväxt och ett realistiskt mål att bygga en professionell miljö med 45 duktiga yrkesverksamma på 3 år.
 
-Kompensasjonen er med andre ord knyttet til verdiutviklingen av selskapet. Vi er ambisiøse og søker deg som også har lyst til å oppnå noe. Vi har en modell for bærekraftig vekst og et realistisk mål om å bygge et fagmiljø med [30 dyktige fagpersoner på 3 år](/verdiutvikling).
+Ersättningen är med andra ord kopplad till värdeutvecklingen i företaget. Vi är ambitiösa och söker dig som också vill åstadkomma något. Vi har en modell för hållbar tillväxt och ett realistiskt mål att bygga en professionell miljö med [30 duktiga yrkesverksamma på 3 år](/verdiutvikling).
 
 ## Om Variant
 
 ![Christian, Jacob og Maciek hos Variant](/images/utvikler-jacob.png)
 
-Variant er menneskene som jobber her. Vi har kommet sammen for å være med og skape et konsept og en filosofi vi selv tror på. Hverdagen blir mer spennende av å ha et fellesskap som engasjeres av utvikling og nysgjerrighet. Forretningsmodellen vår er enkel: Vi tilbyr flinke og greie folk som utvikler samfunnet.
+Variant är människorna som jobbar här. Vi har börjat tillsammans för att hjälpa till att skapa ett koncept och en filosofi som vi själva tror på. Vardagen blir mer spännande av att ha en gemenskap som engagerar sig i utveckling och nyfikenhet. Vår affärsmodell är enkel: Vi erbjuder bra och anständiga människor.
 
-For oss er det helt selvsagt at vi må investere i kunnskap. Læreglede kommer i mange fasonger og vi prøver å tilrettelegge for at alle skal lære på den måten vi ønsker. Mange av oss skriver [bloggposter](https://blog.variant.no), [lager videoer](https://www.youtube.com/@variant-no), [lager](https://lesehesten.transistor.fm/) [podcaster](https://variantsnakk.transistor.fm/), noen underviser på universitetet og mange deler læreglede på konferanser. I tillegg samles vi hver måned til det vi kaller en [variantdag](https://blog.variant.no/tagged/variantdag); vår egen innedag for både faglig og sosialt påfyll.
+För oss är det självklart att vi måste investera i kunskap. Glädjen att lära kommer i många former och vi försöker ordna så att alla ska lära sig på det sätt vi vill. Många av oss skriver [blogginlägg](https://blog.variant.no), en del undervisar på universitet och många delar glädjen att lära sig på konferenser eller [flere](https://variantsnakk.transistor.fm/) [podcaster](https://lesehesten.transistor.fm/). Dessutom samlas vi varje månad till vad vi kallar en [variatiotdag](https://blog.variant.no/tagged/variantdag); vår egen inre dag för både professionell och social påfyllning.
 
-Konseptet og filosofien som er beskrevet over har vi behandlet i detalj, foråsidetsånn:
+Vi har behandlat konceptet och filosofin som beskrivs ovan i detalj, enligt följande:
 
-- [Åpen handbok med alt du vil vite](https://handbook.variant.se/)
-- Tillitsbasert ledelse: [del 1](https://medium.com/variant-as/tillitsbasert-ledelse-del-1-hva-og-hvorfor-86f6aa485cf9), [del 2](https://medium.com/variant-as/tillitsbasert-ledelse-del-2-sette-retning-449452fcc6a6)
-- [Bloggposter om ledelse i Variant](https://blog.variant.no/tagged/ledelse)
+- [Öppen handbok med allt du vill veta](https://handbook.variant.se/)
+- Förtroendebaserad ledarskap: [del 1](https://medium.com/variant-as/tillitsbasert-ledelse-del-1-hva-og-hvorfor-86f6aa485cf9), [del 2](https://medium.com/variant-as/tillitsbasert-ledelse-del-2-sette-retning-449452fcc6a6)
+- [Blogginlägg om management i Variant](https://blog.variant.no/tagged/ledelse)
 
 ## Kontakt
 
-Har du spørsmål eller ønsker å snakke med oss om dette? Chief Technology Officer Mikael Brevik eller Chief Recruitment Officer Marius Krakeli tar gjerne en prat med deg!
+Har du frågor eller vill prata med oss om detta? Sara, Sara eller David svarar på frågor…

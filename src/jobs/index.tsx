@@ -63,45 +63,46 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </div>
             <div>
               <p>
-                For å kunne lage gode løsninger trenger vi forskjellige
-                mennesker med forskjellig perspektiv. Vi trenger flinke folk med
-                engasjerte stemmer. Det betyr deg.
+                Välkommen till Variant. Vi är ett konsultföretag som lever för
+                transperens, gillar människor med stor nyfikenhet och som
+                prioriterar generositet. Vi vill arbeta med organisationer där
+                teknik och design tillsammans skapar starka, hållbara lösningar.
+                Vi erbjuder mer än schyssta villkor, bra lön samt möjlighet att
+                arbeta på häftiga uppdrag tillsammans med engagerade kollegor.
+                Vi tar transparensen till nya höjder, för vi tror att öppenhet
+                inte kan skada. Tvärt om, skapar det samhörighet.
               </p>
+
               <p>
-                Vi vil skape en arbeidsplass som jobber for de ansatte. Vi
-                ønsker å samle mennesker som bryr seg og sammen skape løsninger
-                som tjener samfunnet. Vi trenger mennesker som engasjerer seg
-                for både design og utvikling.
+                För att kunna skapa bra lösningar behöver vi olika människor med
+                olika perspektiv, olika erfarenheter och olika personligheter.
+                Vi behöver bra människor med engagerade röster helt enkelt. Det
+                kan betyda att vi behöver just dig.
               </p>
+
               <p>
-                For oss er det ikke viktig om du er en Java- eller F#-,
-                JavaScript eller Lisp-person. Figma- eller Framer X-person. Vi
-                ønsker ærlige, motiverte, hyggelige og delevillige personer.
-                Personer som ønsker å påvirke hverdagen.
+                Vi vill skapa en arbetsplats som är till för medarbetarna. Vi
+                vill samla människor som bryr sig och tillsammans skapa
+                lösningar som skapar värde för samhället. Vi behöver människor
+                som är engagerade i både design och utveckling.
               </p>
+
               <p>
-                Sjekk ut den{" "}
+                För oss spelar det ingen roll om du är en Java- eller F#-,
+                JavaScript- eller Lisp-person. Figma eller InDesign person. Vi
+                vill ha ärliga, motiverade, trevliga och personer som är villiga
+                att dela med sig till oss. Människor som vill påverka vardagen.
+              </p>
+
+              <p>
+                Kolla in vår{" "}
                 <a href="https://handbook.variant.se" rel="noopeneer">
-                  åpne håndboken vår
+                  öppna handbok
                 </a>{" "}
-                om du vil se mer om hva vi står for.
+                om du vill se mer om vad vi står för.
               </p>
             </div>
           </article>
-          <Podcast
-            item={{
-              media: {
-                url: "https://media.transistor.fm/99253ea9/98eaec4d.mp3",
-              },
-              description:
-                "Vi har åpnet jobbannonser for VD, CDO og CTO til nyoppstartet Variant Stockholm. I denne podcasten snakker Odd Morten og Anders om hva det går ut på og hvem vi ser etter.",
-              title: "Åpne annonser for Variant Stockholm",
-              duration: 251,
-              publishDate: "22. desember, 2022",
-              imageCoverUrl:
-                "https://images.transistor.fm/file/transistor/images/show/29090/full_1671741944-artwork.jpg",
-            }}
-          />
         </section>
         <section className={style.job__listing}>
           <Heading2>Ledige stillinger</Heading2>
