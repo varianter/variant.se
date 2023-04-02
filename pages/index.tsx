@@ -88,7 +88,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </header>
             <p className="lead">
               Vår mission är att utveckla samhället vi lever i. Och samtidigt visa upp en ny typ av arbetsgivare. 
-              Som är generös, transparens och nyfiken. Där du som anställd får insyn i både löner, rekrytering och säljprocess. 
+              Som är generös, transparent och nyfiken. Där du som anställd får insyn i både löner, rekrytering och säljprocess. 
               Vi tror nämligen att du blir mer engagerad när du har möjlighet att påverka. 
               Och att du gärna vill växa och utvecklas tillsammans med oss – och våra kunder. Vi är en ny Variant av digital byrå helt enkelt.
             </p>
