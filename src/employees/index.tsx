@@ -6,7 +6,7 @@ import { InferGetStaticPropsType } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { getStaticProps } from "pages/ansatte";
+import { getStaticProps } from "pages/varianter";
 import React, { CSSProperties, useEffect, useState } from "react";
 import Layout from "src/layout";
 import { and } from "src/utils/css";
