@@ -30,18 +30,13 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
           />
           <meta
             property="og:description"
-            content="Vi trenger mennesker som engasjerer seg for design og utvikling. Vi ønsker å samle mennesker som bryr seg og vil skape løsninger som tjener samfunnet vi lever i."
+            content="Välkommen till Variant. Vi är ett konsultföretag som lever för transperens, gillar människor med stor nyfikenhet och som prioriterar generositet. Vi vill arbeta med organisationer där teknik och design tillsammans skapar starka, hållbara lösningar."
             key="og:description"
           />
           <meta
             name="description"
-            content="Vi trenger mennesker som engasjerer seg for design og utvikling. Vi ønsker å samle mennesker som bryr seg og vil skape løsninger som tjener samfunnet vi lever i."
+            content="Välkommen till Variant. Vi är ett konsultföretag som lever för transperens, gillar människor med stor nyfikenhet och som prioriterar generositet. Vi vill arbeta med organisationer där teknik och design tillsammans skapar starka, hållbara lösningar."
             key="description"
-          />
-          <meta
-            property="og:image"
-            content="https://www.variant.se/images/jobs_meta_image.png"
-            key="og:image"
           />
           <title>Variant - Ledige stillinger</title>
         </Head>

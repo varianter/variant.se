@@ -35,7 +35,7 @@ export default function Layout({ children, title = "Variant" }: LayoutProps) {
         <meta property="og:url" content="https://www.variant.se/vyer" />
         <meta
           property="og:image"
-          content="https://www.variant.se/og-header-min.png"
+          content="https://www.variant.se/og-header-min.jpg"
         />
       </Head>
 

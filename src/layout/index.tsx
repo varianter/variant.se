@@ -18,7 +18,7 @@ type LayoutProps = PropsWithChildren<{
 
 function Layout({
   children,
-  title = "Variant – En variant av et konsulentselskap",
+  title = "Variant – Ny Variant av konsultföretag",
   fullWidth = false,
   crazy = false,
   homepage = false,
@@ -52,8 +52,18 @@ function Layout({
         />
         <meta
           property="og:image"
-          content="https://www.variant.se/og-header-min.png"
+          content="https://www.variant.se/og-header-min.jpg"
           key="og:image"
+        />
+        <meta
+          property="og:description"
+          content="Vi är en ny Variant av konsultföretag. Transparenta, generösa och nyfikna!"
+          key="og:description"
+        />
+        <meta
+          name="description"
+          content="Vi är en ny Variant av konsultföretag. Transparenta, generösa och nyfikna!            "
+          key="description"
         />
       </Head>
       <div

@@ -47,34 +47,6 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   return (
     <Layout homepage>
       <div>
-        <Head>
-          <title>En ny Variant i Stockholm</title>
-          <meta
-            property="og:url"
-            content={"https://www.variant.no/stockholm"}
-            key="og:url"
-          />
-          <meta
-            property="og:title"
-            content="En ny variant i Stockholm. Vi vill att du ska utveckla Stockholm tillsammans med oss."
-            key="og:title"
-          />
-          <meta
-            property="og:description"
-            content="Vi har väntat länge på detta. Vi vill att du ska utveckla Stockholm tillsammans med oss. Att etablera nästa generations företagskultur där medarbetarnas potential utnyttjas till fullo med tillit och transparens."
-            key="og:description"
-          />
-          <meta
-            name="description"
-            content="Vi har väntat länge på detta. Vi vill att du ska utveckla Stockholm tillsammans med oss. Att etablera nästa generations företagskultur där medarbetarnas potential utnyttjas till fullo med tillit och transparens."
-            key="description"
-          />
-          <meta
-            property="og:image"
-            content="https://www.variant.no/images/stockholm_meta.png"
-            key="og:image"
-          />
-        </Head>
         <div className={style.wrapper}>
           <div className={style.content}>
             <img
@@ -84,13 +56,18 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             />
 
             <header className={style.intro}>
-              <PageTitle title="Hej 👋 här kommer en ny Variant!" element="h2" />
+              <PageTitle
+                title="Hej 👋 här kommer en ny Variant!"
+                element="h2"
+              />
             </header>
             <p className="lead">
-              Vår mission är att utveckla samhället vi lever i. Och samtidigt visa upp en ny typ av arbetsgivare 
-              som är generös, transparent och nyfiken. Du som anställd får insyn i både löner, rekrytering och säljprocess. 
-              Vi tror nämligen att du blir mer engagerad när det finns möjlighet att påverka. 
-            Här är vi, en ny Variant av digital byrå helt enkelt.
+              Vår mission är att utveckla samhället vi lever i. Och samtidigt
+              visa upp en ny typ av arbetsgivare som är generös, transparent och
+              nyfiken. Du som anställd får insyn i både löner, rekrytering och
+              säljprocess. Vi tror nämligen att du blir mer engagerad när det
+              finns möjlighet att påverka. Här är vi, en ny Variant av digital
+              byrå helt enkelt.
             </p>
             <p>
               Läs mer om oss och våra värderingar i{" "}
@@ -115,14 +92,16 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
             <p className={and("lead", style.map__text__lead)}>
               Vår vision är att skapa förtroende, transparens och jämlikhet i
-              europeiska företag. Variant grundades i Trondheim och har nu kontor i Norges tre
-              största städer.
+              europeiska företag. Variant grundades i Trondheim och har nu
+              kontor i Norges tre största städer.
             </p>
 
             <p className={and("first", style.map__text__first)}>
-              Just nu är vi i en start-up-fas i Sverige, men har ändå 80 engagerade kollegor i Norge att ta stöd av. 
-              Vi letar lokal och söker efter de bästa utvecklarna och designers som delar våra värderingar 
-              och som går igång på att skapa ett bättre digitalt avtryck.
+              Just nu är vi i en start-up-fas i Sverige, men har ändå 80
+              engagerade kollegor i Norge att ta stöd av. Vi letar lokal och
+              söker efter de bästa utvecklarna och designers som delar våra
+              värderingar och som går igång på att skapa ett bättre digitalt
+              avtryck.
             </p>
 
             <img
@@ -132,10 +111,12 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             />
 
             <p className={style.map__text__second}>
-            Målet är att bygga upp en organisation där värdeskapande design och 
-              utveckling skapar en strategisk fördel för våra kunder. Vi vill inte komma till våra
-              kunder och endast vara experten, utan jobba tillsammans och hjälpa till att bygga upp kunskap och oberoende hos kunden. 
-             Vi vill dela med oss av vår kunskap, så att vi kan ta till oss andras kunskap. Det är så vi växer!
+              Målet är att bygga upp en organisation där värdeskapande design
+              och utveckling skapar en strategisk fördel för våra kunder. Vi
+              vill inte komma till våra kunder och endast vara experten, utan
+              jobba tillsammans och hjälpa till att bygga upp kunskap och
+              oberoende hos kunden. Vi vill dela med oss av vår kunskap, så att
+              vi kan ta till oss andras kunskap. Det är så vi växer!
             </p>
 
             <p className={style.map__text__third}>
@@ -194,7 +175,8 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
           <div className={and(style.content, style["content--block"])}>
             <p className={and("lead", "fancy", style.footerLine)}>
-              Är det något du undrar över? Ta kontakt med någon av oss så snackar vi!
+              Är det något du undrar över? Ta kontakt med någon av oss så
+              snackar vi!
             </p>
           </div>
 
