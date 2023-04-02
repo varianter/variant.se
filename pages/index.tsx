@@ -84,15 +84,13 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             />
 
             <header className={style.intro}>
-              <PageTitle title="Hej, en ny Variant i Stockholm!" element="h2" />
+              <PageTitle title="Hej 👋 här kommer en ny Variant!" element="h2" />
             </header>
             <p className="lead">
-              I 2023 etablerar vi ett helt nytt konsultföretag i Stockholm – med
-              ett nytt tänkesätt och värdegrund. Variant är fristående och
-              oberoende, grundlagt i Norge och med en unik infallsvinkel till
-              utveckling och design inom konsultbranschen. Vill du vara med och
-              forma ett lite annorlunda företag? Just nu söker vi efter den som
-              ska styra skutan, eller VD som ni säger i Sverige.
+              Vår mission är att utveckla samhället vi lever i. Och samtidigt visa upp en ny typ av arbetsgivare. 
+              Som är generös, transparens och nyfiken. Där du som anställd får insyn i både löner, rekrytering och säljprocess. 
+              Vi tror nämligen att du blir mer engagerad när du har möjlighet att påverka. 
+              Och att du gärna vill växa och utvecklas tillsammans med oss – och våra kunder. Vi är en ny Variant av digital byrå helt enkelt.
             </p>
             <p>
               Läs mer om oss och våra värderingar i{" "}
@@ -113,18 +111,18 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               style["content--map"]
             )}
           >
-            <h3 className="fancy">Varför Stockholm?</h3>
+            <h3 className="fancy">Vilka är Variant?</h3>
 
             <p className={and("lead", style.map__text__lead)}>
               Vår vision är att skapa förtroende, transparens och jämlikhet i
-              europeiska företag. Vi började i Norge med kontor i Norges tre
-              största städer. Sverige och Stockholm är nu nästa naturliga steg.
+              europeiska företag. Variant grundades i Trondheim och har nu kontor i Norges tre
+              största städer.
             </p>
 
             <p className={and("first", style.map__text__first)}>
-              Dessutom är Stockholm en spännande marknad med spännande kunder,
-              spännande kompetensmiljö och studieort och inte minst spännande
-              människor.
+              Just nu är vi i en start-up-fas i Sverige, men har ändå 80 engagerade kollegor i Norge att ta stöd av. 
+              Vi letar lokal och söker efter det bästa utvecklarna och designers som delar våra värderingar 
+              och som går igång på att skapa ett bättre digitalt avtryck.
             </p>
 
             <img
@@ -134,10 +132,10 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             />
 
             <p className={style.map__text__second}>
-              Vi har lärt oss mycket av uppstarten i Norge som vi vill ta med
-              oss ​​österut. Vi är måna om perspektiv och mångfald och vi är
-              säkra på att Stockholm kommer att ge ett superpositivt bidrag till
-              det som börjar bli en stor Variantgemenskap.
+            Målet är att bygga upp en organisation där värdeskapande design och 
+              utveckling skapar en strategisk fördel för våra kunder. Vi vill inte komma till våra
+              kunder och endast vara experten, utan jobba tillsammans och hjälpa till att bygga upp kunskap och oberoende hos kunden. 
+             Vi vill dela med oss av vår kunskap, så att vi kan ta till oss andras kunskap. Det är så vi växer!
             </p>
 
             <p className={style.map__text__third}>
@@ -196,8 +194,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
           <div className={and(style.content, style["content--block"])}>
             <p className={and("lead", "fancy", style.footerLine)}>
-              Är det något du undrar över? Det enklaste är att ta en pratstund
-              med oss ​​om du är nyfiken (det gillar vi!)!
+              Är det något du undrar över? Ta kontakt med någon av oss så snackar vi!
             </p>
           </div>
 
