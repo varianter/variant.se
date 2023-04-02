@@ -2,59 +2,59 @@
 title: Chief Design Officer for Variant Stockholm
 h1_title: Chief Design Officer for Variant Stockholm
 slug: cdo-for-variant-stockholm
-contact_emails: te@variant.no, mk@variant.no
-meta_title: Vi søker CDO til Variant Stockholm
+contact_emails: sara.doltz@variant.se, david.dinka@variant.se, sara.hernandez@variant.se
+meta_title: Vi söker CDO som vill utveckla Stockholm
 meta_description: Vi søker etter deg som vil revolusjonere Stockholm – sammen med flere og sammen med oss!
 meta_image: https://www.variant.se/images/cdo.jpg
 ---
 
-## Vi søker deg som vil utvikle Stockholm!
+## Vi söker dig som vill utveckla Stockholm
 
 ![Flotte Varianter](/images/design-takterasse.png)
 
-For det er akkurat det vi ønsker du skal gjøre – sammen med oss. Gjennom tillit og radikal åpenhet skal vi etablere neste generasjons selskapskultur der de ansattes potensial virkelig får blomstre og komme til nytte. En kultur som består av gjensidig raushet, åpenhet og læreglede. En kultur som har mot til å stå som et eksempel for andre og som har en ydmykhet til å lære av de samme. Vi har gjort det flere ganger i Norge, nå ønsker vi å utvikle Stockholm på samme måte. [Les mer om ambisjonene våre for Stockholm](https://www.variant.se/vyer). I tillegg har Odd Morten skrevet litt om [hvorfor vi etablerer oss i Stockholm](https://blog.variant.no/hej-stockholm-ebf1309eb32a). Om du vil vite hva Variant virkelig er, er [den åpne håndboken vår den perfekte start](https://handbook.variant.se/)!
+För det är precis det vi vill att du ska göra – tillsammans med oss. Genom tillit och radikal öppenhet ska vi etablera nästa generations företagskultur där medarbetarnas potential verkligen kan blomstra och komma till användning. En kultur som består av ömsesidig generositet, öppenhet och glädje att lära. En kultur som har modet att vara ett exempel för andra och som har ödmjukheten att lära av densamma. Vi har gjort det flera gånger i Norge, nu vill vi utveckla Stockholm på samma sätt. [Läs mer om våra ambitioner för Stockholm](https://www.variant.se/vyer).
 
-## Hvem ser vi etter?
+## Vem letar vi efter?
 
-For oss er design et bredt fagområde som strekker seg fra interaksjonsdesign og UX design til strategisk design, og vi tror du har god forståelse for bredden i faget. Variant lever i skjæringspunktet mellom design og utvikling, og derfor tror vi det er en fordel om du har jobbet i tverrfaglige team før. Gjerne som UXer, tjenestedesigner eller innen andre deler av designfaget. Det viktigste er ikke hvilken design-variant du er, men at du forstår helheten av design som strategisk virkemiddel, og hvordan hver fagdisiplin utfyller hverandre. Vi opplever alltid at en helhetlig tilnærming til design tilfører ekstra verdi og engasjement.
+För oss är design ett brett ämnesområde som sträcker sig från interaktionsdesign och UX-design till strategisk design business design. Vi tror att du har god förståelse för ämnets bredd. Variant lever i skärningspunkten mellan design och utveckling och därför tror vi att det är en fördel om du har arbetat i tvärvetenskapliga team tidigare. Gärna som UXare, tjänstedesigner eller inom andra delar av designyrket. Det viktigaste är inte vilken designvariant du är, utan att du förstår helheten av design som ett strategiskt verktyg, och hur varje disciplin kompletterar varandra. Vi tycker alltid att ett holistiskt förhållningssätt till design tillför extra värde och engagemang.
 
-Våre verdier er åpenhet, raushet og læreglede, og du har et tankesett som harmonerer med disse. Vi leter etter en designleder som både er nysgjerrig og læreglad og som trives med å motivere andre til læring og utvikling.
+Våra värderingar är öppenhet, generositet och lärglädje och du har ett tankesätt som harmoniserar med dessa. Vi söker en designchef som är både nyfiken och sugen på att lära och som tycker om att motivera andra att lära och utvecklas.
 
-## Ansvar og oppgaver
+## Ansvar
 
 <div class="left blob1"><img alt="Konsentrerte Varianter" src="/images/design-konsentrert.png"/></div>
 
-Du vil bli en del av ledergruppen i Variant Stockholm AB, og gjennom dette være med på å forme selskapets retning og kultur. Du vil ha personalansvar og være medansvarlig for tjenesteutvikling, salg og rekruttering.
+Du kommer att bli en del av ledningsgruppen på Variant Sverige AB, och genom detta vara med och forma företagets inriktning och kultur. Du kommer att ha personalansvar och vara medansvarig för tjänsteutveckling, försäljning och rekrytering.
 
-Du vil også ha ansvar for selskapets faglige utvikling innen design. Design-feltet endrer seg jevnt, og det kan være muligheter vi ikke har tenkt på fra før. Det betyr ikke at vi trenger å slenge oss med på alle nye trender, men vi håper allikevel at du kan foreslå nye fokusområder som du mener kan bli viktig for selskapet. Du vil også samarbeide med CDO-ene i konsernet og de norske selskapene der det er naturlig.
+Du kommer även att ansvara för företagets professionella utveckling inom design. Designfältet förändras hela tiden, och det kan finnas möjligheter som vi inte tänkt på tidigare. Det betyder inte att vi behöver kasta oss in i alla nya trender, men vi hoppas ändå att du kan tipsa om nya fokusområden som du tror kan vara viktiga för företaget. Du kommer även att samarbeta med CDO:erna i koncernen och de norska bolagen där det är naturligt.
 
-Vi er tilhengere av at våre ledere forstår behovene til både egne konsulent-kolleger og kundene våre. Våre ledere bruker derfor en stor del av sin tid som operative konsulenter ute i spennende kundeoppdrag.
+Vi är anhängare av att våra chefer förstår behoven hos både sina egna konsultkollegor och våra kunder. Våra chefer lägger därför en stor del av sin tid som verksamhetskonsulter på spännande kunduppdrag.
 
 ## Lønn og kompensasjoner
 
-Vi ønsker å være så åpen som mulig i alt vi gjør, det gjelder også med de ulike insentivene våre. Vi tilbyr både fastlønn og bonus, et ledertillegg, utbytte fra aksjeandel og verdistigning i eierandel:
+Vi vill vara så öppna som möjligt i allt vi gör, det gäller även våra olika incitament. Vi erbjuder både fast lön och bonus, chefstillägg, utdelning från aktieinnehav och värdeökning på aktieinnehav:
 
-- Lønn. Lederlønninger i Variant skal selvfølgelig være konkurransedyktige. Lønnen utvikler seg trinnvis sammen med størrelsen på selskapet. Dette for å opprettholde konkurransedyktighet samtidig som selskapets lønnskostnader skal harmonere til dets økonomi.
-- Bonus. Du vil, i likhet med alle ansatte, få en flat resultatbonus per kvartal. Bonusen utgjør 30 prosent av overskuddet.
-- Vår nye Chief Design Officer tilbys å kjøpe 10 prosent av aksjene i Variant Stockholm AB. Dette vil medføre et årlig utbetalt utbytte. Variant benytter aktiv utbyttepolitikk, og det er å forvente betydelige utbetalinger hvert år.
-- Selskapets verdi vil øke med antall ansatte. Ved tidlig inntreden vil hver aksje ha en lav verdi, og denne stiger raskt i verdi etter hvert som antallet ansatte øker. Vi har en modell for fornuftig vekst og et realistisk mål om å bygge et fagmiljø med 45 dyktige fagpersoner på 3 år.
+- Betalning. Chefslöner i Variant ska givetvis vara konkurrenskraftiga. Lönen utvecklas successivt i takt med företagets storlek. Detta för att upprätthålla konkurrenskraften samtidigt som företagets lönekostnader ska harmonisera med dess ekonomi.
+- Bonus. Du, som alla anställda, får en fast prestationsbonus per kvartal. Bonusen är 30 procent av vinsten.
+- Vår nya Chief Design Officer erbjuds att köpa procent av aktierna i Variant Stockholm AB. Detta kommer att resultera i en årlig utdelning. Variant använder en aktiv utdelningspolicy och betydande utbetalningar kan förväntas varje år.
+- Företagets värde kommer att öka med antalet anställda. Vid tidig inträde kommer varje aktie att ha ett lågt värde och detta kommer snabbt att stiga i värde i takt med att antalet anställda ökar. Vi har en modell för realistisk tillväxt och ett realistiskt mål att bygga en professionell miljö med 45 duktiga yrkesverksamma på 3 år.
 
-Kompensasjonen er med andre ord knyttet til verdiutviklingen av selskapet. Vi er ambisiøse og søker deg som også har lyst til å oppnå noe. Vi har en modell for bærekraftig vekst og et realistisk mål om å bygge et fagmiljø med [30 dyktige fagpersoner på 3 år](/verdiutvikling).
+Ersättningen är med andra ord kopplad till värdeutvecklingen i företaget. Vi är ambitiösa och söker dig som också vill åstadkomma något. Vi har en modell för hållbar tillväxt och ett realistiskt mål att bygga en professionell miljö med [30 duktiga yrkesverksamma på 3 år](/verdiutvikling).
 
 ## Om Variant
 
 ![Workshop med Post-its](/images/design-workshop.png)
 
-Variant er menneskene som jobber her. Vi har startet sammen for å være med å skape et konsept og en filosofi vi selv tror på. Hverdagen blir mer spennende av å ha et fellesskap som engasjeres av utvikling og nysgjerrighet. Forretningsmodellen vår er enkel: Vi tilbyr flinke og greie folk.
+Variant är människorna som jobbar här. Vi har börjat tillsammans för att hjälpa till att skapa ett koncept och en filosofi som vi själva tror på. Vardagen blir mer spännande av att ha en gemenskap som engagerar sig i utveckling och nyfikenhet. Vår affärsmodell är enkel: Vi erbjuder bra och anständiga människor.
 
-For oss er det helt selvsagt at vi må investere i kunnskap. Læreglede kommer i mange fasonger og vi prøver å tilrettelegge for at alle skal lære på den måten vi ønsker. Mange av oss skriver [bloggposter](https://blog.variant.no/tagged/design), noen underviser på [universitetet](https://www.ntnu.edu/studies/courses/PD6014#tab=omEmnet) og mange deler læreglede på [konferanser](https://sthlm-2022.xconf.co/workshop#tonje-evanger-ellen-wagnild-antonsen). I tillegg samles vi hver måned til det vi [kaller en variantdag](https://blog.variant.no/tagged/variantdag); vår egen innedag for både faglig og sosialt påfyll.
+För oss är det självklart att vi måste investera i kunskap. Glädjen att lära kommer i många former och vi försöker ordna så att alla ska lära sig på det sätt vi vill. Många av oss skriver [blogginlägg](https://blog.variant.no/tagged/design), en del undervisar på [universitet](https://www.ntnu.edu/studies/courses/PD6014#tab=omEmnet) och många delar glädjen att lära sig på [konferenser](https://sthlm-2022.xconf.co/workshop#tonje-evanger-ellen-wagnild-antonsen). Dessutom samlas vi varje månad till vad vi [kallar en variatiotdag](https://blog.variant.no/tagged/variantdag); vår egen inre dag för både professionell och social påfyllning.
 
-Konseptet og filosofien som er beskrevet over har vi behandlet i detalj, foråsidetsånn:
+Vi har behandlat konceptet och filosofin som beskrivs ovan i detalj, enligt följande:
 
-- [Åpen handbok med alt du vil vite](https://handbook.variant.se/)
-- Tillitsbasert ledelse: [del 1](https://medium.com/variant-as/tillitsbasert-ledelse-del-1-hva-og-hvorfor-86f6aa485cf9), [del 2](https://medium.com/variant-as/tillitsbasert-ledelse-del-2-sette-retning-449452fcc6a6)
-- [Bloggposter om ledelse i Variant](https://blog.variant.no/tagged/ledelse)
+- [Öppen handbok med allt du vill veta](https://handbook.variant.se/)
+- Förtroendebaserad ledarskap: [del 1](https://medium.com/variant-as/tillitsbasert-ledelse-del-1-hva-og-hvorfor-86f6aa485cf9), [del 2](https://medium.com/variant-as/tillitsbasert-ledelse-del-2-sette-retning-449452fcc6a6)
+- [Blogginlägg om management i Variant](https://blog.variant.no/tagged/ledelse)
 
 ## Kontakt
 
-Har du spørsmål eller ønsker å snakke med oss om dette? Chief Recruitment Officer Marius Krakeli og Chief Design Officer Tonje Evanger tar gjerne en prat med deg.
+Har du frågor eller vill prata med oss om detta? Sara, Sara eller David svarar på frågor…
