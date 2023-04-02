@@ -87,8 +87,8 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               <PageTitle title="Hej 👋 här kommer en ny Variant!" element="h2" />
             </header>
             <p className="lead">
-              Vår mission är att utveckla samhället vi lever i. Och samtidigt visa upp en ny typ av arbetsgivare. 
-              Som är generös, transparent och nyfiken. Där du som anställd får insyn i både löner, rekrytering och säljprocess. 
+              Vår mission är att utveckla samhället vi lever i. Och samtidigt visa upp en ny typ av arbetsgivare 
+              som är generös, transparent och nyfiken. Du som anställd får insyn i både löner, rekrytering och säljprocess. 
               Vi tror nämligen att du blir mer engagerad när det finns möjlighet att påverka. 
             Vi är en ny Variant av digital byrå helt enkelt.
             </p>
