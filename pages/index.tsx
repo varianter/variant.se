@@ -90,7 +90,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               Vår mission är att utveckla samhället vi lever i. Och samtidigt visa upp en ny typ av arbetsgivare. 
               Som är generös, transparent och nyfiken. Där du som anställd får insyn i både löner, rekrytering och säljprocess. 
               Vi tror nämligen att du blir mer engagerad när det finns möjlighet att påverka. 
-              Och att du gärna vill växa och utvecklas tillsammans med oss – och våra kunder. Vi är en ny Variant av digital byrå helt enkelt.
+            Vi är en ny Variant av digital byrå helt enkelt.
             </p>
             <p>
               Läs mer om oss och våra värderingar i{" "}
@@ -121,7 +121,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
             <p className={and("first", style.map__text__first)}>
               Just nu är vi i en start-up-fas i Sverige, men har ändå 80 engagerade kollegor i Norge att ta stöd av. 
-              Vi letar lokal och söker efter det bästa utvecklarna och designers som delar våra värderingar 
+              Vi letar lokal och söker efter de bästa utvecklarna och designers som delar våra värderingar 
               och som går igång på att skapa ett bättre digitalt avtryck.
             </p>
 
