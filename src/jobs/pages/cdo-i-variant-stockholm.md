@@ -2,7 +2,7 @@
 title: Chief Design Officer for Variant Stockholm
 h1_title: Chief Design Officer for Variant Stockholm
 slug: cdo-for-variant-stockholm
-contact_emails: sara.doltz@variant.se, david.dinka@variant.se, sara.hernandez@variant.se
+contact_emails: te@variant.no
 meta_title: Vi söker CDO som vill utveckla Stockholm
 meta_description: Vi søker etter deg som vil revolusjonere Stockholm – sammen med flere og sammen med oss!
 meta_image: https://www.variant.se/images/cdo.jpg
@@ -57,4 +57,4 @@ Vi har behandlat konceptet och filosofin som beskrivs ovan i detalj, enligt föl
 
 ## Kontakt
 
-Har du frågor eller vill prata med oss om detta? Sara, Sara eller David svarar på frågor…
+Har du frågor eller vill prata med oss om detta? Tonje svarar på frågor…
