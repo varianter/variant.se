@@ -40,8 +40,8 @@ Vi vill vara så öppna som möjligt i allt vi gör, det gäller även våra oli
 
 - Betalning. Chefslöner i Variant ska givetvis vara konkurrenskraftiga. Lönen utvecklas successivt i takt med företagets storlek. Detta för att upprätthålla konkurrenskraften samtidigt som företagets lönekostnader ska harmonisera med dess ekonomi.
 - Bonus. Du, som alla anställda, får en fast prestationsbonus per kvartal. Bonusen är 30 procent av vinsten.
-- Vår nya Chief Design Officer erbjuds att köpa procent av aktierna i Variant Stockholm AB. Detta kommer att resultera i en årlig utdelning. Variant använder en aktiv utdelningspolicy och betydande utbetalningar kan förväntas varje år.
-- Företagets värde kommer att öka med antalet anställda. Vid tidig inträde kommer varje aktie att ha ett lågt värde och detta kommer snabbt att stiga i värde i takt med att antalet anställda ökar. Vi har en modell för realistisk tillväxt och ett realistiskt mål att bygga en professionell miljö med 45 duktiga yrkesverksamma på 3 år.
+- Vår nya CTO erbjuds att köpa procent av aktierna i Variant Stockholm AB. Detta kommer att resultera i en årlig utdelning. Variant använder en aktiv utdelningspolicy och betydande utbetalningar kan förväntas varje år.
+- Företagets värde kommer att öka med antalet anställda. Vid tidig inträde kommer varje aktie att ha ett lågt värde och detta kommer snabbt att stiga i värde i takt med att antalet anställda ökar. Vi har en modell för realistisk tillväxt och ett realistiskt mål att bygga en professionell miljö med 30 duktiga yrkesverksamma på 3 år.
 
 Ersättningen är med andra ord kopplad till värdeutvecklingen i företaget. Vi är ambitiösa och söker dig som också vill åstadkomma något. Vi har en modell för hållbar tillväxt och ett realistiskt mål att bygga en professionell miljö med [30 duktiga yrkesverksamma på 3 år](/verdiutvikling).
 
