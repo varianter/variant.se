@@ -45,9 +45,8 @@ export default function Employees({
         <header className={style.employees__header}>
           <PageTitle title={"Alla varianter"} />
           <p className={style.employees__text}>
-            Vi har i Variant en god gjeng erfarne og dyktige mennesker. Dette er
-            faglige fyrtårn i byen og personer som virkelig ønsker å lære bort
-            alt de kan til sine kollegaer.
+            Vill du jobba med oss? Eller är du intresserad av någon av våra tjänster? 
+            👋 Don't be a stranger. Ta gärna kontakt med någon av oss.
           </p>
         </header>
 
