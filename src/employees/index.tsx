@@ -46,7 +46,7 @@ export default function Employees({
           <PageTitle title={"Alla varianter"} />
           <p className={style.employees__text}>
             Vill du jobba med oss? Eller är du intresserad av någon av våra tjänster? 
-            👋 Don't be a stranger. Ta gärna kontakt med någon av oss.
+            👋 Don&apos;t be a stranger. Ta gärna kontakt med någon av oss.
           </p>
         </header>
 
