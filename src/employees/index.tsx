@@ -46,7 +46,7 @@ export default function Employees({
           <PageTitle title={"Alla varianter"} />
           <p className={style.employees__text}>
             Vill du jobba med oss? Eller är du intresserad av någon av våra tjänster? 
-            👋 Don&apos;t be a stranger. Ta gärna kontakt med någon av oss.
+            👋 Don&apos;t be a stranger. 
           </p>
         </header>
 
@@ -55,7 +55,7 @@ export default function Employees({
             if (index === indexToInsertLink) {
               return (
                 <React.Fragment key={`${employee.name}-${index}`}>
-                  <JobsLink text="Er du kanskje en aspirerende Variant?" />
+                  <JobsLink text="Är du nyfiken på oss?" />
                   <EmployeeTile employee={employee} />
                 </React.Fragment>
               );
@@ -69,7 +69,7 @@ export default function Employees({
             );
           })}
 
-          <JobsLink text="Se alle våre stillinger her" />
+          <JobsLink text="Se alla våra lediga tjänster." />
         </div>
       </div>
     </Layout>
