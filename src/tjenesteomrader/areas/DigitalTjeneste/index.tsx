@@ -28,13 +28,13 @@ const DigitalTjeneste = () => {
       style={isMenuVisible ? { position: 'fixed' } : { position: 'relative' }}
     >
       <Head>
-        <title>Digital tjeneste- og produktutvikling</title>
+        <title>Digital tjänst- och produktutveckling</title>
       </Head>
 
       <div className={style.tjenesteomrade}>
         <HeaderBackground
           colorPair={color}
-          headerText="Digital tjeneste- og produktutvikling"
+          headerText="Digital tjänst- och produktutveckling"
           onVisibleChange={setMenuVisible}
         />
 
@@ -42,14 +42,14 @@ const DigitalTjeneste = () => {
           <TwoRows>
             <BlobText
               color={blobColor}
-              text={['“Ja, det var en kjempegod idé, det lager vi!”']}
+              text={['"Ja, det var en bra idé, vi gör det!"']}
               blobNr={0}
             />
             <EmojiList
               listItems={[
                 [
                   '💡',
-                  'Ok, nå har du et klart bilde av hvordan løsningen skal være. La oss likevel ta et steg tilbake...',
+                  'Ok, nu har du en klar bild av hur lösningen ska vara. Men låt oss ta ett steg tillbaka...',
                 ],
               ]}
               inverted={false}
@@ -64,7 +64,7 @@ const DigitalTjeneste = () => {
               listItems={[
                 [
                   '🎯',
-                  'Her er du inne på visjonen og misjonen til virksomheten, de overordnede målene og strategien for å nå de. Er det riktig å løse problemet basert på den konteksten de gir?',
+                  'Vi vill ta reda på verksamhetens de övergripande målen och strategin för att uppnå dem.',
                 ],
               ]}
               inverted={true}
@@ -72,11 +72,11 @@ const DigitalTjeneste = () => {
             <BlobText
               color={blobColor}
               text={[
-                'Hvem er målgruppen?',
-                'Hvilke ulike bruker-grupper finnes innenfor målgruppen din?',
-                'Hva er det du vil hjelpe brukeren med?',
-                'Hva skjer når du hjelper brukeren med dette',
-                'Hvilket utfall eller verdi oppnås, og hvem oppnår den?',
+                'Vem är målgruppen?',
+                'Vilka olika användargrupper finns inom din målgrupp?',
+                'Vad vill du hjälpa användaren med och vad behöver användaren hjälp med?',
+                'Vad händer när du hjälper användaren med detta?',
+                'Vilket resultat eller värde uppnås och vem uppnår det?',
               ]}
               blobNr={1}
             />
@@ -89,9 +89,9 @@ const DigitalTjeneste = () => {
             <BlobText
               color={blobColor}
               text={[
-                'Hvorfor er det viktig å realisere akkurat denne idéen?',
-                'Hva skjer om du ikke gjør det?',
-                'Kom deg ut!',
+                'Varför är det viktigt att förverkliga just denna idé?',
+                'Vad händer om du inte gör det?',
+                'Så varför inte testa detta istället:',
               ]}
               blobNr={2}
             />
@@ -103,17 +103,17 @@ const DigitalTjeneste = () => {
           <TwoRows>
             <EmojiList
               listItems={[
-                ['🧑‍💻', 'Funksjonelle skisser & prototyper'],
-                ['🤓', 'Tekniske eksperimenter'],
+                ['🧑‍💻', 'Funktionella skisser & prototyper'],
+                ['🤓', 'tekniska experiment'],
               ]}
               inverted={true}
             />
             <BlobText
               color={blobColor}
               text={[
-                'Involvering i idéfasen',
-                'Skissere løsning for å få feedback',
-                ' Få ut en MVP til noen som er villig til å bruke den i hverdagen',
+                'Involvering av användare i idéfasen',
+                'Skissa lösning för att få snabb feedback',
+                'Gör en MVP och testa den i vardagen',
               ]}
               blobNr={3}
             />
@@ -125,14 +125,14 @@ const DigitalTjeneste = () => {
           <TwoRows>
             <BlobText
               color={blobColor}
-              text={['Måle og lære gjennom innsikt og data']}
+              text={['Mät och lär dig genom insikter och data  ']}
               blobNr={4}
             />
             <EmojiList
               listItems={[
                 [
                   '🧑‍🔬',
-                  'Den viktigste læringen skjer når løsningen brukes som en naturlig del av hverdagen',
+                  'Det viktigaste lärandet sker när lösningen används som en naturlig del av vardagen.  ',
                 ],
               ]}
               inverted={false}

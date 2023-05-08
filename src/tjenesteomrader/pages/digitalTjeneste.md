@@ -5,99 +5,52 @@ color: 2f0516
 
 <div class="bigText" >
 
-Vår variant av digital tjeneste- og produktutvikling er læreglade og
-rause fagpersoner og et pragmatisk og fleksibelt rammeverk for design
-og utvikling. Vi brenner for utvikling av nye og eksisterende digitale
-produkter, og for å finne den beste prosessen for å gjøre det på ut
-fra forutsetningene som finnes i virksomheten, for kundene og brukerne
-av produktet, og for produktet i seg selv.
+Vår variant av digital tjänst- och produktutveckling baseras på kunskapsdelande generösa proffs. Detta kombineras med ett pragmatiskt och flexibelt ramverk för design och utveckling. Vi vill tillsammans med er hitta den bästa processen utifrån era förutsättningar, som gynnar kunderna och användarna av produkten, och själva produkten såklart. Vi vill inte komma in och diktera reglerna – utan att vi ska lyckas tillsammans!
 
 </div>
 
 <div class="wrapper">
-Vi er glade i følgende prinsipper når vi designer og utviklere
-digitale produkter og tjenester:
+Här är lite principer vi vill jobba efter när vi designar och utvecklar tillsammans med våra kunder:
 
-- Vi som jobber med produkter er verdiskapere, problemløsere,
-  innovatører og tilretteleggere. Vi forvalter og foredler idéer og
-  muligheter, nye behov og utfordringer, forbedringsforslag og
-  feedback fra brukerne
+- Vi hanterar och förfinar idéer och möjligheter, nya behov och utmaningar, förbättringsförslag och feedback från användare.
 
-- Innsikt skapes ikke på et kontor eller møterom. Vi vil treffe
-  brukerne i naturlige omgivelser slik at vi kjenner de ekte
-  problemene på kroppen. Gjennom innsikt og utforsking, kreative
-  prosesser og utprøving tester vi løsninger underveis i
-  utviklingsprosessen. Vi jobber tverrfaglig og alltid med brukeren
-  i sentrum.
+- Vi är övertygade om att arbeta som en integrerad del av verksamheten är avgörande för framgång, oavsett om vi deltar som medlemmar i befintliga team eller om vi representerar ett produktteam. Vi tror att det bidrar till att skapa något mer än den produkt eller tjänst vi utvecklar, vi ska trots allt utvecklas och bidra till samhället och miljöerna omkring oss.
 
-- Vær bevisst på hva som skjer når du løser dette problemet, både
-  for den som bruker produktet og for den som lager det. Hvilken
-  verdi eller gevinst skapes av at du løser problemet? Er utfallet i
-  tråd med visjonen og strategien til virksomheten din? Vil
-  investeringen du gjør i å utvikle produktet eller tjenesten gi
-  avkastning? Hjelper det brukeren med å nå sine mål eller løse
-  floker i hverdagen?
+- Insikter skapas inte i ett kontor eller mötesrum. Vi vill möta användarna och kunderna där de använder tjänsten, så att vi verkligen förstår deras utmaningar. Genom ett utforskande arbetssätt som ger insikter, och med kontinuerliga användningstester prövar vi dessutom lösningar under utvecklingsprocessen. Vi arbetar tvärvetenskapligt och alltid med användaren i centrum.
 
-- Involvering gjennom hele prosessen – både de som skal bruke
-  produktet og de som skal lage det. Vi involverer organisasjonen
-  rundt gjennom åpenhet og læredeling.
+- Vad händer om du löser ett problem, både för den som använder produkten och för dig som står bakom den? Vilket värde eller vinst skapas av att du löser problemet? Är resultatet i linje med din verksamhets vision och strategi? Kommer investeringen du gör att ge avkastning? Hjälper det användaren att nå sina mål eller lösa problem i vardagen? Detta tar vi hänsyn till och stöttar dig med hela vägen.
 
-- Raske iterasjoner, feedback og læring gjennom bruk av funksjonelle prototyper og tekniske proof of concepts
+- Engagemang genom hela processen – vi vill involvera både användare och de som ska stå bakom produkten eller tjänsten. Vi involverar gärna hela organisationen genom öppenhet och ett coachande arbetssätt.
 
-- Så streber vi etter å utvikle den enkleste brukbare og verdifulle iterasjonen av produktet vårt (dette kalles for en MVP), slik at det ikke koster for mye å forkaste eller pivotere når vi lærer mer. NB! MVP er ikke et begrep på en hel løsning eller første versjon, men på et inkrement av løsningen.
+- Vi föredrar snabba iterationer, feedback och lärande genom användning av funktionella prototyper och proof of concepts.
 
-- Samle data fra starten av, gjennom kontinuerlig dialog med brukeren og måling av bruk av produktet. Bruk den delen av organisasjonen som har aller mest dialog med kunden eller brukerne, som for eksempel salg eller kundeservice, som støttespillere.
+- Vi strävar ofta efter att utveckla den enklaste användbara och mest värdefulla iterationen av en produkt (en MVP) så att det inte kostar för mycket att styra om, allt eftersom vi lär oss mer.
 
-- Apropos mål, sett konkrete mål for logiske perioder og styr utelukkende på dem. Viser det seg at målene er feil, pivoter også de. Målene må henge sammen med visjonen og de overordnede målene for virksomheten slik at produktet eller tjenesten din henger sammen i det økosystemet av produkter og tjenester som virksomheten din leverer
+- Det är bra att samla in data från start, genom kontinuerlig dialog med användaren och mätningar. Vi använder och jobbar gärna tillsammans med den del av organisationen som har mest dialog med kunden eller användarna, såsom försäljning eller kundtjänst.
 
-- Show & tell – vis fram innsikt, idéer og løsninger gjennom hele prosessen. Dette skaper eierskap og engasjement også utenfor teamet, og skaper rom for å få tilbakemeldinger og se avhengigheter produkter har
-  Vi har erfart at det er noen sentrale forutsetninger som må være på plass om man skal lykkes med utvikling av digitale produkter og tjenester:
+- På tal om mål – vi, sätter upp konkreta, mätbara mål och använd dem som styrmedel. Om det visar sig att målen är fel, kan man prioritera om. Men de måste kopplas till visionen och verksamhetens övergripande mål så att din produkt eller tjänst kopplas in i ekosystemet av produkter och tjänster som bolaget redan tillhandahåller.
 
-- Forankring og tillit hos ledelsen
+- Show and tell – presentera insikter, idéer och lösningar genom hela processen. Detta skapar ägarskap och engagemang även utanför teamet, och skapar utrymme för att få feedback och se de beroenden produkter har.
 
-- Frihet og fred til å eksperimentere (det vi også kjenner som selvbestemmelse og autonomi)
+Vi kan bidra med hela produktteam eller dedikerade roller till befintliga produktteam, såsom:
 
-- Ansvar og myndighet til å ta beslutninger
-
-- Kontroll over innsatsfaktorene - du er mest sannsynlig avhengig av andre produkter og team i organisasjonen for å lykkes med produktet ditt
-
-- Dedikerte pilotkunder som faktisk tar i bruk det du lager i hverdagen og aksepterer at den er ufullstendig gjennom utviklingsløpet, men som bruker løsningen likevel
-
-Digital tjeneste- og produktutvikling er tett koblet sammen med strategi og kultur. Prinsippene gjelder for alle digitale tjenester og produkter, også datadrevet produkt- og tjenesteutvikling. De gjelder også for det vi kan kalle legacy systemer, eller der hvor det finnes eksisterende systemer som skal moderniseres, integreres eller kanskje erstattes med andre produkter eller tjenester.
-
-Vi kan bidra med hele produktteam eller dedikerte roller til produktteam som allerede finnes, som for eksempel:
-
-- Produktledelse
+- Produktledning
 - Tech lead eller arkitekt
 - Design lead
-- Utviklere og designere til team
-- Støttespillere, som for eksempel agile coach og scrum master
-
-Ikke bare er vi en gjeng flinke konsulenter med bred erfaring og kompetanse, vi har vært ute en vinterdag før og vi er modige, rause og læreglade. Eller folkelige, som noen ville ha kalt det. Vi tror sterkt på at å jobbe som en integrert del av virksomheten er avgjørende for å lykkes, enten om vi deltar som medlemmer i eksisterende team eller om vi representerer et produktteam. Vi tror det bidrar til å skape noe mer enn produktet eller tjenesten vi utvikler, vi skal tross alt utvikle og bidra i samfunnet og miljøene rundt oss.
+- Utvecklare
+- UX/UI
+- Tjänstedesigners
 
 <div class=bigText>
 
-Ting vi er skikkelig gode på er:
+Saker vi är riktigt bra på är:
 
 </div>
 
-- Innsikt, i form av intervjuer og observasjon, tjeneste- og brukerreiser og dataanalyse
-- Konseptutvikling, prototyping og testing
-- Design for digitale flater
-- Systemutvikling, fullstack
-- Sikkerhet og personvern
-- Test og kvalitet
-
-<div class="bigText">
-
-Andre ting du trenger for å utvikle gode digitale produkter og tjenester er:
-
-</div>
-
-- En retning og en plan. Vi kan bidra med [Strategiutvikling](./strategi)
-
-- Flinke folk som er dyktige på sine fagområder, som alltid vil lære mer og som er rause med sin kompetanse. Vi kan også bidra med [Datadrevet](./datadriv) produkt- og tjenesteutvikling
-
-- En kultur som er preget av tillit, trygghet og åpenhet. Vi kan bidra med Kulturutvikling.
+- Insikter, i form av intervjuer och observationer, framtagning av kundresor samt analys av data
+- Konceptutveckling, prototypframtagning och användningstest
+- UX och UI design
+- Systemutveckling, full stack
+- Säkerhet och integritet
 
 </div>
