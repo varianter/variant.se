@@ -48,16 +48,16 @@ const Strategi = () => {
             <BlobText
               color={blobColor}
               text={[
-                'Først tenker du at det er selvsagt. At mer eller mindre dagligdagse sysler, slik som ',
+                'Först tror man att det är uppenbart. Att alla känner till:',
               ]}
               blobNr={0}
             />
 
             <EmojiList
               listItems={[
-                ['🛣', 'retningsvalg og beslutninger'],
-                ['📈', 'forretnings- og leveranseplaner'],
-                ['🤝', 'ansettelser eller organisasjons-endringer'],
+                ['🛣', 'vägval och stora beslut'],
+                ['📈', 'affärsplaner och budget'],
+                ['🤝', 'nyanställning och organisatoriska förändringar'],
               ]}
               inverted={false}
             />
@@ -71,7 +71,7 @@ const Strategi = () => {
             <BlobText
               color={blobColor}
               text={[
-                '…ikke er tilfeldige eller personavhengige – men velbegrunnede, samkjørte og strategisk forankrete aktiviteter.',
+                'Att alla beslut är förankrade och samordnade utifrån strategin.',
               ]}
               blobNr={1}
             />
@@ -84,12 +84,12 @@ const Strategi = () => {
             <BlobText
               color={blobColor}
               text={[
-                'Du tar det for gitt at hele organisasjonen på tvers av team og miljøer jobber mot…',
+                'Vi tar för givet att hela organisationen tvärs över teamen arbetar mot...',
               ]}
               blobNr={2}
             />
             <EmojiList
-              listItems={[['🏔', 'et felles overordnet målbilde']]}
+              listItems={[['🏔', 'en gemensam övergripande målbild  ']]}
               inverted={false}
             />
           </TwoRows>
@@ -100,8 +100,8 @@ const Strategi = () => {
           <TwoRows>
             <EmojiList
               listItems={[
-                ['❤️', 'kundeverdi'],
-                ['💰', 'og forretningsverdi'],
+                ['❤️', 'kundvärde'],
+                ['💰', 'och affärsvärde'],
               ]}
               inverted={true}
             />
@@ -109,7 +109,7 @@ const Strategi = () => {
             <BlobText
               color={blobColor}
               text={[
-                '…og at de flinke folkene løser oppgaver som realiserer både…',
+                '...och att alla smarta människor löser alla sina uppgifter på rätt sätt, vid rätt tid.',
               ]}
               blobNr={3}
             />
@@ -122,7 +122,7 @@ const Strategi = () => {
             <BlobText
               color={blobColor}
               text={[
-                '…samtidig med at den fjelltoppen som er peilet ut som mål, kommer stadig nærmere…',
+                '… men samtidigt som bergstoppen med alla deadlines kommer närmare och närmare. Och hur var egentligen strategin nu igen?',
               ]}
               blobNr={4}
             />
