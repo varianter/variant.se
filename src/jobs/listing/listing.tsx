@@ -12,6 +12,7 @@ import Layout from "src/layout";
 import style from "./listings.module.css";
 import { Heading3 } from "@components/heading";
 import Podcast from "@components/podcast/Podcast";
+import { formatTelephone } from "src/utils/phone";
 
 const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
   React.memo(function Listing({ listing }) {
@@ -140,7 +141,7 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
   });
 
 export const ContactTile = ({
-  contact: { fullName, name, email, telephone, imageUrl },
+  contact: { name, email, telephone, imageUrl },
 }: PropsWithChildren<{ contact: EmployeeItem }>) => {
   return (
     <div className={style.contact}>
@@ -156,17 +157,14 @@ export const ContactTile = ({
 
       <div className={style.contact__content}>
         <Heading3 styleLevel="4" className={style.contact__name}>
-          {fullName}
+          {name}
         </Heading3>
         <a href={`mailto:${email}`} className={style.contact__type}>
           📬 {email}
         </a>
         {telephone && (
-          <a
-            href={`tel:${telephone.replace(/\s*/g, "")}`}
-            className={style.contact__type}
-          >
-            📞 {telephone}
+          <a href={`tel:${telephone}`} className={style.contact__type}>
+            📞 {formatTelephone(telephone)}
           </a>
         )}
       </div>

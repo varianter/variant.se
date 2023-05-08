@@ -21,7 +21,6 @@ export type ApiEmployee = {
 };
 
 export type EmployeeItem = {
-  fullName: string;
   name: string;
   email: string;
   telephone: string | null;

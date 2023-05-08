@@ -18,7 +18,10 @@ const nextConfig = {
 
   images: {
     disableStaticImages: true,
-    domains: ["variantno.blob.core.windows.net"],
+    domains: [
+      "variantno.blob.core.windows.net",
+      "chewiesald2ijhpvmb34c.blob.core.windows.net",
+    ],
   },
 
   webpack: (config) => {
