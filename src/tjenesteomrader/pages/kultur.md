@@ -5,47 +5,14 @@ color: fad2e2
 
 <div class="bigText">
 
-Skyhøye markedskrav til kvalitet og omstillingsevne for digitale
-tjenestetilbydere, gjør at stadig flere organisasjoner ønsker å bygge
-egne utviklingsmiljø. Vi opplever imidlertid at mange ikke evner å
-gjøre det på en måte som skaper nødvendig fagutvikling og ledelse.
-Samtidig forblir dette ofte en «blind spot» for ledelse under
-omstilling. Beste praksiser og teknologi ta organisasjonen et viktig
-steg på veien mot bærekraftig utvikling av programvare. Likevel
-tilsier all vår erfaring at det å virkelig skape og forvalte gode
-produkter over tid forutsetter det vi kaller en utviklingskultur. For
-å oppnå dette må vi jobbe bevisst med kultur med utgangspunkt i fagene
-– fra team til topp. Variant kan bidra på flere måter, og i hovedsak
-gjennom to dimensjoner:
+Allt fler organisationer vill bygga sina egna utvecklingsteam. Vill man skapa och förvalta bra produkter över tid krävs det vi kallar för utvecklingskultur. För att uppnå detta måste vi medvetet arbeta med kultur – från teamet till toppen. Variant kan bidra på flera sätt, främst genom två dimensioner:
 
 </div>
 
 <div class="wrapper">
 
-Vi har erfarne konsulenter som bryr seg om hvorfor jobben skal
-gjøres, hvordan den utføres, og hvordan programvaren utvikles. Når
-du samarbeider med slike Varianter, vil de jobbe bevisst med å bygge
-kultur nedenfra. Dette gjøres både med å gå foran som gode
-praksiseksempler, gjennom veiledning av team, og gjennom omsorg for
-hver enkelts arbeidshverdag. Våre konsulenter jobber inkluderende og
-transparent med de grepene som er nødvendige for å bygge en god
-utviklingskultur og teamhelse. Dette kan være smått og stort – som
-det å identifisere strukturkapital som mangler for å kunne bygge
-læring, eller fasilitering av sesjoner med mob-programming. Kanskje
-er det etablering ukentlig team-demoer for å spre stolthet og
-engasjement, eller det å etablere nye rutiner for “Pull Requests”.
-Noe er kanskje “techlead-opplegg”. Våre konsulenter er sterke
-kulturbærere og vil ta slike initiativ.
+Vi har erfarna konsulter som bryr sig om varför jobbet behöver göras, hur det utförs och hur mjukvaran utvecklas. När du samarbetar med sådana personer kommer de att arbeta medvetet för att bygga kultur underifrån. Detta görs både genom att lead by example, genom mentorskap av team, och genom omsorg om varje individs vardag i arbetslivet. Våra konsulter arbetar inkluderande och transparent med de åtgärder som krävs för att bygga en bra utvecklingskultur och känsla av tillhörighet i teamet. Detta kan vara litet eller stort; som att identifiera strukturkapital som saknas för att bygga upp kontinuerligt lärande, eller att facilitera sessioner med mob programming. Kanske är det att etablera team-demos varje vecka för att sprida stolthet och engagemang, eller etablera nya rutiner för "Pull Requests". Våra konsulter är starka kulturbärare och vet vilka initiativ som behövs.
 
-Vi jobber også på strategisk nivå opp mot ledelse, og ikke minst
-mellomledelse. Veldig ofte mangler utviklingsteam faktiske
-rammebetingelser for suksess. Dette kommer gjerne av at
-organisasjonen på én side setter krav til teamene som ikke
-harmonerer med ønsket kulturutvikling. I Variant har vi kompetanse
-til å etablere enhetlige målbilder og strukturelle rammer tilpasset
-organisasjonens forutsetninger. Dermed kan vi sørge for en kultur
-som gir team og folk tilstrekkelig tillit og autonomi, samtidig som
-tryggheten for at organisasjonen beveger seg i ønsket retning
-ivaretas.
+Vi arbetar även på strategisk nivå mot ledningen och inte minst mellancheferna. Väldigt ofta behöver utvecklingsteam faktiska ramverk för framgång. På Variant har vi kompetensen att etablera enhetliga målbilder och strukturella ramar anpassade efter organisationens krav. På så sätt kan vi säkerställa en kultur som ger team och människor tillräckligt med förtroende och autonomi, samtidigt som vi ser till att organisationen rör sig i önskad riktning.
 
 </div>
