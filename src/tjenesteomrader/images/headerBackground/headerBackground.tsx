@@ -2,6 +2,7 @@ import { Heading1 } from '@components/heading';
 import PageHeader from '@components/page-header';
 import { ColorPair } from '@variant/profile/lib/colors';
 import style from './headerBackground.module.css';
+import Link from 'next/link';
 
 type HeaderBackgroundProps = {
   headerText: string;
@@ -46,9 +47,9 @@ const HeaderBackground = ({
         }}
         className={style.header__text}
       >
-        <a style={{ color: colorPair.text }} href="/tjenesteomrader">
+        <Link style={{ color: colorPair.text }} href="/tjenesteomrader">
           Tjenesteområder /
-        </a>
+        </Link>
         <Heading1
           style={{ color: colorPair.text }}
           styleLevel="2"
