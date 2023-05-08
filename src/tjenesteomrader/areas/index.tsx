@@ -3,7 +3,6 @@ import Divider from '../images/divider/divider';
 import Footer from '../images/footer/footer';
 import DigitalTjeneste from './DigitalTjeneste';
 import Strategi from './strategi';
-import Datadriv from './datadriv';
 import Kultur from './kultur';
 import {
   tjenesteomradePath,
@@ -30,12 +29,11 @@ const Areas = (prop: TjenesteomradeProps) => {
 
 export default Areas;
 
-type SubPageProps = typeof tjenesteomradePath[number];
+type SubPageProps = (typeof tjenesteomradePath)[number];
 
 const SubPage = (props: { page: SubPageProps }) => {
   const page = props.page;
   if (page === 'strategi') return <Strategi />;
-  if (page === 'datadriv') return <Datadriv />;
   if (page === 'digitalTjeneste') return <DigitalTjeneste />;
   if (page === 'kultur') return <Kultur />;
   return null;
