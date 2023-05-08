@@ -1,13 +1,19 @@
-import { ColorSet } from '@variant/profile/lib/colors';
+import { ColorSeries, ColorSet } from '@variant/profile/lib/colors';
 import Link, { LinkProps } from 'next/link';
 import React from 'react';
 import { and } from 'src/utils/css';
 
 import style from './button.module.css';
 
+export type ColorVariations = {
+  series: ColorSeries;
+  colorLevel: number;
+};
+
 type ButtonProps = React.PropsWithChildren<{
   className?: string;
   colorPair?: ColorSet;
+  colorVariation?: ColorVariations;
 }>;
 
 type EType = React.DetailedHTMLProps<
@@ -54,6 +60,7 @@ export function ButtonNextLink({
   className = '',
   children,
   colorPair,
+  colorVariation,
   ...props
 }: ButtonProps & LinkType & Pick<AType, 'aria-label'>) {
   return (
