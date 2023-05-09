@@ -129,9 +129,7 @@ export default function PageHeader({
                 </a>
               </li>
               <li>
-                <a href="http://variant.blog" rel="noopener">
-                  Tjänster
-                </a>
+                <a href="/tjenesteomrader">Tjänster</a>
               </li>
             </ul>
           </nav>
