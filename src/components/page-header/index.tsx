@@ -1,14 +1,14 @@
-import Link from "next/link";
+import Link from 'next/link';
 import React, {
   PropsWithChildren,
   useCallback,
   useEffect,
   useState,
-} from "react";
-import { and } from "src/utils/css";
-import { useMediaQuery } from "src/utils/use-media-query";
+} from 'react';
+import { and } from 'src/utils/css';
+import { useMediaQuery } from 'src/utils/use-media-query';
 
-import style from "./page-header.module.css";
+import style from './page-header.module.css';
 
 export type PageHeaderProps = PropsWithChildren<{
   homepage?: boolean;
@@ -39,7 +39,7 @@ export default function PageHeader({
     setMenuVisible(newVisible);
   };
 
-  const LogoWrapper = homepage ? "h1" : "div";
+  const LogoWrapper = homepage ? 'h1' : 'div';
 
   return (
     <header className={style.header}>
@@ -47,10 +47,10 @@ export default function PageHeader({
         <Link href="/">
           <a
             aria-label="Variant startside"
-            aria-current={homepage ? "page" : undefined}
+            aria-current={homepage ? 'page' : undefined}
           >
             <img
-              src={require(whiteMode ? "./whiteVariant.svg" : "./variant.svg")}
+              src={require(whiteMode ? './whiteVariant.svg' : './variant.svg')}
               alt="Variant"
             />
           </a>
@@ -74,22 +74,22 @@ export default function PageHeader({
             <div
               className={and(
                 style.bar1,
-                !whiteMode ? "" : style["bar1--whiteMode"],
-                isMenuVisible ? style.bar1_change : ""
+                !whiteMode ? '' : style['bar1--whiteMode'],
+                isMenuVisible ? style.bar1_change : ''
               )}
             />
             <div
               className={and(
                 style.bar2,
-                !whiteMode ? "" : style["bar2--whiteMode"],
-                isMenuVisible ? style.bar2_change : ""
+                !whiteMode ? '' : style['bar2--whiteMode'],
+                isMenuVisible ? style.bar2_change : ''
               )}
             />
             <div
               className={and(
                 style.bar3,
-                !whiteMode ? "" : style["bar3--whiteMode"],
-                isMenuVisible ? style.bar3_change : ""
+                !whiteMode ? '' : style['bar3--whiteMode'],
+                isMenuVisible ? style.bar3_change : ''
               )}
             />
           </button>
@@ -97,8 +97,8 @@ export default function PageHeader({
           <nav
             className={and(
               style.header__nav,
-              !whiteMode ? "" : style["header__nav--whiteMode"],
-              isMenuVisible ? "" : style.header__nav__hidden
+              !whiteMode ? '' : style['header__nav--whiteMode'],
+              isMenuVisible ? '' : style.header__nav__hidden
             )}
             id="menu-id"
             aria-labelledby="menu-label"
@@ -128,6 +128,11 @@ export default function PageHeader({
                   Blogg
                 </a>
               </li>
+              <li>
+                <Link href="/tjenesteomrader">
+                  <a>Tjänster</a>
+                </Link>
+              </li>
             </ul>
           </nav>
         </>
@@ -151,9 +156,9 @@ function useTogglableBurgerMenu<
   useEffect(() => {
     // Avoid scrolling when menu is visible.
     if (isMenuVisible) {
-      document.body.style.overflow = "hidden";
+      document.body.style.overflow = 'hidden';
     } else {
-      document.body.style.overflow = "initial";
+      document.body.style.overflow = 'initial';
     }
   }, [isMenuVisible, isNotHamburgerMode]);
 
@@ -166,8 +171,8 @@ function useTogglableBurgerMenu<
         setMenuVisible(false);
       }
     };
-    document.body.addEventListener("click", handleClickOutside);
-    return () => document.body.removeEventListener("click", handleClickOutside);
+    document.body.addEventListener('click', handleClickOutside);
+    return () => document.body.removeEventListener('click', handleClickOutside);
   }, [isMenuVisible, modalRef, closeButton, ulRef]);
 
   const handleTabKey = useCallback(
@@ -213,15 +218,15 @@ function useTogglableBurgerMenu<
       if (!isMenuVisible || isNotHamburgerMode) {
         return;
       }
-      if (e.key === "Escape") {
+      if (e.key === 'Escape') {
         return setMenuVisible(false);
       }
-      if (e.key === "Tab") {
+      if (e.key === 'Tab') {
         return handleTabKey(e);
       }
     }
-    document.addEventListener("keydown", keyListener);
-    return () => document.removeEventListener("keydown", keyListener);
+    document.addEventListener('keydown', keyListener);
+    return () => document.removeEventListener('keydown', keyListener);
   }, [isMenuVisible, isNotHamburgerMode, handleTabKey]);
 
   return {

@@ -1,19 +1,20 @@
-import PageTitle from "@components/page-title";
-import { InferGetStaticPropsType, NextPage } from "next";
-import Head from "next/head";
-import Link from "next/link";
-import Arrow from "src/components/arrow";
-import { EmployeeTile } from "src/employees";
-import { getContactsByEmails } from "src/employees/utils/getEmployeesList";
-import JobListingItem from "src/jobs/list-item";
-import { getFileListingData } from "src/jobs/utils/getListings";
-import Layout from "src/layout";
-import style from "src/stockholm/stockholm.module.css";
-import { and } from "src/utils/css";
-import BlobLink from "src/components/blob-link";
+import PageTitle from '@components/page-title';
+import { InferGetStaticPropsType, NextPage } from 'next';
+import Head from 'next/head';
+import Link from 'next/link';
+import Arrow from 'src/components/arrow';
+import { EmployeeTile } from 'src/employees';
+import { getContactsByEmails } from 'src/employees/utils/getEmployeesList';
+import JobListingItem from 'src/jobs/list-item';
+import { getFileListingData } from 'src/jobs/utils/getListings';
+import Layout from 'src/layout';
+import style from 'src/stockholm/stockholm.module.css';
+import { and } from 'src/utils/css';
+import BlobLink from 'src/components/blob-link';
+import Tjenesteomrader from 'src/tjenesteomrader';
 
-const stockholmBlobUrl = require("src/stockholm/assets/stockholm.png");
-const timelineUrl = require("src/stockholm/assets/RoadmapStockholm.png");
+const stockholmBlobUrl = require('src/stockholm/assets/stockholm.png');
+const timelineUrl = require('src/stockholm/assets/RoadmapStockholm.png');
 
 export function StockholmInfoBlock() {
   return (
@@ -70,7 +71,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               byrå helt enkelt.
             </p>
             <p>
-              Läs mer om oss och våra värderingar i{" "}
+              Läs mer om oss och våra värderingar i{' '}
               <a
                 href="https://handbook.variant.se"
                 title="Håndboken til Variant"
@@ -84,19 +85,19 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
           <div
             className={and(
               style.content,
-              style["content--block"],
-              style["content--map"]
+              style['content--block'],
+              style['content--map']
             )}
           >
             <h3 className="fancy">Vilka är Variant?</h3>
 
-            <p className={and("lead", style.map__text__lead)}>
+            <p className={and('lead', style.map__text__lead)}>
               Vår vision är att skapa förtroende, transparens och jämlikhet i
               europeiska företag. Variant grundades i Trondheim och har nu
               kontor i Norges tre största städer.
             </p>
 
-            <p className={and("first", style.map__text__first)}>
+            <p className={and('first', style.map__text__first)}>
               Just nu är vi i en start-up-fas i Sverige, men har ändå 80
               engagerade kollegor i Norge att ta stöd av. Vi letar lokal och
               söker efter de bästa utvecklarna och designers som delar våra
@@ -120,7 +121,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </p>
 
             <p className={style.map__text__third}>
-              Vill du veta mer kan du{" "}
+              Vill du veta mer kan du{' '}
               <a
                 href="https://blog.variant.no/hej-stockholm-ebf1309eb32a"
                 title="hej, Stockholm!"
@@ -131,11 +132,15 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </p>
           </div>
 
+          <div>
+            <Tjenesteomrader />
+          </div>
+
           <div
             className={and(
               style.content,
-              style["content--block"],
-              style["content--timeline"]
+              style['content--block'],
+              style['content--timeline']
             )}
           >
             <h4 className="fancy">Arbetet har börjat och vi har en plan...</h4>
@@ -173,8 +178,8 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </div>
           )}
 
-          <div className={and(style.content, style["content--block"])}>
-            <p className={and("lead", "fancy", style.footerLine)}>
+          <div className={and(style.content, style['content--block'])}>
+            <p className={and('lead', 'fancy', style.footerLine)}>
               Är det något du undrar över? Ta kontakt med någon av oss så
               snackar vi!
             </p>
@@ -183,8 +188,8 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
           <div
             className={and(
               style.content,
-              style["content--block"],
-              style["content--employees"]
+              style['content--block'],
+              style['content--employees']
             )}
           >
             {firstEmployee && <EmployeeTile employee={firstEmployee} />}
@@ -200,10 +205,10 @@ export default Stockholm;
 
 export const getStaticProps = async () => {
   try {
-    const listings = await getFileListingData("stockholm");
+    const listings = await getFileListingData('stockholm');
     const employees = await getContactsByEmails([
-      "david.dinka@variant.se",
-      "sara.hernandez@variant.se",
+      'david.dinka@variant.se',
+      'sara.hernandez@variant.se',
     ]);
 
     return {
