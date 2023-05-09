@@ -129,7 +129,9 @@ export default function PageHeader({
                 </a>
               </li>
               <li>
-                <a href="/tjenesteomrader">Tjänster</a>
+                <Link href="/tjenesteomrader">
+                  <a>Tjänster</a>
+                </Link>
               </li>
             </ul>
           </nav>
