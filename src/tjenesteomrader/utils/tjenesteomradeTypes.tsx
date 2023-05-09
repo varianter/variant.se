@@ -1,8 +1,4 @@
-export const tjenesteomradePath = [
-  'strategi',
-  'digitalTjeneste',
-  'kultur',
-] as const;
+export const tjenesteomradePath = ['strategi', 'digital', 'kultur'] as const;
 
 export type TjenesteomradeProps = {
   fileContents: string;

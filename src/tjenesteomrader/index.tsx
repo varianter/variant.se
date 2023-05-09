@@ -1,6 +1,5 @@
-import digitalTjenesteBlob from './images/indexBlobs/digitalTjeneste.svg';
+import digitalBlob from './images/indexBlobs/digital.svg';
 import serviceBlob from './images/indexBlobs/strategi.svg';
-import datadrevet from './images/indexBlobs/datadrevet.svg';
 import kultur from './images/indexBlobs/kultur.svg';
 import Entrance from './components/entrance/entrance';
 import { colorPairs } from '@variant/profile/lib/colors';
@@ -24,13 +23,13 @@ const Tjenesteomrader = () => {
 
       <div className={style.tjenesteomrader__content}>
         <Entrance
-          blobPath={digitalTjenesteBlob}
-          ServiceName={'Digital tjänst- och produktutveckling'}
+          blobPath={digitalBlob}
+          ServiceName={'Digital produkt- och tjänsteutveckling'}
           serviceText={
             'Utveckling av digitala produkter och tjänster är kärnan i Variants leveranser. Med oss i teamet får du tillgång till best practice och erfarna experter som hjälper dig att lyckas.'
           }
           colorPair={colorPairs.primary}
-          urlPath={'digitalTjeneste'}
+          urlPath={'digital'}
         />
         <Entrance
           blobPath={serviceBlob}

@@ -28,13 +28,13 @@ const DigitalTjeneste = () => {
       style={isMenuVisible ? { position: 'fixed' } : { position: 'relative' }}
     >
       <Head>
-        <title>Digital tjänst- och produktutveckling</title>
+        <title>Digital produkt- och tjänsteutveckling</title>
       </Head>
 
       <div className={style.tjenesteomrade}>
         <HeaderBackground
           colorPair={color}
-          headerText="Digital tjänst- och produktutveckling"
+          headerText="Digital produkt- och tjänsteutveckling"
           onVisibleChange={setMenuVisible}
         />
 

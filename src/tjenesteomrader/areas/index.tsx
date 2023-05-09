@@ -1,7 +1,7 @@
 import style from 'src/tjenesteomrader/shared/bottomText.module.css';
 import Divider from '../images/divider/divider';
 import Footer from '../images/footer/footer';
-import DigitalTjeneste from './DigitalTjeneste';
+import Digital from './digital';
 import Strategi from './strategi';
 import Kultur from './kultur';
 import {
@@ -34,7 +34,7 @@ type SubPageProps = (typeof tjenesteomradePath)[number];
 const SubPage = (props: { page: SubPageProps }) => {
   const page = props.page;
   if (page === 'strategi') return <Strategi />;
-  if (page === 'digitalTjeneste') return <DigitalTjeneste />;
+  if (page === 'digital') return <Digital />;
   if (page === 'kultur') return <Kultur />;
   return null;
 };

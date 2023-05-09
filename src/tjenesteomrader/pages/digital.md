@@ -1,11 +1,11 @@
 ---
-name: digitalTjeneste
+name: digital
 color: 2f0516
 ---
 
 <div class="bigText" >
 
-Vår variant av digital tjänst- och produktutveckling baseras på kunskapsdelande generösa proffs. Detta kombineras med ett pragmatiskt och flexibelt ramverk för design och utveckling. Vi vill tillsammans med er hitta den bästa processen utifrån era förutsättningar, som gynnar kunderna och användarna av produkten, och själva produkten såklart. Vi vill inte komma in och diktera reglerna – utan att vi ska lyckas tillsammans!
+Vår variant av digital produkt- och tjänsteutveckling baseras på kunskapsdelande generösa proffs. Detta kombineras med ett pragmatiskt och flexibelt ramverk för design och utveckling. Vi vill tillsammans med er hitta den bästa processen utifrån era förutsättningar, som gynnar kunderna och användarna av produkten, och själva produkten såklart. Vi vill inte komma in och diktera reglerna – utan att vi ska lyckas tillsammans!
 
 </div>
 
