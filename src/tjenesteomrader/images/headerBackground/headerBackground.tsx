@@ -47,8 +47,8 @@ const HeaderBackground = ({
         }}
         className={style.header__text}
       >
-        <Link style={{ color: colorPair.text }} href="/tjenesteomrader">
-          Tjänsteområden /
+        <Link href="/tjenesteomrader">
+          <a style={{ color: colorPair.text }}> Tjänsteområden /</a>
         </Link>
         <Heading1
           style={{ color: colorPair.text }}
