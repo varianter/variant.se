@@ -51,7 +51,7 @@ Ersättningen är med andra ord kopplad till värdeutvecklingen i företaget. Vi
 
 Variant är människorna som jobbar här. Vi har börjat tillsammans för att hjälpa till att skapa ett koncept och en filosofi som vi själva tror på. Vardagen blir mer spännande av att ha en gemenskap som engagerar sig i utveckling och nyfikenhet. Vår affärsmodell är enkel: Vi erbjuder bra och anständiga människor.
 
-För oss är det självklart att vi måste investera i kunskap. Glädjen att lära kommer i många former och vi försöker ordna så att alla ska lära sig på det sätt vi vill. Många av oss skriver [blogginlägg](https://blog.variant.no), en del undervisar på universitet och många delar glädjen att lära sig på konferenser eller [flere](https://variantsnakk.transistor.fm/) [podcaster](https://lesehesten.transistor.fm/). Dessutom samlas vi varje månad till vad vi kallar en [variatiotdag](https://blog.variant.no/tagged/variantdag); vår egen inre dag för både professionell och social påfyllning.
+För oss är det självklart att vi måste investera i kunskap. Glädjen att lära kommer i många former och vi försöker ordna så att alla ska lära sig på det sätt vi vill. Många av oss skriver [blogginlägg](https://medium.com/variant-swe), en del undervisar på universitet och många delar glädjen att lära sig på konferenser eller [flere](https://variantsnakk.transistor.fm/) [podcaster](https://lesehesten.transistor.fm/). Dessutom samlas vi varje månad till vad vi kallar en [variatiotdag](https://blog.variant.no/tagged/variantdag); vår egen inre dag för både professionell och social påfyllning.
 
 Vi har behandlat konceptet och filosofin som beskrivs ovan i detalj, enligt följande:
 

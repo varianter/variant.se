@@ -90,7 +90,7 @@ function Layout({
                 <a href="https://handbook.variant.se">Personalhandbok</a>
               </li>
               <li>
-                <a href="http://variant.blog" rel="noopener">
+                <a href="https://medium.com/variant-swe" rel="noopener">
                   Blogg
                 </a>
               </li>
