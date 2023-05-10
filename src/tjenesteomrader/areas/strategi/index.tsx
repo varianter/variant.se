@@ -71,7 +71,7 @@ const Strategi = () => {
             <BlobText
               color={blobColor}
               text={[
-                'Att alla beslut är förankrade och samordnade utifrån strategin.',
+                'Att alla beslut är förankrade och samordnade utifrån strategin',
               ]}
               blobNr={1}
             />
@@ -122,7 +122,7 @@ const Strategi = () => {
             <BlobText
               color={blobColor}
               text={[
-                '… men samtidigt som bergstoppen med alla deadlines kommer närmare och närmare. Och hur var egentligen strategin nu igen?',
+                '… men samtidigt kommer kommer bergstoppen med alla deadlines närmare och närmare. Och hur var det egentligen med strategin nu igen?',
               ]}
               blobNr={4}
             />
