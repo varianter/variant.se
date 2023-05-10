@@ -14,21 +14,17 @@ Här är lite principer vi vill jobba efter när vi designar och utvecklar tills
 
 - Vi hanterar och förfinar idéer och möjligheter, nya behov och utmaningar, förbättringsförslag och feedback från användare.
 
-- Vi är övertygade om att arbeta som en integrerad del av verksamheten är avgörande för framgång, oavsett om vi deltar som medlemmar i befintliga team eller om vi representerar ett produktteam. Vi tror att det bidrar till att skapa något mer än den produkt eller tjänst vi utvecklar, vi ska trots allt utvecklas och bidra till samhället och miljöerna omkring oss.
+- Vi är övertygade om att arbeta som en integrerad del av verksamheten är avgörande för framgång, oavsett om vi deltar som medlemmar i befintliga team eller om vi representerar ett produktteam. Vi involverar gärna hela organisationen genom öppenhet och ett coachande arbetssätt.
 
-- Insikter skapas inte i ett kontor eller mötesrum. Vi vill möta användarna och kunderna där de använder tjänsten, så att vi verkligen förstår deras utmaningar. Genom ett utforskande arbetssätt som ger insikter, och med kontinuerliga användningstester prövar vi dessutom lösningar under utvecklingsprocessen. Vi arbetar tvärvetenskapligt och alltid med användaren i centrum.
+- Insikter skapas inte i ett kontor eller mötesrum. Vi vill möta användarna och kunderna där de använder tjänsten, genom ett utforskande arbetssätt som ger insikter, och med kontinuerliga användningstester. Vi arbetar tvärfunktionellt och alltid med användaren i centrum.
 
-- Vad händer om du löser ett problem, både för den som använder produkten och för dig som står bakom den? Vilket värde eller vinst skapas av att du löser problemet? Är resultatet i linje med din verksamhets vision och strategi? Kommer investeringen du gör att ge avkastning? Hjälper det användaren att nå sina mål eller lösa problem i vardagen? Detta tar vi hänsyn till och stöttar dig med hela vägen.
-
-- Engagemang genom hela processen – vi vill involvera både användare och de som ska stå bakom produkten eller tjänsten. Vi involverar gärna hela organisationen genom öppenhet och ett coachande arbetssätt.
+- Vilket värde eller vinst skapas av att du löser ett specifikt problem? Är resultatet i linje med din verksamhets vision och strategi? Kommer investeringen du gör att ge avkastning? Hjälper det användaren att nå sina mål eller lösa problem i vardagen? Detta tar vi hänsyn till och stöttar dig med hela vägen.
 
 - Vi föredrar snabba iterationer, feedback och lärande genom användning av funktionella prototyper och proof of concepts.
 
-- Vi strävar ofta efter att utveckla den enklaste användbara och mest värdefulla iterationen av en produkt (en MVP) så att det inte kostar för mycket att styra om, allt eftersom vi lär oss mer.
+- Det är bra att samla in data från start, genom kontinuerlig dialog med användaren och mätningar. För det jobbar vi med de som har mest insikter om dina kunder,  till exempel försäljning eller kundtjänst.
 
-- Det är bra att samla in data från start, genom kontinuerlig dialog med användaren och mätningar. Vi använder och jobbar gärna tillsammans med den del av organisationen som har mest dialog med kunden eller användarna, såsom försäljning eller kundtjänst.
-
-- På tal om mål – vi, sätter upp konkreta, mätbara mål och använd dem som styrmedel. Om det visar sig att målen är fel, kan man prioritera om. Men de måste kopplas till visionen och verksamhetens övergripande mål så att din produkt eller tjänst kopplas in i ekosystemet av produkter och tjänster som bolaget redan tillhandahåller.
+- På tal om mål – vi, sätter upp konkreta, mätbara mål och använd dem som styrmedel. Målen ska kopplas till visionen och verksamhetens övergripande mål så att din produkt eller tjänst hänger ihop med ekosystemet av produkter och tjänster som bolaget redan tillhandahåller.
 
 - Show and tell – presentera insikter, idéer och lösningar genom hela processen. Detta skapar ägarskap och engagemang även utanför teamet, och skapar utrymme för att få feedback och se de beroenden produkter har.
 
