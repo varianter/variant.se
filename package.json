@@ -13,6 +13,7 @@
     "@variant/components": "^2.0.11",
     "@variant/profile": "^3.0.1",
     "gray-matter": "^4.0.3",
+    "libphonenumber-js": "^1.10.41",
     "markdown-it": "^13.0.1",
     "next": "12.3.1",
     "next-images": "^1.8.4",
