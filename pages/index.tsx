@@ -13,7 +13,7 @@ import { and } from 'src/utils/css';
 import BlobLink from 'src/components/blob-link';
 import Tjenesteomrader from 'src/tjenesteomrader';
 
-const stockholmBlobUrl = require('src/stockholm/assets/stockholm.png');
+const stockholmBlobUrl = require('src/stockholm/assets/stokontor.png');
 const timelineUrl = require('src/stockholm/assets/RoadmapStockholm.png');
 
 export function StockholmInfoBlock() {
@@ -22,7 +22,7 @@ export function StockholmInfoBlock() {
       <img
         className={style.infoBlock__blob}
         src={stockholmBlobUrl}
-        alt="Bryggen i Bergen"
+        alt="Kulturhuset i Stockholm"
       />
 
       <h2 className={style.infoBlock__title}>
@@ -58,18 +58,15 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
             <header className={style.intro}>
               <PageTitle
-                title="Hej 👋 här kommer en ny Variant!"
+                title="Hej 👋 det är vi som är Variant!"
                 element="h2"
               />
             </header>
             <p className="lead">
-              Vi vet att digitala satsningar inte ska ta sin utgångspunkt i designskisser, 
-              kod eller infrastruktur, utan i samarbete och viljan att skapa positiv förändring. 
-              Vi tror att tech, design och strategi samarbetar som bäst när vi är kreativa, 
-              öppna och tillsammans formar förändring! Där finns vi, en ny Variant av digital byrå
-              som är generös, transparent och med stor lärglädje! 
-             
+            Vi vet att digitala satsningar inte ska ta sin utgångspunkt i designskisser, kod eller infrastruktur, utan i samarbete och viljan att skapa positiv förändring. 
+            Vi tror att tech, design och strategi samarbetar som bäst när vi är kreativa, öppna och tillsammans formar förändring! 
             </p>
+            <p>Där finns vi, en ny Variant av digital byrå som är generös, transparent och med stor lärglädje! Från Trondheim till Stockholm &ndash; vi är +100 utvecklare, designers och strateger som står redo att samarbeta med nya kunder och kollegor.</p>
             <p>
               Läs mer om oss och våra värderingar i{' '}
               <a
@@ -80,6 +77,10 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               </a>
               .
             </p>
+          </div>
+
+          <div className={and(style['content--block'])}>
+            <Tjenesteomrader />
           </div>
 
           <div
@@ -98,11 +99,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </p>
 
             <p className={and('first', style.map__text__first)}>
-              Just nu är vi i en start-up-fas i Sverige, men har ändå 80
-              engagerade kollegor i Norge att ta stöd av. Vi 
-              söker efter de bästa utvecklarna och designers som delar våra
-              värderingar och som går igång på att skapa ett bättre digitalt
-              avtryck.
+            Vi är totalt +100 engagerade kollegor i Norge och Sverige. Vi söker efter de bästa utvecklarna och designers som delar våra värderingar och som går igång på att skapa ett bättre digitalt avtryck.
             </p>
 
             <img
@@ -112,12 +109,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             />
 
             <p className={style.map__text__second}>
-              Målet är att bygga upp en organisation där värdeskapande design
-              och utveckling skapar en strategisk fördel för våra kunder. Vi
-              vill inte komma till våra kunder och endast vara experten, utan
-              jobba tillsammans och hjälpa till att bygga upp kunskap och
-              oberoende hos kunden. Vi vill dela med oss av vår kunskap, så att
-              vi kan ta till oss andras kunskap. Det är så vi växer!
+              Målet är att bygga upp en organisation där värdeskapande design och utveckling skapar en strategisk fördel för våra kunder. Vi vill inte komma till våra kunder och endast vara experten, utan jobba tillsammans och hjälpa till att bygga upp kunskap och oberoende hos kunden. Vi vill dela med oss av vår kunskap, så att vi kan ta till oss andras kunskap. Det är så vi växer!
             </p>
 
             <p className={style.map__text__third}>
@@ -129,39 +121,6 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 läsa Odd Mortens bloggpost om varför vi åker till Stockholm
               </a>
               .
-            </p>
-          </div>
-
-          <div>
-            <Tjenesteomrader />
-          </div>
-
-          <div
-            className={and(
-              style.content,
-              style['content--block'],
-              style['content--timeline']
-            )}
-          >
-            <h4 className="fancy">Arbetet har börjat och vi har en plan...</h4>
-
-            <img
-              src={timelineUrl}
-              className={style.timeline}
-              alt="Tidslinje som visar progression med 10 varianter i januari 2024."
-            />
-
-            <BlobLink
-              text="Läs våra Stockholms- scenarier"
-              href="/vyer"
-              size={220}
-              className={style.timelineButton}
-            />
-
-            <p className={style.timelineText}>
-              Vi vet vart vi vill, och vi har precis påbörjat Stockholmsarbetet.
-              Vi har samlat några scenarier som skapar en bild av var vi vill
-              vara 2026.
             </p>
           </div>
 
