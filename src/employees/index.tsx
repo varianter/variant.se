@@ -46,8 +46,8 @@ export default function Employees({
         <header className={style.employees__header}>
           <PageTitle title={"Alla varianter"} />
           <p className={style.employees__text}>
-            Vill du jobba med oss? Eller är du intresserad av någon av våra tjänster? 
-            👋 Don&apos;t be a stranger. 
+            Vill du jobba med oss? Eller är du intresserad av någon av våra
+            tjänster? 👋 Don&apos;t be a stranger.
           </p>
         </header>
 
@@ -104,8 +104,12 @@ export const EmployeeTile: React.FC<{ employee: EmployeeItem }> = ({
           📞 {formatTelephone(telephone)}
         </a>
       ) : (
-        <a href={`mailto:${email}`} className={style.employee__phone}>
-          📧 {email}
+        <a
+          href={`mailto:${email}`}
+          title={email}
+          className={style.employee__phone}
+        >
+          📧 {email.replace("@variant.se", "")}
         </a>
       )}
     </div>
