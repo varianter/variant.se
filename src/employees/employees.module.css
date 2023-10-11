@@ -98,10 +98,11 @@
 
 .employee__phone {
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: var(--color-standard__white--text);
   padding: 0.6rem 1.2rem;
   line-height: 1;
+  overflow: hidden;
 
   background: linear-gradient(
     to right,
