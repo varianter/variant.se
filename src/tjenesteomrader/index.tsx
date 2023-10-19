@@ -31,7 +31,7 @@ const Tjenesteomrader = () => {
         />
         <Entrance
           blobPath={serviceBlob}
-          ServiceName={'Strategi'}
+          ServiceName={'Strategi och innovation'}
           serviceText={
             'Små och stora organisatoriska vägval kräver tydliga målbilder och strategier. Och strategier som inte bara blir en pappersprodukt, utan du vet hur du ska agera på. Läs mer om hur Variant kan hjälpa din organisation att göra dessa val färre, enklare och mer hållbara. Vi hjälper er med ert innovationsarbete från ax till limpa – från det strategiska till implementationen.'
           }

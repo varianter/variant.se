@@ -1,6 +1,5 @@
 import PageTitle from '@components/page-title';
 import { InferGetStaticPropsType, NextPage } from 'next';
-import Head from 'next/head';
 import Link from 'next/link';
 import Arrow from 'src/components/arrow';
 import { EmployeeTile } from 'src/employees';
@@ -10,12 +9,9 @@ import { getFileListingData } from 'src/jobs/utils/getListings';
 import Layout from 'src/layout';
 import style from 'src/stockholm/stockholm.module.css';
 import { and } from 'src/utils/css';
-import BlobLink from 'src/components/blob-link';
 import Tjenesteomrader from 'src/tjenesteomrader';
 
 const stockholmBlobUrl = require('src/stockholm/assets/stokontor.png');
-const timelineUrl = require('src/stockholm/assets/RoadmapStockholm.png');
-
 export function StockholmInfoBlock() {
   return (
     <div className={style.infoBlock}>
@@ -112,16 +108,6 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               Målet är att bygga upp en organisation där värdeskapande design och utveckling skapar en strategisk fördel för våra kunder. Vi vill inte komma till våra kunder och endast vara experten, utan jobba tillsammans och hjälpa till att bygga upp kunskap och oberoende hos kunden. Vi vill dela med oss av vår kunskap, så att vi kan ta till oss andras kunskap. Det är så vi växer!
             </p>
 
-            <p className={style.map__text__third}>
-              Vill du veta mer kan du{' '}
-              <a
-                href="https://blog.variant.no/hej-stockholm-ebf1309eb32a"
-                title="hej, Stockholm!"
-              >
-                läsa Odd Mortens bloggpost om varför vi åker till Stockholm
-              </a>
-              .
-            </p>
           </div>
 
           {listings.length > 0 && (
