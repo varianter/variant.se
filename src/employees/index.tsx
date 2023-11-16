@@ -40,7 +40,7 @@ export default function Employees({
   const indexToInsertLink = Math.floor((employeeList.length / 3) * 2);
 
   return (
-    <Layout fullWidth title="Alla varianter – Variant">
+    <Layout title="Alla varianter – Variant">
       <div className={style.wrapper}>
         {getSoMeMetadata()}
 

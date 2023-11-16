@@ -14,7 +14,6 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   listings,
   employees,
 }) => {
-  console.log(listings);
   return (
     <Layout homepage>
       <div className={style.wrapper}>

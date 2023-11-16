@@ -8,6 +8,7 @@ interface JobListProps {
 }
 
 export const JobList = ({ listings }: JobListProps) => {
+  console.log(listings);
   if (!listings?.length) {
     return (
       <p className={style.omVariant__wrapper__p}>

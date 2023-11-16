@@ -39,11 +39,9 @@ export default function PageHeader({
     setMenuVisible(newVisible);
   };
 
-  const LogoWrapper = homepage ? 'h1' : 'div';
-
   return (
     <header className={style.header}>
-      <LogoWrapper className={style.header__logo}>
+      <div className={style.header__logo}>
         <Link href="/">
           <a
             aria-label="Variant startside"
@@ -55,7 +53,7 @@ export default function PageHeader({
             />
           </a>
         </Link>
-      </LogoWrapper>
+      </div>
 
       {!zenMode && (
         <>
@@ -111,7 +109,7 @@ export default function PageHeader({
               ref={navRef}
             >
               <li>
-                <Link href="/tjenesteomrader">
+                <Link href="/tjanster">
                   <a>Tjänster</a>
                 </Link>
               </li>

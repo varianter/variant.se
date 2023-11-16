@@ -5,16 +5,18 @@ import style from './entrance.module.css';
 
 type EntranceProps = {
   blobPath: string;
-  ServiceName: string;
+  serviceName: string;
   serviceText: string;
   colorPair: ColorSet;
   urlPath: string;
   colorVariation?: ColorVariations;
+  buttonName?: string;
 };
 
 const Entrance = ({
   blobPath,
-  ServiceName,
+  serviceName,
+  buttonName,
   serviceText,
   colorPair,
   colorVariation,
@@ -23,8 +25,8 @@ const Entrance = ({
   return (
     <article className={style.serviceArea}>
       <header className={style.serviceArea__top}>
-        <img src={blobPath} alt={ServiceName + ' blob'} />
-        <Heading3 styleLevel="4">{ServiceName}</Heading3>
+        <img src={blobPath} alt={serviceName + ' blob'} />
+        <Heading3 styleLevel="4">{serviceName}</Heading3>
       </header>
       <div className={style.serviceArea__bottom}>
         <p>{serviceText}</p>
@@ -33,7 +35,7 @@ const Entrance = ({
           colorVariation={colorVariation}
           href={`tjenesteomrader/${urlPath}`}
         >
-          {ServiceName}
+          {buttonName ? buttonName : serviceName}
         </ButtonNextLink>
       </div>
     </article>
