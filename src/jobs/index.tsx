@@ -1,31 +1,30 @@
-import Head from "next/head";
-import Layout from "src/layout";
+import Head from 'next/head';
+import Layout from 'src/layout';
 
-import { Heading2 } from "@components/heading";
-import PageTitle from "@components/page-title";
-import { BaseBlob } from "@variant/components/lib/blob";
-import { colors } from "@variant/profile";
-import { InferGetStaticPropsType, NextPage } from "next";
-import { getStaticProps } from "pages/jobs";
-import style from "./index.module.css";
-import JobListingItem from "./list-item";
-import Podcast from "@components/podcast/Podcast";
+import { Heading2 } from '@components/heading';
+import PageTitle from '@components/page-title';
+import { BaseBlob } from '@variant/components/lib/blob';
+import { colors } from '@variant/profile';
+import { InferGetStaticPropsType, NextPage } from 'next';
+import { getStaticProps } from 'pages/jobs';
+import style from './index.module.css';
+import { JobList } from './components/job-list';
 
 const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   listings,
 }) => {
   return (
-    <>
-      <Layout>
+    <Layout>
+      <div className={style.wrapper}>
         <Head>
           <meta
             property="og:url"
-            content={"https://www.variant.se/jobs/"}
+            content={'https://www.variant.se/jobs/'}
             key="og:url"
           />
           <meta
             property="og:title"
-            content="Bli en variant! Se på ledige stillinger i Stockholm."
+            content="Bli en variant! Se lediga tjänster i Stockholm."
             key="og:title"
           />
           <meta
@@ -38,24 +37,12 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             content="Välkommen till Variant. Vi är ett konsultföretag som lever för transperens, gillar människor med stor nyfikenhet och som prioriterar generositet. Vi vill arbeta med organisationer där teknik och design tillsammans skapar starka, hållbara lösningar."
             key="description"
           />
-          <title>Variant - Ledige stillinger</title>
+          <title>Variant - Lediga tjänster</title>
         </Head>
         <section className={style.omVariant}>
           <PageTitle title="Bli en variant" />
 
           <article className={style.omVariant__wrapper}>
-            <div className={style.omVariant__blob}>
-              <BaseBlob
-                seed="Variant"
-                width={350}
-                height={350}
-                color={colors.colorPairs.secondary3.default.bg}
-                imageProps={{
-                  src: require("src/jobs/images/undraw_lynx.png"),
-                }}
-                alt="Dame som holder smarttelefon som viser kode"
-              />
-            </div>
             <div>
               <p>
                 Välkommen till Variant. Vi är ett konsultföretag som lever för
@@ -90,33 +77,33 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
               </p>
 
               <p>
-                Kolla in vår{" "}
+                Kolla in vår{' '}
                 <a href="https://handbook.variant.se" rel="noopeneer">
                   öppna handbok
-                </a>{" "}
+                </a>{' '}
                 om du vill se mer om vad vi står för.
               </p>
+            </div>
+            <div className={style.omVariant__blob}>
+              <BaseBlob
+                seed="Variant"
+                width={350}
+                height={350}
+                color={colors.colorPairs.secondary3.default.bg}
+                imageProps={{
+                  src: require('src/jobs/images/undraw_lynx.png'),
+                }}
+                alt="Kvinna som håller upp smartphone som visar kod"
+              />
             </div>
           </article>
         </section>
         <section className={style.job__listing}>
-          <Heading2>Ledige stillinger</Heading2>
-
-          {!listings.length && (
-            <p className={style.omVariant__wrapper__p}>
-              Ingen åpne stillinger akkurat nå.
-            </p>
-          )}
-
-          {listings.map((item) => (
-            <JobListingItem
-              item={item}
-              key={`${item.name}_${item.title}_${item.location}`}
-            />
-          ))}
+          <Heading2>Lediga tjänster</Heading2>
+          <JobList listings={listings} />
         </section>
-      </Layout>
-    </>
+      </div>
+    </Layout>
   );
 };
 

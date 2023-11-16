@@ -1,18 +1,18 @@
-import React, { PropsWithChildren, useMemo } from "react";
+import React, { PropsWithChildren, useMemo } from 'react';
 
-import PageTitle from "@components/page-title";
-import MarkdownIt from "markdown-it";
-import { InferGetStaticPropsType, NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import { getStaticProps } from "pages/jobs/[listing]";
-import { ButtonLink } from "src/components/button";
-import { EmployeeItem } from "src/employees/types";
-import Layout from "src/layout";
-import style from "./listings.module.css";
-import { Heading3 } from "@components/heading";
-import Podcast from "@components/podcast/Podcast";
-import { formatTelephone } from "src/utils/phone";
+import PageTitle from '@components/page-title';
+import MarkdownIt from 'markdown-it';
+import { InferGetStaticPropsType, NextPage } from 'next';
+import Head from 'next/head';
+import Image from 'next/image';
+import { getStaticProps } from 'pages/jobs/[listing]';
+import { ButtonLink } from 'src/components/button';
+import { EmployeeItem } from 'src/employees/types';
+import Layout from 'src/layout';
+import style from './listings.module.css';
+import { Heading3 } from '@components/heading';
+import Podcast from '@components/podcast/Podcast';
+import { formatTelephone } from 'src/utils/phone';
 
 const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
   React.memo(function Listing({ listing }) {
@@ -67,7 +67,7 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
             <PageTitle title={listing.h1_title} />
             <div className={style.button__top}>
               <ButtonLink
-                href={listing.careers_apply_url ?? "https://jobs.variant.se/"}
+                href={listing.careers_apply_url ?? 'https://jobs.variant.se/'}
               >
                 Sök jobbet
               </ButtonLink>
@@ -88,7 +88,7 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
           </div>
           <div className={style.button__bottom}>
             <ButtonLink
-              href={listing.careers_apply_url ?? "https://jobs.variant.se/"}
+              href={listing.careers_apply_url ?? 'https://jobs.variant.se/'}
             >
               Sök jobbet
             </ButtonLink>
@@ -97,15 +97,15 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
         <Podcast
           item={{
             media: {
-              url: "https://media.transistor.fm/99253ea9/98eaec4d.mp3",
+              url: 'https://media.transistor.fm/99253ea9/98eaec4d.mp3',
             },
             description:
-              "Vi har åpnet jobbannonser for VD, CDO og CTO til nyoppstartet Variant Stockholm. I denne podcasten snakker Odd Morten og Anders om hva det går ut på og hvem vi ser etter.",
-            title: "Åpne annonser for Variant Stockholm",
+              'Vi har åpnet jobbannonser for VD, CDO og CTO til nyoppstartet Variant Stockholm. I denne podcasten snakker Odd Morten og Anders om hva det går ut på og hvem vi ser etter.',
+            title: 'Åpne annonser for Variant Stockholm',
             duration: 251,
-            publishDate: "22. desember, 2022",
+            publishDate: '22. desember, 2022',
             imageCoverUrl:
-              "https://images.transistor.fm/file/transistor/images/show/29090/full_1671741944-artwork.jpg",
+              'https://images.transistor.fm/file/transistor/images/show/29090/full_1671741944-artwork.jpg',
           }}
         />
         <>
@@ -149,7 +149,7 @@ export const ContactTile = ({
         <Image
           width={120}
           height={120}
-          alt={`Bilde av ${name}`}
+          alt={`Bild på ${name}`}
           src={imageUrl}
           loading="lazy"
         />

@@ -1,32 +1,21 @@
-.employeesContainer {
-  --container-padding: 2rem;
+.wrapper {
+  margin: 6rem 0;
+}
 
-  padding: 0 var(--container-padding);
+.employees__header {
+  display: flex;
+  gap: 2.5rem;
+  margin: 5rem 0 8rem 0;
+}
+
+.employeesContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.employees__header {
-  width: 70%;
-  padding: 0 1rem 3.2rem;
-  position: relative;
-}
-
-@media (max-width: 500px) {
-  .employees__header {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-}
-
-.employees__text {
-  max-width: 30rem;
-  margin-bottom: 1rem;
-}
-
 .employees__layout {
-  --image-width: 300px;
+  --image-width: 400px;
   --column-margin: 0.8rem;
   --columns: 1;
 
