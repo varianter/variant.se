@@ -1,8 +1,10 @@
 .title {
   font-weight: 500;
-  margin: 4rem 0 2rem;
+  margin: 0 0 4rem;
   font-size: 4rem;
+}
 
+.gradient {
   background: linear-gradient(
     120deg,
     var(--color-primary),

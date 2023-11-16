@@ -1,12 +1,11 @@
-import Head from "next/head";
-import Link from "next/link";
-import { PropsWithChildren, useState } from "react";
-import AnimatingBackground from "src/background";
-import { and } from "src/utils/css";
-import style from "./layout.module.css";
+import Head from 'next/head';
+import { PropsWithChildren, useState } from 'react';
+import AnimatingBackground from 'src/background';
+import { and } from 'src/utils/css';
+import style from './layout.module.css';
 
-import favicon from "@variant/profile/lib/logo/favicon.png";
-import PageHeader from "@components/page-header";
+import favicon from '@variant/profile/lib/logo/favicon.png';
+import PageHeader from '@components/page-header';
 
 type LayoutProps = PropsWithChildren<{
   title?: string;
@@ -18,7 +17,7 @@ type LayoutProps = PropsWithChildren<{
 
 function Layout({
   children,
-  title = "Variant – Ny Variant av konsultföretag",
+  title = 'Variant – Ny Variant av konsultföretag',
   fullWidth = false,
   crazy = false,
   homepage = false,
@@ -28,14 +27,14 @@ function Layout({
 
   const mainClass = and(
     style.main,
-    !zenMode ? style["main--overflow"] : undefined,
-    zenMode ? style["main--zenMode"] : undefined
+    !zenMode ? style['main--overflow'] : undefined,
+    zenMode ? style['main--zenMode'] : undefined,
   );
 
   return (
     <div
       className={mainClass}
-      style={isMenuVisible ? { position: "fixed" } : { position: "relative" }}
+      style={isMenuVisible ? { position: 'fixed' } : { position: 'relative' }}
     >
       <Head>
         <title>{title}</title>
@@ -69,7 +68,7 @@ function Layout({
       <div
         className={and(
           style.main__inner,
-          fullWidth ? style.main__innerFullWidth : ""
+          fullWidth ? style.main__innerFullWidth : '',
         )}
       >
         <PageHeader
@@ -105,19 +104,19 @@ function Layout({
             <h2>Kontakt</h2>
             <ul>
               <li>
-                Ring på{" "}
+                Ring på{' '}
                 <a href="tel:+46706546267" title="Ring oss">
                   +46 70 6546267
                 </a>
               </li>
               <li>
-                Mejl på{" "}
+                Mejl på{' '}
                 <a href="mailto:post@variant.se" title="Send oss mejl">
                   post@variant.se
                 </a>
               </li>
               <li>
-                Se foton på{" "}
+                Se foton på{' '}
                 <a
                   href="https://www.instagram.com/variant_swe/"
                   title="Instagram"
@@ -129,7 +128,7 @@ function Layout({
           </div>
         </div>
         <div
-          className={and(style.footer__inner, style["footer__inner--bottom"])}
+          className={and(style.footer__inner, style['footer__inner--bottom'])}
         ></div>
       </footer>
     </div>

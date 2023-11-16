@@ -2,13 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   /* padding-right: 7.4rem Commented out when adding temporary calculator url */
-  max-width: 50rem;
-  margin: 0 auto;
+  max-width: 70rem;
 }
 
 .header__logo img {
   display: block;
-  margin: 1.2rem;
+  margin: 1.2rem 1.2rem 1.2rem 0;
   height: 0.9rem;
 }
 

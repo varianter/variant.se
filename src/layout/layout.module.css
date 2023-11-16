@@ -6,8 +6,9 @@
 }
 
 .main__inner {
-  max-width: 50rem;
+  max-width: 72rem;
   margin: 0 auto;
+  padding: 0 4rem;
   min-height: 100vh;
   min-height: -webkit-fill-available;
 }
