@@ -30,7 +30,7 @@ export default function PageHeader({
     modalRef,
     navRef,
     closeRef,
-    isNotHamburgerMode
+    isNotHamburgerMode,
   );
 
   const internalOnChangeVisible = () => {
@@ -75,21 +75,21 @@ export default function PageHeader({
               className={and(
                 style.bar1,
                 !whiteMode ? '' : style['bar1--whiteMode'],
-                isMenuVisible ? style.bar1_change : ''
+                isMenuVisible ? style.bar1_change : '',
               )}
             />
             <div
               className={and(
                 style.bar2,
                 !whiteMode ? '' : style['bar2--whiteMode'],
-                isMenuVisible ? style.bar2_change : ''
+                isMenuVisible ? style.bar2_change : '',
               )}
             />
             <div
               className={and(
                 style.bar3,
                 !whiteMode ? '' : style['bar3--whiteMode'],
-                isMenuVisible ? style.bar3_change : ''
+                isMenuVisible ? style.bar3_change : '',
               )}
             />
           </button>
@@ -98,7 +98,7 @@ export default function PageHeader({
             className={and(
               style.header__nav,
               !whiteMode ? '' : style['header__nav--whiteMode'],
-              isMenuVisible ? '' : style.header__nav__hidden
+              isMenuVisible ? '' : style.header__nav__hidden,
             )}
             id="menu-id"
             aria-labelledby="menu-label"
@@ -111,8 +111,26 @@ export default function PageHeader({
               ref={navRef}
             >
               <li>
+                <Link href="/tjenesteomrader">
+                  <a>Tjänster</a>
+                </Link>
+              </li>
+              <li>
                 <Link href="/jobs">
                   <a>Bli en variant</a>
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="https://medium.com/variant-swe"
+                  rel="noopener noreferrer"
+                >
+                  Blogg/Case
+                </a>
+              </li>
+              <li>
+                <Link href="/om-variant">
+                  <a>Om Variant</a>
                 </Link>
               </li>
               <li>
@@ -121,17 +139,7 @@ export default function PageHeader({
                 </Link>
               </li>
               <li>
-                <a href="https://handbook.variant.se">Personalhandbok</a>
-              </li>
-              <li>
-                <a href="https://medium.com/variant-swe" rel="noopener">
-                  Blogg
-                </a>
-              </li>
-              <li>
-                <Link href="/tjenesteomrader">
-                  <a>Tjänster</a>
-                </Link>
+                <a href="https://handbook.variant.se">Personalhandboken</a>
               </li>
             </ul>
           </nav>
@@ -144,12 +152,12 @@ export default function PageHeader({
 function useTogglableBurgerMenu<
   T extends HTMLElement,
   U extends HTMLElement,
-  R extends HTMLElement
+  R extends HTMLElement,
 >(
   modalRef: React.RefObject<T>,
   ulRef: React.RefObject<U>,
   closeButton: React.RefObject<R>,
-  isNotHamburgerMode: boolean
+  isNotHamburgerMode: boolean,
 ) {
   const [isMenuVisible, setMenuVisible] = useState(false);
 
@@ -179,22 +187,22 @@ function useTogglableBurgerMenu<
     (e: KeyboardEvent) => {
       const focusableModalElements =
         modalRef.current?.querySelectorAll<HTMLElement>(
-          '[role="button"],a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], select'
+          '[role="button"],a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], select',
         ) ?? [];
       const allFocusables =
         document.querySelectorAll<HTMLElement>(
-          '[role="button"],a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], select'
+          '[role="button"],a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], select',
         ) ?? [];
 
       const first = focusableModalElements[0];
       const last = focusableModalElements[focusableModalElements.length - 1];
       const next =
         Array.from(allFocusables).find(
-          (_, i) => allFocusables[i - 1] === document.activeElement
+          (_, i) => allFocusables[i - 1] === document.activeElement,
         ) ?? null;
       const previous =
         Array.from(allFocusables).find(
-          (_, i) => allFocusables[i + 1] === document.activeElement
+          (_, i) => allFocusables[i + 1] === document.activeElement,
         ) ?? null;
 
       // On normal tabbing. If next element is outside modal, jump to first element
@@ -211,7 +219,7 @@ function useTogglableBurgerMenu<
 
       // Not start or end, follow normal tab flow.
     },
-    [modalRef]
+    [modalRef],
   );
   useEffect(() => {
     function keyListener(e: KeyboardEvent) {
