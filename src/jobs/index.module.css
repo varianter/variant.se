@@ -2,34 +2,29 @@
   margin: 6rem 0;
 }
 
-.omVariant {
+.jobs {
   position: relative;
   margin-bottom: 3rem;
 }
 
 @media (max-width: 500px) {
-  .omVariant {
+  .jobs {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
   }
 }
 
-.omVariant__subTitle {
-  font-size: 1.4rem;
-  margin: 0 0 2.3rem 1.5rem;
-}
-
-.omVariant__wrapper__p {
+.jobs__wrapper__p {
   text-align: justify;
   position: relative;
 }
 
-.omVariant__wrapper {
+.jobs__wrapper {
   display: flex;
-  gap: 6rem;
+  gap: 3rem;
 }
 
-.omVariant__wrapper p {
+.jobs__wrapper p {
   font-size: 1.6rem;
 }
 

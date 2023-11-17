@@ -39,10 +39,10 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
           />
           <title>Variant - Lediga tjänster</title>
         </Head>
-        <section className={style.omVariant}>
+        <section className={style.jobs}>
           <PageTitle title="Bli en variant" />
 
-          <article className={style.omVariant__wrapper}>
+          <article className={style.jobs__wrapper}>
             <div>
               <p>
                 Välkommen till Variant. Vi är ett konsultföretag som lever för
@@ -84,11 +84,11 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 om du vill se mer om vad vi står för.
               </p>
             </div>
-            <div className={style.omVariant__blob}>
+            <div className={style.jobs__blob}>
               <BaseBlob
                 seed="Variant"
-                width={350}
-                height={350}
+                width={400}
+                height={400}
                 color={colors.colorPairs.secondary3.default.bg}
                 imageProps={{
                   src: require('src/jobs/images/undraw_lynx.png'),
@@ -98,7 +98,7 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </div>
           </article>
         </section>
-        <section className={style.job__listing}>
+        <section>
           <Heading2>Lediga tjänster</Heading2>
           <JobList listings={listings} />
         </section>

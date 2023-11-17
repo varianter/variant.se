@@ -13,6 +13,7 @@ import { and } from 'src/utils/css';
 import style from './employees.module.css';
 import { EmployeeItem } from './types';
 import { formatTelephone } from 'src/utils/phone';
+import { JobList } from '../jobs/components/job-list';
 
 const getSoMeMetadata = () => {
   let description =
@@ -29,15 +30,17 @@ const getSoMeMetadata = () => {
 const omVariantBlobUrl = require('src/stockholm/assets/lisa_and_david.png');
 export default function Employees({
   employeeList,
+  listings,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const employeeArray = employeeList.props.employeeList;
   const [shuffledEmployeeList, setShuffledEmployeeList] =
-    useState(employeeList);
+    useState(employeeArray);
 
   useEffect(() => {
-    setShuffledEmployeeList(shuffleArray(employeeList));
-  }, [employeeList]);
+    setShuffledEmployeeList(shuffleArray(employeeArray));
+  }, [employeeList, employeeArray]);
 
-  const indexToInsertLink = Math.floor((employeeList.length / 3) * 2);
+  const indexToInsertLink = Math.floor((employeeArray.length / 3) * 2);
 
   return (
     <Layout title="Alla varianter – Variant">
@@ -83,6 +86,7 @@ export default function Employees({
             <JobsLink text="Se alla våra lediga tjänster." />
           </div>
         </div>
+        <JobList listings={listings} />
       </div>
     </Layout>
   );
