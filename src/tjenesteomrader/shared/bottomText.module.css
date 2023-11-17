@@ -75,3 +75,7 @@
     width: 70rem;
   }
 }
+
+.side-padding {
+  padding: 0 12rem;
+}

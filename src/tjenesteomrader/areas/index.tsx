@@ -8,8 +8,11 @@ import {
   tjenesteomradePath,
   TjenesteomradeProps,
 } from '../utils/tjenesteomradeTypes';
+import { sanitize } from 'isomorphic-dompurify';
+import { ContactForm } from '../../contact-form';
 
 const Areas = (prop: TjenesteomradeProps) => {
+  const sanitizedHtmlContent = sanitize(prop.fileContents);
   return (
     <div>
       <SubPage page={prop.name} />
@@ -19,8 +22,11 @@ const Areas = (prop: TjenesteomradeProps) => {
       <div className={style.bottomText}>
         <div
           className={style.bottomText__content}
-          dangerouslySetInnerHTML={{ __html: prop.fileContents }}
+          dangerouslySetInnerHTML={{ __html: sanitizedHtmlContent }}
         />
+      </div>
+      <div className={style['side-padding']}>
+        <ContactForm lessMargin />
       </div>
       <Footer color={`#${prop.color}`} />
     </div>

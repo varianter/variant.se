@@ -104,7 +104,7 @@ const DigitalTjeneste = () => {
             <EmojiList
               listItems={[
                 ['🧑‍💻', 'Funktionella skisser & prototyper'],
-                ['🤓', 'tekniska experiment'],
+                ['🤓', 'Tekniska experiment'],
               ]}
               inverted={true}
             />

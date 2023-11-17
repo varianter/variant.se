@@ -1,7 +1,6 @@
 .header {
   display: flex;
   flex-wrap: wrap;
-  /* padding-right: 7.4rem Commented out when adding temporary calculator url */
   max-width: 70rem;
 }
 
