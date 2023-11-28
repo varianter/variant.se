@@ -2,10 +2,6 @@
   overflow-x: hidden;
 }
 
-.main header {
-  padding-left: 5rem;
-}
-
 .tjenesteomrade {
   background-color: #5d0a2b;
   padding-bottom: 20rem;
@@ -18,9 +14,10 @@
 .tjenesteomrade__columns {
   display: flex;
   flex-direction: column;
-  padding-inline: 6rem;
-  /* gap: 4rem; */
   overflow: hidden;
+  max-width: calc(960px + 8rem);
+  margin: 0 auto;
+  padding: 0 4rem;
 }
 
 .downArrow,

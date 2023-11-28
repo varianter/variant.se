@@ -43,7 +43,7 @@
 
 @media (max-width: 550px) {
   .serviceArea {
-    padding: 1.5rem;
+    padding: 1.5rem 0;
   }
 
   .serviceArea__top {
@@ -57,12 +57,6 @@
 
   .serviceArea__bottom {
     width: 100%;
-  }
-
-  .serviceArea__top img {
-    display: block;
-    margin: auto;
-    margin-left: 0;
   }
 
   .serviceArea__top img {
