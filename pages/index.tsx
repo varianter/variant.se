@@ -15,7 +15,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   listings,
   employees,
 }) => {
-  const isMobileWidth = useMediaQuery(`(max-width: 601px)`) ?? true;
+  const isMobileWidth = useMediaQuery(`(max-width: 760px)`) ?? true;
 
   return (
     <Layout homepage>
