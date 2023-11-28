@@ -95,14 +95,12 @@
 }
 
 .bar1_change {
-  -webkit-transform: rotate(-45deg) translate(-0.35rem, 0.35rem);
   transform: rotate(-45deg) translate(-0.35rem, 0.35rem);
 }
 .bar2_change {
   opacity: 0;
 }
 .bar3_change {
-  -webkit-transform: rotate(45deg) translate(-0.35rem, -0.35rem);
   transform: rotate(45deg) translate(-0.35rem, -0.35rem);
 }
 
@@ -128,7 +126,7 @@
   .header__nav__ul {
     width: 60%;
     position: fixed;
-    right: 0rem;
+    right: 0;
     height: 100%;
     z-index: 100;
     flex-wrap: wrap;
