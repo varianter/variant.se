@@ -8,7 +8,6 @@ interface JobListProps {
 }
 
 export const JobList = ({ listings }: JobListProps) => {
-  console.log(listings);
   if (!listings?.length) {
     return (
       <p className={style.jobs__wrapper__p}>Inga lediga tjänster just nu.</p>

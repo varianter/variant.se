@@ -9,7 +9,8 @@ import {
   TjenesteomradeProps,
 } from '../utils/tjenesteomradeTypes';
 import { sanitize } from 'isomorphic-dompurify';
-import { ContactForm } from '../../contact-form';
+// import { ContactForm } from '../../contact-form';
+// import OfferGallery from '../offer-gallery';
 
 const Areas = (prop: TjenesteomradeProps) => {
   const sanitizedHtmlContent = sanitize(prop.fileContents);
@@ -25,8 +26,9 @@ const Areas = (prop: TjenesteomradeProps) => {
           dangerouslySetInnerHTML={{ __html: sanitizedHtmlContent }}
         />
       </div>
-      <div className={style['side-padding']}>
-        <ContactForm lessMargin />
+      {/*<OfferGallery selectedArea={prop.name} />*/}
+      <div className={style['bottomText__service-area-width']}>
+        {/*<ContactForm lessMargin />*/}
       </div>
       <Footer color={`#${prop.color}`} />
     </div>

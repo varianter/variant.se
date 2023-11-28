@@ -2,3 +2,9 @@
     max-width: 450px;
     margin: 0 0 4rem 0;
 }
+
+@media (max-width: 760px) {
+    .startPageTitle {
+        margin: 0 0 2rem 0;
+    }
+}

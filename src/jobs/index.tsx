@@ -9,10 +9,13 @@ import { InferGetStaticPropsType, NextPage } from 'next';
 import { getStaticProps } from 'pages/jobs';
 import style from './index.module.css';
 import { JobList } from './components/job-list';
+import { useMediaQuery } from '../utils/use-media-query';
 
 const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   listings,
 }) => {
+  const isMobile = useMediaQuery(`(max-width: 760px)`) ?? true;
+
   return (
     <Layout>
       <div className={style.wrapper}>
@@ -87,8 +90,8 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             <div className={style.jobs__blob}>
               <BaseBlob
                 seed="Variant"
-                width={400}
-                height={400}
+                width={isMobile ? 300 : 400}
+                height={isMobile ? 300 : 400}
                 color={colors.colorPairs.secondary3.default.bg}
                 imageProps={{
                   src: require('src/jobs/images/undraw_lynx.png'),

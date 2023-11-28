@@ -20,4 +20,18 @@
   margin-bottom: 3rem;
 }
 
+@media (max-width: 760px) {
+  .wrapper {
+    margin: 2rem 0;
+  }
+
+  .tjenesteomrader__content {
+    flex-wrap: wrap;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+}
+
 

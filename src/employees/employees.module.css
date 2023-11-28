@@ -181,3 +181,21 @@
     line-height: 2rem;
   }
 }
+
+@media (max-width: 760px) {
+  .wrapper {
+    margin: 2rem 0;
+  }
+
+  .employees__header {
+    flex-wrap: wrap;
+  }
+
+  .employees__header h1 {
+    margin-bottom: 1rem;
+  }
+
+  .employees__layout {
+    --image-width: 300px;
+  }
+}

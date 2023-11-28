@@ -44,7 +44,7 @@ export default function PageHeader({
       <div className={style.header__logo}>
         <Link href="/">
           <a
-            aria-label="Variant startside"
+            aria-label="Variant startsida"
             aria-current={homepage ? 'page' : undefined}
           >
             <img
@@ -58,7 +58,7 @@ export default function PageHeader({
       {!zenMode && (
         <>
           <span hidden id="menu-label">
-            Hovedmeny
+            Huvudmeny
           </span>
 
           <button

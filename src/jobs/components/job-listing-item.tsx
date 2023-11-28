@@ -12,8 +12,6 @@ export type JobListingItemProps = {
   item: JobListingItem;
 };
 export const JobListingItem = ({ item }: JobListingItemProps) => {
-  console.log('i joblistingitem');
-  console.log(item);
   return (
     <section className={style.job__listing__container}>
       <div>

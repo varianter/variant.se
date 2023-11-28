@@ -2,12 +2,15 @@ import Layout from 'src/layout';
 import Head from 'next/head';
 import style from './om-variant.module.css';
 import PageTitle from '@components/page-title';
-import { ContactForm } from '../../src/contact-form';
+// import { ContactForm } from '../../src/contact-form';
 import Tjenesteomrader from 'src/tjenesteomrader';
+import { useMediaQuery } from '../../src/utils/use-media-query';
 
 const omVariantBlobUrl = require('src/stockholm/assets/lisa_and_david.png');
 
 const OmVariant = () => {
+  const isMobileWidth = useMediaQuery(`(max-width: 760px)`) ?? true;
+
   return (
     <Layout>
       <div className={style.wrapper}>
@@ -46,6 +49,8 @@ const OmVariant = () => {
           </div>
           <img
             src={omVariantBlobUrl}
+            width={isMobileWidth ? 300 : 400}
+            height={isMobileWidth ? 300 : 400}
             alt="En bild på två anställda på Variant"
           />
         </header>
@@ -71,7 +76,7 @@ const OmVariant = () => {
           </div>
         </section>
         <Tjenesteomrader />
-        <ContactForm />
+        {/*<ContactForm />*/}
       </div>
     </Layout>
   );

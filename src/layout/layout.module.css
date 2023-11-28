@@ -11,7 +11,6 @@
   margin: 0 auto;
   padding: 0 4rem;
   min-height: 100vh;
-  min-height: -webkit-fill-available;
 }
 
 .main__innerFullWidth {
@@ -115,4 +114,11 @@
 }
 .footer__item a:hover {
   border-bottom: 1px solid var(--color-secondary2);
+}
+
+@media (max-width: 760px) {
+  .main__inner {
+    width: 100%;
+    padding: 0 2.5rem;
+  }
 }

@@ -38,7 +38,9 @@ const HeaderBackground = ({
         className={style.header__menu}
         style={{ backgroundColor: colorPair.bg }}
       >
-        <PageHeader whiteMode={whiteMode} onVisibleChange={onVisibleChange} />
+        <div className={style['header__service-area-width']}>
+          <PageHeader whiteMode={whiteMode} onVisibleChange={onVisibleChange} />
+        </div>
       </div>
 
       <div
@@ -47,16 +49,18 @@ const HeaderBackground = ({
         }}
         className={style.header__text}
       >
-        <Link href="/tjanster">
-          <a style={{ color: colorPair.text }}> Tjänsteområden /</a>
-        </Link>
-        <Heading1
-          style={{ color: colorPair.text }}
-          styleLevel="2"
-          className={style.header__heading}
-        >
-          {headerText}
-        </Heading1>
+        <div className={style['header__hero-max-width']}>
+          <Link href="/tjanster">
+            <a style={{ color: colorPair.text }}> Tjänsteområden /</a>
+          </Link>
+          <Heading1
+            style={{ color: colorPair.text }}
+            styleLevel="2"
+            className={style.header__heading}
+          >
+            {headerText}
+          </Heading1>
+        </div>
       </div>
     </div>
   );

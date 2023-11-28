@@ -25,3 +25,29 @@
 .om-variant__map-text {
     font-size: 26px;
 }
+
+@media (max-width: 760px) {
+    .wrapper {
+        margin: 2rem 0;
+    }
+
+    .om-variant__header {
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+
+    .om-variant__header h1 {
+        margin-bottom: 1rem;
+    }
+
+    .om-variant__map-container {
+        flex-wrap: wrap;
+        gap: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .om-variant__map {
+        max-width: 100%;
+    }
+}

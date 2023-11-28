@@ -14,6 +14,7 @@ import style from './employees.module.css';
 import { EmployeeItem } from './types';
 import { formatTelephone } from 'src/utils/phone';
 import { JobList } from '../jobs/components/job-list';
+import { useMediaQuery } from '../utils/use-media-query';
 
 const getSoMeMetadata = () => {
   let description =
@@ -32,6 +33,8 @@ export default function Employees({
   employeeList,
   listings,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const isMobileWidth = useMediaQuery(`(max-width: 760px)`) ?? true;
+
   const employeeArray = employeeList.props.employeeList;
   const [shuffledEmployeeList, setShuffledEmployeeList] =
     useState(employeeArray);
@@ -58,6 +61,8 @@ export default function Employees({
           <img
             src={omVariantBlobUrl}
             alt="En bild på två anställda på Variant"
+            width={isMobileWidth ? 300 : 400}
+            height={isMobileWidth ? 300 : 400}
           />
         </header>
 
@@ -99,14 +104,16 @@ export const EmployeeTile: React.FC<{
   employee: EmployeeItem;
   photoSize?: number;
 }> = ({ employee: { name, telephone, email, imageUrl, officeName } }) => {
+  const isMobileWidth = useMediaQuery(`(max-width: 760px)`) ?? true;
+
   return (
     <div
       className={style.employee}
       style={{ '--randomOffset': getRandomOffset() } as CSSProperties}
     >
       <Image
-        width={400}
-        height={400}
+        width={isMobileWidth ? 300 : 400}
+        height={isMobileWidth ? 300 : 400}
         alt={`Bild på ${name}`}
         src={imageUrl}
         loading="lazy"
@@ -143,6 +150,8 @@ function getRandomOffset() {
 }
 
 function JobsLink({ text }: { text: string }) {
+  const isMobileWidth = useMediaQuery(`(max-width: 760px)`) ?? true;
+
   return (
     <div
       className={style.employee__jobsLinkContainer}
@@ -151,8 +160,8 @@ function JobsLink({ text }: { text: string }) {
       <Link href="/jobs">
         <a className={style.employee__jobsLink}>
           <BaseBlob
-            width={400}
-            height={400}
+            width={isMobileWidth ? 300 : 400}
+            height={isMobileWidth ? 300 : 400}
             randomness={2}
             extraPoints={6}
             color={colors.colorPairs.secondary1.default.bg}

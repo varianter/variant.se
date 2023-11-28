@@ -29,9 +29,19 @@
     font-size: 1.6rem;
 }
 
-@media (max-width: 500px) {
+
+@media (max-width: 760px) {
+    .wrapper {
+        margin: 2rem 0;
+    }
+
     .homepage__blob {
         float: none;
+        margin: 0 auto 2rem auto;
+    }
+
+
+    .homepage__lead {
         margin-bottom: 2rem;
     }
 }

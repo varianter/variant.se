@@ -8,25 +8,37 @@ import { getContactsByEmails } from '../src/employees/utils/getEmployeesList';
 import { JobList } from '../src/jobs/components/job-list';
 import { getFileListingData } from '../src/jobs/utils/getListings';
 import Tjenesteomrader from 'src/tjenesteomrader';
+import { useMediaQuery } from '../src/utils/use-media-query';
 
 const stockholmBlobUrl = require('src/stockholm/assets/stokontor.png');
 const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   listings,
   employees,
 }) => {
+  const isMobileWidth = useMediaQuery(`(max-width: 601px)`) ?? true;
+
   return (
     <Layout homepage>
       <div className={style.wrapper}>
         <div className={style['homepage__intro-container']}>
+          {isMobileWidth && (
+            <header>
+              <TitleStartPage />
+            </header>
+          )}
+
           <img
             className={style['homepage__blob']}
             src={stockholmBlobUrl}
             alt="En bild på tre anställda på Variant"
           />
 
-          <header>
-            <TitleStartPage />
-          </header>
+          {!isMobileWidth && (
+            <header>
+              <TitleStartPage />
+            </header>
+          )}
+
           <p className={style['homepage__lead']}>
             Vi vet att digitala satsningar inte ska ta sin utgångspunkt i
             designskisser, kod eller infrastruktur, utan i samarbete och viljan
