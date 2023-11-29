@@ -188,6 +188,7 @@
 
   .employees__header {
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .employees__header h1 {

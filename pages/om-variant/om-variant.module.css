@@ -19,7 +19,8 @@
 }
 
 .om-variant__map {
-    max-width: 546px;
+    width: 50%;
+    height: 50%;
 }
 
 .om-variant__map-text {
@@ -34,6 +35,7 @@
     .om-variant__header {
         margin-top: 0;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .om-variant__header h1 {
@@ -48,6 +50,7 @@
     }
 
     .om-variant__map {
-        max-width: 100%;
+        width: 100%;
+        height: 100%;
     }
 }

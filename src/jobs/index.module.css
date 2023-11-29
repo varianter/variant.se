@@ -82,5 +82,6 @@
 
   .jobs__wrapper {
     flex-wrap: wrap;
+    justify-content: center;
   }
 }

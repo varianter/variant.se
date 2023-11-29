@@ -92,3 +92,9 @@
     margin: auto;
   }
 }
+
+@media (min-width: 1000px) {
+  .tjenesteomrade__strategy-padding-bottom {
+    padding-bottom: 4rem;
+  }
+}
