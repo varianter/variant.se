@@ -15,7 +15,7 @@
 .om-variant__map-container {
     display: flex;
     gap: 8rem;
-    margin-top: 11rem;
+    margin: 8rem auto;
 }
 
 .om-variant__map {
@@ -26,7 +26,7 @@
     font-size: 26px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 990px) {
     .wrapper {
         margin: 2rem 0;
     }

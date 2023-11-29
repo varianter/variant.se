@@ -9,7 +9,7 @@ import { useMediaQuery } from '../../src/utils/use-media-query';
 const omVariantBlobUrl = require('src/stockholm/assets/lisa_and_david.png');
 
 const OmVariant = () => {
-  const isMobileWidth = useMediaQuery(`(max-width: 760px)`) ?? true;
+  const useResponsiveLayout = useMediaQuery(`(max-width: 990px)`) ?? true;
 
   return (
     <Layout>
@@ -49,8 +49,8 @@ const OmVariant = () => {
           </div>
           <img
             src={omVariantBlobUrl}
-            width={isMobileWidth ? 300 : 400}
-            height={isMobileWidth ? 300 : 400}
+            width={useResponsiveLayout ? 300 : 400}
+            height={useResponsiveLayout ? 300 : 400}
             alt="En bild på två anställda på Variant"
           />
         </header>

@@ -14,7 +14,7 @@ import { useMediaQuery } from '../utils/use-media-query';
 const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   listings,
 }) => {
-  const isMobile = useMediaQuery(`(max-width: 760px)`) ?? true;
+  const useResponsiveLayout = useMediaQuery(`(max-width: 990px)`) ?? true;
 
   return (
     <Layout>
@@ -90,8 +90,8 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             <div className={style.jobs__blob}>
               <BaseBlob
                 seed="Variant"
-                width={isMobile ? 300 : 400}
-                height={isMobile ? 300 : 400}
+                width={useResponsiveLayout ? 300 : 400}
+                height={useResponsiveLayout ? 300 : 400}
                 color={colors.colorPairs.secondary3.default.bg}
                 imageProps={{
                   src: require('src/jobs/images/undraw_lynx.png'),

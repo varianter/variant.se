@@ -15,13 +15,13 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
   listings,
   employees,
 }) => {
-  const isMobileWidth = useMediaQuery(`(max-width: 760px)`) ?? true;
+  const useResponsiveLayout = useMediaQuery(`(max-width: 990px)`) ?? true;
 
   return (
     <Layout homepage>
       <div className={style.wrapper}>
         <div className={style['homepage__intro-container']}>
-          {isMobileWidth && (
+          {useResponsiveLayout && (
             <header>
               <TitleStartPage />
             </header>
@@ -33,7 +33,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             alt="En bild på tre anställda på Variant"
           />
 
-          {!isMobileWidth && (
+          {!useResponsiveLayout && (
             <header>
               <TitleStartPage />
             </header>

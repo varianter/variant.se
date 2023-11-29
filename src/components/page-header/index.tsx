@@ -25,7 +25,7 @@ export default function PageHeader({
   const modalRef = React.createRef<HTMLDivElement>();
   const navRef = React.createRef<HTMLUListElement>();
   const closeRef = React.createRef<HTMLButtonElement>();
-  const isNotHamburgerMode = useMediaQuery(`(min-width: 601px)`) ?? true;
+  const isNotHamburgerMode = useMediaQuery(`(min-width: 990px)`) ?? true;
   const { isMenuVisible, setMenuVisible } = useTogglableBurgerMenu(
     modalRef,
     navRef,

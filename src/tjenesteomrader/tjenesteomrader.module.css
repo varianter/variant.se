@@ -20,7 +20,7 @@
   margin-bottom: 3rem;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 990px) {
   .wrapper {
     margin: 2rem 0;
   }

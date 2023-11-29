@@ -33,7 +33,7 @@ export default function Employees({
   employeeList,
   listings,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const isMobileWidth = useMediaQuery(`(max-width: 760px)`) ?? true;
+  const useResponsiveLayout = useMediaQuery(`(max-width: 990px)`) ?? true;
 
   const employeeArray = employeeList.props.employeeList;
   const [shuffledEmployeeList, setShuffledEmployeeList] =
@@ -61,8 +61,8 @@ export default function Employees({
           <img
             src={omVariantBlobUrl}
             alt="En bild på två anställda på Variant"
-            width={isMobileWidth ? 300 : 400}
-            height={isMobileWidth ? 300 : 400}
+            width={useResponsiveLayout ? 300 : 400}
+            height={useResponsiveLayout ? 300 : 400}
           />
         </header>
 
@@ -104,7 +104,7 @@ export const EmployeeTile: React.FC<{
   employee: EmployeeItem;
   photoSize?: number;
 }> = ({ employee: { name, telephone, email, imageUrl, officeName } }) => {
-  const isMobileWidth = useMediaQuery(`(max-width: 760px)`) ?? true;
+  const useResponsiveLayout = useMediaQuery(`(max-width: 990px)`) ?? true;
 
   return (
     <div
@@ -112,8 +112,8 @@ export const EmployeeTile: React.FC<{
       style={{ '--randomOffset': getRandomOffset() } as CSSProperties}
     >
       <Image
-        width={isMobileWidth ? 300 : 400}
-        height={isMobileWidth ? 300 : 400}
+        width={useResponsiveLayout ? 300 : 400}
+        height={useResponsiveLayout ? 300 : 400}
         alt={`Bild på ${name}`}
         src={imageUrl}
         loading="lazy"
@@ -150,7 +150,7 @@ function getRandomOffset() {
 }
 
 function JobsLink({ text }: { text: string }) {
-  const isMobileWidth = useMediaQuery(`(max-width: 760px)`) ?? true;
+  const useResponsiveLayout = useMediaQuery(`(max-width: 990px)`) ?? true;
 
   return (
     <div
@@ -160,8 +160,8 @@ function JobsLink({ text }: { text: string }) {
       <Link href="/jobs">
         <a className={style.employee__jobsLink}>
           <BaseBlob
-            width={isMobileWidth ? 300 : 400}
-            height={isMobileWidth ? 300 : 400}
+            width={useResponsiveLayout ? 300 : 400}
+            height={useResponsiveLayout ? 300 : 400}
             randomness={2}
             extraPoints={6}
             color={colors.colorPairs.secondary1.default.bg}

@@ -46,7 +46,7 @@
   color: var(--color-primary__tint1--text);
 }
 
-@media (max-width: 760px) {
+@media (max-width: 990px) {
   .employee {
     margin: 0;
   }
@@ -181,7 +181,7 @@
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 990px) {
   .wrapper {
     margin: 2rem 0;
   }

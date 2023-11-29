@@ -116,7 +116,7 @@
   border-bottom: 1px solid var(--color-secondary2);
 }
 
-@media (max-width: 760px) {
+@media (max-width: 990px) {
   .main__inner {
     width: 100%;
     padding: 0 2.5rem;
