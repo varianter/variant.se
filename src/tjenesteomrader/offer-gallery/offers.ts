@@ -64,7 +64,7 @@ export const offers = [
     heading: 'Kommunikation & varumärke',
     text: 'Nå ut med rätt budskap till rätt målgrupp i rätt kanal!  Tillsammans arbetar vi fram en kommunikationsstrategi som skapar äkta engagemang, bygger förtroende och driver resultat.',
     category: 'kultur',
-    link: '/tjanster/kultur/erbjudanden/strategi-audit',
+    link: '/tjanster/kultur/erbjudanden/kommunikation-varumarke',
   },
   {
     blob: '/illustrations/offer-blobs/Vector-10.svg',

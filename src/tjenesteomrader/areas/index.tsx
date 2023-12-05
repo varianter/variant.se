@@ -10,7 +10,7 @@ import {
 } from '../utils/tjenesteomradeTypes';
 import { sanitize } from 'isomorphic-dompurify';
 // import { ContactForm } from '../../contact-form';
-// import OfferGallery from '../offer-gallery';
+import OfferGallery from '../offer-gallery';
 
 const Areas = (prop: TjenesteomradeProps) => {
   const sanitizedHtmlContent = sanitize(prop.fileContents);
@@ -26,7 +26,7 @@ const Areas = (prop: TjenesteomradeProps) => {
           dangerouslySetInnerHTML={{ __html: sanitizedHtmlContent }}
         />
       </div>
-      {/*<OfferGallery selectedArea={prop.name} />*/}
+      <OfferGallery selectedArea={prop.name} />
       <div className={style['bottomText__service-area-width']}>
         {/*<ContactForm lessMargin />*/}
       </div>
