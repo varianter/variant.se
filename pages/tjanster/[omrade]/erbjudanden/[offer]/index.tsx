@@ -29,6 +29,7 @@ export const getStaticProps: GetStaticProps<OfferProps> = async (context) => {
         fileContents: markdown.fileContents,
         name: markdown.name,
         color: markdown.color,
+        category: markdown.category,
       },
     };
   }

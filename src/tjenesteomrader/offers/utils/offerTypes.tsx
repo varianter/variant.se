@@ -18,4 +18,5 @@ export type OfferProps = {
 export type OfferMetadata = {
   name: (typeof offerPath)[number];
   color: string;
+  category: string;
 };

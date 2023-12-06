@@ -1,6 +1,7 @@
 ---
 name: kommunikation-varumarke
 color: 997671
+category: strategi
 ---
 
 <div class="lead">

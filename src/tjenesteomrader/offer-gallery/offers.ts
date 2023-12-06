@@ -1,5 +1,6 @@
 export const offers = [
   {
+    name: 'tillvaxt',
     blob: '/illustrations/offer-blobs/Vector-1.svg',
     heading: 'Upptäck nya tillväxt möjligheter',
     text: 'Genom att utforska kundupplevelsen och konkurrenslandskapet identifierar vi ouppfyllda kundbehov och nya tillväxtmöjligheter.',
@@ -8,6 +9,7 @@ export const offers = [
     link: '/tjanster/digital/erbjudanden/tillvaxt',
   },
   {
+    name: 'forverkliga-ideer',
     blob: '/illustrations/offer-blobs/Vector-2.svg',
     heading: 'Förverkliga dina idéer',
     text: 'Baserat på dina idéer skapar vi koncept som visualiserar kund- och affärsvärde.',
@@ -15,6 +17,7 @@ export const offers = [
     link: '/tjanster/digital/erbjudanden/forverkliga-ideer',
   },
   {
+    name: 'validera-ideer',
     blob: '/illustrations/offer-blobs/Vector-3.svg',
     heading: 'Validera idéer & koncept',
     text: 'Innan du investerar i en tekniklösning validerar vi dina idéer och koncept för att säkerställa att de möter verkliga kundbehov och tillför det förväntade affärsvärdet.',
@@ -22,6 +25,7 @@ export const offers = [
     link: '/tjanster/digital/erbjudanden/validera-ideer',
   },
   {
+    name: 'anvandningstester',
     blob: '/illustrations/offer-blobs/Vector-4.svg',
     heading: 'Användningstester',
     text: 'Baserat på dina idéer skapar vi koncept som visualiserar kund- och affärsvärde.',
@@ -29,6 +33,7 @@ export const offers = [
     link: '/tjanster/digital/erbjudanden/anvandningstester',
   },
   {
+    name: 'tillganglighetsgranskning',
     blob: '/illustrations/offer-blobs/Vector-5.svg',
     heading: 'Tillgänglighetsgranskning',
     text: 'Vi erbjuder en omfattande service för tillgänglighetsgranskning i enlighet med EU:s tillgänglighetskrav.',
@@ -36,6 +41,7 @@ export const offers = [
     link: '/tjanster/digital/erbjudanden/tillganglighetsgranskning',
   },
   {
+    name: 'innovation',
     blob: '/illustrations/offer-blobs/Vector-6.svg',
     heading: 'Kickstarta innovation',
     text: 'Vi påbörjar resan mot en arbetsplats som uppmuntrar till kreativitet. Ni får verktyg och en genomförbar plan som steg för steg ökar er innovationsförmåga.',
@@ -44,6 +50,7 @@ export const offers = [
     link: '/tjanster/digital/erbjudanden/innovation',
   },
   {
+    name: 'ai-strategi',
     blob: '/illustrations/offer-blobs/Vector-7.svg',
     heading: 'Kickstarta din AI strategi',
     text: 'Vi guidar  dig genom processen att kartlägga bästa vägen för AI i din organisation.',
@@ -52,6 +59,7 @@ export const offers = [
     link: '/tjanster/strategi/erbjudanden/ai-strategi',
   },
   {
+    name: 'strategi-audit',
     blob: '/illustrations/offer-blobs/Vector-8.svg',
     heading: 'Innovationstrategi Audit',
     text: 'Variant hjälper dig att förverkliga din innovationspotential snabbare.',
@@ -60,6 +68,7 @@ export const offers = [
     link: '/tjanster/strategi/erbjudanden/strategi-audit',
   },
   {
+    name: 'kommunikation-varumarke',
     blob: '/illustrations/offer-blobs/Vector-9.svg',
     heading: 'Kommunikation & varumärke',
     text: 'Nå ut med rätt budskap till rätt målgrupp i rätt kanal!  Tillsammans arbetar vi fram en kommunikationsstrategi som skapar äkta engagemang, bygger förtroende och driver resultat.',
@@ -67,6 +76,7 @@ export const offers = [
     link: '/tjanster/kultur/erbjudanden/kommunikation-varumarke',
   },
   {
+    name: 'kulturell-granskning',
     blob: '/illustrations/offer-blobs/Vector-10.svg',
     heading: 'Kulturell granskning',
     text: 'Vi påbörjar resan mot en arbetsplats som uppmuntrar till kreativitet. Ni får verktyg och en genomförbar plan som steg för steg ökar er innovationsförmåga.',

@@ -1,6 +1,7 @@
 ---
 name: strategi
 color: 0d0c1b
+category: strategi
 ---
 
 <div class="bigText">

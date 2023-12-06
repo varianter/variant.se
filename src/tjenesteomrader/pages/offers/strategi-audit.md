@@ -1,6 +1,7 @@
 ---
 name: strategi-audit
 color: 534DAC
+category: strategi
 ---
 
 <div class="lead">

@@ -1,6 +1,7 @@
 ---
 name: forverkliga-ideer
 color: 01574F
+category: digital
 ---
 
 <div class="lead">

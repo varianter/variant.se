@@ -19,12 +19,13 @@ export const getStaticProps: GetStaticProps<TjenesteomradeProps> = async (
 ) => {
   if (context?.params!.omrade) {
     const filePath = context?.params!.omrade.toString();
-    var markdown = await getMarkdownObject(filePath);
+    const markdown = await getMarkdownObject(filePath);
     return {
       props: {
         fileContents: markdown.fileContents,
         name: markdown.name,
         color: markdown.color,
+        category: markdown.category,
       },
     };
   }

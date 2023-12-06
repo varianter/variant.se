@@ -1,6 +1,7 @@
 ---
 name: digital
 color: 2f0516
+category: digital
 ---
 
 <div class="bigText" >
