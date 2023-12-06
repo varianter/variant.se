@@ -1,6 +1,7 @@
 ---
 name: anvandningstester
 color: 01574F
+category: digital
 ---
 
 <div class="lead">

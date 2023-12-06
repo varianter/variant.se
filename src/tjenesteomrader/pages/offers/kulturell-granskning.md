@@ -1,6 +1,7 @@
 ---
 name: kulturell-granskning
 color: 997671
+category: kultur
 ---
 
 <div class="lead">

@@ -1,6 +1,7 @@
 ---
 name: validera-ideer
 color: 01574F
+category: strategi
 ---
 
 <div class="lead">

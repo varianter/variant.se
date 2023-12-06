@@ -1,6 +1,7 @@
 ---
 name: innovation
 color: 534DAC
+category: digital
 ---
 
 <div class="lead">

@@ -26,6 +26,8 @@
 
 .bottomText__offer-text-container {
   font-size: 20px;
+  padding: 0 4rem;
+  max-width: calc(960px + 8rem);
 }
 
 .bottomText__content {

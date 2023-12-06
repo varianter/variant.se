@@ -31,3 +31,9 @@
 .offers__offer a {
     width: 100%;
 }
+
+@media (max-width: 990px) {
+    .offers__container {
+        justify-content: center;
+    }
+}
