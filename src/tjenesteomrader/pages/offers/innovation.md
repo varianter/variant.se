@@ -1,7 +1,7 @@
 ---
 name: innovation
 color: 534DAC
-category: digital
+category: strategi
 ---
 
 <div class="lead">
