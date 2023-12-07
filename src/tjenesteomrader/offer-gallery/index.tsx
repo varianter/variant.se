@@ -2,6 +2,8 @@ import { ButtonNextLink } from '@components/button';
 import { offers } from './offers';
 import style from './offer-gallery.module.css';
 import { colorPairs } from '@variant/profile/lib/colors';
+import shuffleArray from '../../utils/helpers';
+import { useEffect, useMemo, useState } from 'react';
 
 interface OffersProps {
   selectedArea: string;
@@ -16,22 +18,26 @@ const OfferGallery = ({
   showLessOffers = false,
   pageName = '',
 }: OffersProps) => {
-  let offersToShow;
-  const filteredOffers = offers.filter(
-    (offer) => offer.category === selectedArea,
+  const filteredOffers = useMemo(
+    () => offers.filter((offer) => offer.category === selectedArea),
+    [selectedArea],
   );
+  const [shuffledOffers, setShuffledOffers] = useState(filteredOffers);
 
-  if (showLessOffers) {
-    const shorterOfferArray = filteredOffers.filter(
-      (offer) => offer.name !== pageName,
-    );
-    offersToShow =
-      shorterOfferArray.length > 3
-        ? shorterOfferArray.slice(0, 3)
-        : shorterOfferArray;
-  } else {
-    offersToShow = filteredOffers;
-  }
+  useEffect(() => {
+    if (showLessOffers) {
+      const shuffledArray = shuffleArray(filteredOffers);
+      setShuffledOffers(shuffledArray);
+    }
+  }, [showLessOffers, filteredOffers]);
+
+  const getOffersToShow = () => {
+    return showLessOffers
+      ? shuffledOffers.filter((offer) => offer.name !== pageName).slice(0, 3)
+      : filteredOffers || [];
+  };
+
+  const offersToShow = getOffersToShow();
 
   return (
     <div className={style['offers__wrapper']}>
