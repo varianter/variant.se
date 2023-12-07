@@ -21,6 +21,7 @@
 }
 
 .offers__offer h4 {
+    overflow-wrap: anywhere;
     color: var(--color-primary);
 }
 
