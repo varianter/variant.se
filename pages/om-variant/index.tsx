@@ -2,7 +2,6 @@ import Layout from 'src/layout';
 import Head from 'next/head';
 import style from './om-variant.module.css';
 import PageTitle from '@components/page-title';
-// import { ContactForm } from '../../src/contact-form';
 import Tjenesteomrader from 'src/tjenesteomrader';
 import { useMediaQuery } from '../../src/utils/use-media-query';
 
@@ -76,7 +75,6 @@ const OmVariant = () => {
           </div>
         </section>
         <Tjenesteomrader />
-        {/*<ContactForm />*/}
       </div>
     </Layout>
   );
