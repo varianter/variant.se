@@ -11,9 +11,10 @@ Vi erbjuder en skräddarsydd AI-strategi workshop. Med vårt team vid din sida g
 <h4 class="time-h4">2 dagar</h4>
 UX Designer / Service Designer
 
-Vår AI-strategi workshop innefattar en introduktion till AI och dess potential, en genomgång av företagets nuvarande
+<p class="offer-preamble"> Vår AI-strategi workshop innefattar en introduktion till AI och dess potential, en genomgång av företagets nuvarande
 AI-användning, behovsanalys för optimering, presentation av potentiella lösningar, diskussion kring etik och ansvar inom
-AI, samt utveckling av en detaljerad roadmap för framtida AI-implementeringar.
+AI, samt utveckling av en detaljerad roadmap för framtida AI-implementeringar.</p>
+
 Workshopen avslutas med konkreta nästa steg, ansvarsfördelning och uppföljningsplaner.
 
 <h4>Aktivititer</h4>
