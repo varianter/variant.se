@@ -33,15 +33,15 @@ const Offer = (prop: OfferProps) => {
       >
         <div dangerouslySetInnerHTML={{ __html: sanitizedHtmlContent }} />
       </div>
+      <div className={style['bottomText__service-area-width']}>
+        <ContactForm lessMargin />
+      </div>
       <OfferGallery
         selectedArea={prop.category}
         hideHeading
         showLessOffers
         pageName={prop.name}
       />
-      <div className={style['bottomText__service-area-width']}>
-        <ContactForm lessMargin />
-      </div>
       <Footer color={`#${prop.color}`} />
     </div>
   );
