@@ -1,47 +1,38 @@
-.omVariant {
-  padding: 0 1rem 4rem;
+.wrapper {
+  margin: 6rem 0;
+}
+
+.jobs {
   position: relative;
   margin-bottom: 3rem;
 }
 
 @media (max-width: 500px) {
-  .omVariant {
+  .jobs {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
   }
 }
 
-.omVariant__subTitle {
-  font-size: 1.4rem;
-  margin: 0 0 2.3rem 1.5rem;
-}
-
-.omVariant__wrapper__p {
+.jobs__wrapper__p {
   text-align: justify;
   position: relative;
 }
 
-.omVariant__wrapper {
-  display: grid;
-  grid-template: "a b" / 1fr auto;
+.jobs__wrapper {
+  display: flex;
+  gap: 3rem;
 }
 
-.omVariant__blob {
-  grid-area: b;
-  float: right;
-  margin: 1rem -1rem;
-}
-@media (max-width: 700px) {
-  .omVariant__wrapper {
-    grid-template: "a" "b" /1fr;
-  }
+.jobs__wrapper p {
+  font-size: 1.6rem;
 }
 
 .withSubTitle {
   margin-bottom: -1rem;
 }
 .job__listing {
-  padding: 0 1rem 7rem;
+  padding: 8rem 0;
   position: relative;
   margin-bottom: 3rem;
 }
@@ -80,20 +71,17 @@
   margin-bottom: 0.5rem;
 }
 
-.aspect__ratio {
-  position: relative;
-  width: calc(100% - 2rem);
-  height: 0;
-  /* "Established hack" for making iframes responsive and follow aspect ratio */
-  padding-bottom: calc(56.18% - 2rem);
-  margin: 1rem 1rem 4rem;
+.widerButton {
+  padding: 0.5rem 4.5rem;
 }
 
-.jobs__video__iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  margin-top: 3rem;
+@media (max-width: 990px) {
+  .wrapper {
+    margin: 2rem 0;
+  }
+
+  .jobs__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

@@ -1,0 +1,56 @@
+.wrapper {
+    margin: 6rem 0;
+}
+
+.om-variant__header {
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 5rem;
+}
+
+.om-variant__intro h1 {
+    margin-top: 0;
+}
+
+.om-variant__map-container {
+    display: flex;
+    gap: 8rem;
+    margin: 8rem auto;
+}
+
+.om-variant__map {
+    width: 50%;
+    height: 50%;
+}
+
+.om-variant__map-text {
+    font-size: 26px;
+}
+
+@media (max-width: 990px) {
+    .wrapper {
+        margin: 2rem 0;
+    }
+
+    .om-variant__header {
+        margin-top: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .om-variant__header h1 {
+        margin-bottom: 1rem;
+    }
+
+    .om-variant__map-container {
+        flex-wrap: wrap;
+        gap: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .om-variant__map {
+        width: 100%;
+        height: 100%;
+    }
+}

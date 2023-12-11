@@ -17,7 +17,7 @@ import left1 from 'src/tjenesteomrader/images/arrows/left1.svg';
 import left2 from 'src/tjenesteomrader/images/arrows/left2.svg';
 import { useState } from 'react';
 
-const DigitalTjeneste = () => {
+const Digital = () => {
   const blobColor = allColors.primary__shade2;
   const [isMenuVisible, setMenuVisible] = useState(false);
   const color = colorPairs.primary.shade![3];
@@ -104,7 +104,7 @@ const DigitalTjeneste = () => {
             <EmojiList
               listItems={[
                 ['🧑‍💻', 'Funktionella skisser & prototyper'],
-                ['🤓', 'tekniska experiment'],
+                ['🤓', 'Tekniska experiment'],
               ]}
               inverted={true}
             />
@@ -144,4 +144,4 @@ const DigitalTjeneste = () => {
   );
 };
 
-export default DigitalTjeneste;
+export default Digital;

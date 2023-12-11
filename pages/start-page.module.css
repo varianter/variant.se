@@ -1,0 +1,47 @@
+.wrapper {
+    margin: 6rem 0;
+}
+
+.homepage__intro-container {
+    margin-bottom: 8rem;
+}
+
+.homepage__blob {
+    shape-outside: url('../src/stockholm/assets/stockholm.png');
+    float: right;
+    shape-margin: 2rem;
+    margin-left: 1.5rem;
+    margin-right: -2rem;
+    display: block;
+    max-width: 600px;
+    width: 100%;
+}
+
+.homepage__lead {
+    margin-bottom: 10rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    max-width: 640px;
+    margin-right: 2rem;
+}
+
+.homepage__bigger-paragraph-text {
+    font-size: 1.6rem;
+}
+
+
+@media (max-width: 990px) {
+    .wrapper {
+        margin: 2rem 0;
+    }
+
+    .homepage__blob {
+        float: none;
+        margin: 0 auto 2rem auto;
+    }
+
+
+    .homepage__lead {
+        margin-bottom: 2rem;
+    }
+}

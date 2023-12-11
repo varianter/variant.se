@@ -1,32 +1,21 @@
-.employeesContainer {
-  --container-padding: 2rem;
+.wrapper {
+  margin: 6rem 0;
+}
 
-  padding: 0 var(--container-padding);
+.employees__header {
+  display: flex;
+  gap: 2.5rem;
+  margin: 5rem 0 8rem 0;
+}
+
+.employeesContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.employees__header {
-  width: 70%;
-  padding: 0 1rem 3.2rem;
-  position: relative;
-}
-
-@media (max-width: 500px) {
-  .employees__header {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-}
-
-.employees__text {
-  max-width: 30rem;
-  margin-bottom: 1rem;
-}
-
 .employees__layout {
-  --image-width: 300px;
+  --image-width: 400px;
   --column-margin: 0.8rem;
   --columns: 1;
 
@@ -57,7 +46,7 @@
   color: var(--color-primary__tint1--text);
 }
 
-@media (max-width: 760px) {
+@media (max-width: 990px) {
   .employee {
     margin: 0;
   }
@@ -89,7 +78,6 @@
   max-width: var(--image-width);
   text-align: center;
   margin-top: 1.2rem;
-  margin-bottom: 0;
   line-height: 1.3;
   font-size: 1.5rem;
   font-weight: 500;
@@ -190,5 +178,24 @@
   .employee__jobsLink p {
     font-size: 1.6rem;
     line-height: 2rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .wrapper {
+    margin: 2rem 0;
+  }
+
+  .employees__header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .employees__header h1 {
+    margin-bottom: 1rem;
+  }
+
+  .employees__layout {
+    --image-width: 300px;
   }
 }

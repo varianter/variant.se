@@ -1,4 +1,9 @@
-import { getListings, getListing, Listing } from 'src/jobs/utils/getListings';
+import {
+  getFileListingData,
+  getListing,
+  getListings,
+  Listing,
+} from 'src/jobs/utils/getListings';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { EmployeeItem } from 'src/employees/types';
 import { getContactsByEmails } from 'src/employees/utils/getEmployeesList';
@@ -22,7 +27,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps<
   { listing: Listing & { contacts: EmployeeItem[] } },
-  { listing: string }
+  { listing: string },
+  { listings: Listing[] }
 > = async (context) => {
   // This will never be empty as that path is caught by 'index.tsx' file
   const fileName = `${context?.params?.listing}.md`;
@@ -32,8 +38,9 @@ export const getStaticProps: GetStaticProps<
   if (contactEmails?.length) {
     contacts = await getContactsByEmails(contactEmails);
   }
+  const listings = await getFileListingData('stockholm');
   return {
-    props: { listing: { ...listing, contacts } },
+    props: { listing: { ...listing, contacts }, listings },
     revalidate: 60 * 60,
   };
 };

@@ -8,8 +8,10 @@ import {
   tjenesteomradePath,
   TjenesteomradeProps,
 } from '../utils/tjenesteomradeTypes';
+import { sanitize } from 'isomorphic-dompurify';
 
 const Areas = (prop: TjenesteomradeProps) => {
+  const sanitizedHtmlContent = sanitize(prop.fileContents);
   return (
     <div>
       <SubPage page={prop.name} />
@@ -19,9 +21,10 @@ const Areas = (prop: TjenesteomradeProps) => {
       <div className={style.bottomText}>
         <div
           className={style.bottomText__content}
-          dangerouslySetInnerHTML={{ __html: prop.fileContents }}
+          dangerouslySetInnerHTML={{ __html: sanitizedHtmlContent }}
         />
       </div>
+      <div className={style['bottomText__service-area-width']}></div>
       <Footer color={`#${prop.color}`} />
     </div>
   );

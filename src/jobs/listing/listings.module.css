@@ -1,27 +1,25 @@
 @value media-small: 420px;
 
 .jobArticle {
-  margin: 2rem 1rem 6rem;
-  display: grid;
-  grid-template: 'a a' 'c c' 'd d' / 1fr auto;
+  margin: 2rem 0 10rem;
 }
 
 .titleWrapper {
-  grid-area: a;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
+}
+
+.titleWrapper h1 {
+  margin-bottom: 2rem;
 }
 
 .button__bottom {
-  grid-area: d;
-  margin: 4rem 0 0;
+  margin-bottom: 8rem;
 }
 
 .button__top {
-  margin: 4rem 0;
+  margin-bottom: 8rem;
 }
 @media (max-width: media-small) {
   .button__top a,
@@ -36,7 +34,6 @@
 }
 
 .rendered__markdown__wrapper {
-  grid-area: c;
   max-width: 60ch;
 }
 .rendered__markdown__wrapper * + * {
@@ -133,7 +130,7 @@
   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
 }
 .contact {
-  margin: 1rem 0;
+  margin: 2rem 0;
   display: flex;
   align-items: center;
 }

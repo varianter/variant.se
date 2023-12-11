@@ -16,6 +16,7 @@ import right2 from 'src/tjenesteomrader/images/arrows/right2.svg';
 import left1 from 'src/tjenesteomrader/images/arrows/left1.svg';
 import left2 from 'src/tjenesteomrader/images/arrows/left2.svg';
 import { useState } from 'react';
+import { and } from '../../../utils/css';
 
 const Strategi = () => {
   const blobColor = allColors.secondary1__shade2;
@@ -43,7 +44,12 @@ const Strategi = () => {
           onVisibleChange={setMenuVisible}
         />
 
-        <div className={style.tjenesteomrade__columns}>
+        <div
+          className={and(
+            style.tjenesteomrade__columns,
+            style['tjenesteomrade__strategy-padding-bottom'],
+          )}
+        >
           <TwoRows>
             <BlobText
               color={blobColor}

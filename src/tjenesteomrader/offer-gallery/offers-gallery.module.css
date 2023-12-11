@@ -1,0 +1,33 @@
+.offers__wrapper {
+    max-width: calc(960px + 8rem);
+    padding: 0 4rem;
+    margin: 8rem auto 0 auto;
+}
+
+.offers__container {
+    display: flex;
+    gap: 2rem;
+    row-gap: 5rem;
+    flex-wrap: wrap;
+}
+
+.offers__wrapper h2 {
+    margin-bottom: 5rem;
+}
+
+.offers__offer {
+    width: 290px;
+    max-width: 100%;
+}
+
+.offers__offer h4 {
+    color: var(--color-primary);
+}
+
+.offers__offer p {
+    margin-bottom: 1.5rem;
+}
+
+.offers__offer a {
+    width: 100%;
+}

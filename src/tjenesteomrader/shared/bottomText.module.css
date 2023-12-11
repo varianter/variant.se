@@ -1,10 +1,21 @@
 .bottomText {
   display: flex;
   flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.bottomText :global(.week-h4) {
+  font-family: "Graphik Web", Arial, sans-serif;
+}
+
+.bottomText__service-area-width {
+  max-width: calc(960px + 8rem);
+  margin: 0 auto;
+  padding: 0 4rem;
 }
 
 .bottomText__content {
-  padding-inline: 12rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -33,7 +44,7 @@
 }
 
 .bottomText__content h4 {
-  font-family: 'Graphik';
+  font-family: 'Graphik', 'Arial', 'sans-serif';
   font-weight: 500;
   font-size: 1.875em;
   margin: 0;

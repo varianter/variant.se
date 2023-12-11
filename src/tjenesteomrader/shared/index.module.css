@@ -14,9 +14,10 @@
 .tjenesteomrade__columns {
   display: flex;
   flex-direction: column;
-  padding-inline: 6rem;
-  /* gap: 4rem; */
   overflow: hidden;
+  max-width: calc(960px + 8rem);
+  margin: 0 auto;
+  padding: 0 4rem;
 }
 
 .downArrow,
@@ -89,5 +90,11 @@
   .tjenesteomrade__columns {
     max-width: 70rem;
     margin: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .tjenesteomrade__strategy-padding-bottom {
+    padding-bottom: 4rem;
   }
 }
