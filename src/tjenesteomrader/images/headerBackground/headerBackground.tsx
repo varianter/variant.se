@@ -9,7 +9,7 @@ type HeaderBackgroundProps = {
   colorPair: ColorPair;
   whiteMode?: boolean;
   onVisibleChange?(visible: boolean): void;
-  breadcrumbsType?: 'Digital' | 'Strategi' | 'Kultur' | null;
+  breadcrumbsType?: string | null;
 };
 
 const HeaderBackground = ({
