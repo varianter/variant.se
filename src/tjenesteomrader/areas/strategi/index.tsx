@@ -20,14 +20,11 @@ import { and } from '../../../utils/css';
 
 const Strategi = () => {
   const blobColor = allColors.secondary1__shade2;
-  const [isMenuVisible, setMenuVisible] = useState(false);
+  const [_, setMenuVisible] = useState(false);
   const color = colorPairs.secondary1.shade![3];
 
   return (
-    <div
-      className={style.main}
-      style={isMenuVisible ? { position: 'fixed' } : { position: 'relative' }}
-    >
+    <div className={style.main} style={{ position: 'relative' }}>
       <Head>
         <title>Strategi</title>
       </Head>

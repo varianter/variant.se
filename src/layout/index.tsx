@@ -23,7 +23,7 @@ function Layout({
   homepage = false,
   zenMode = false,
 }: LayoutProps) {
-  const [isMenuVisible, setMenuVisible] = useState(false);
+  const [_, setMenuVisible] = useState(false);
 
   const mainClass = and(
     style.main,
@@ -32,10 +32,7 @@ function Layout({
   );
 
   return (
-    <div
-      className={mainClass}
-      style={isMenuVisible ? { position: 'fixed' } : { position: 'relative' }}
-    >
+    <div className={mainClass} style={{ position: 'relative' }}>
       <Head>
         <title>{title}</title>
         <link rel="icon" href={favicon} />

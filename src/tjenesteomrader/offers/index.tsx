@@ -20,7 +20,7 @@ import KulturellGranskning from './kulturell-granskning';
 const Offer = (prop: OfferProps) => {
   const sanitizedHtmlContent = sanitize(prop.fileContents);
   return (
-    <div>
+    <div className={style.main}>
       <SubPage page={prop.name} />
       <div className={style.bottomText__content_divider}>
         <Divider />
