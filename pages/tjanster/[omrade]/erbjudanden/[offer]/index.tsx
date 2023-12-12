@@ -9,9 +9,6 @@ import { getMarkdownObjectOffers } from '../../../../../src/tjenesteomrader/util
 export { default } from 'src/tjenesteomrader/offers';
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  // const paths = offerPath.map((offer) => ({
-  //   params: { offer },
-  // }));
   const paths = tjenesteomradePath.flatMap((omrade) =>
     offerPath.map((offer) => ({
       params: { omrade, offer },
