@@ -3,8 +3,8 @@ import {
   offerPath,
   OfferProps,
 } from '../../../../../src/tjenesteomrader/offers/utils/offerTypes';
-import { getMarkdownObject } from '../../../../../src/tjenesteomrader/offers/utils/offerFunctions';
 import { tjenesteomradePath } from '../../../../../src/tjenesteomrader/utils/tjenesteomradeTypes';
+import { getMarkdownObjectOffers } from '../../../../../src/tjenesteomrader/utils/markdownFunctions';
 
 export { default } from 'src/tjenesteomrader/offers';
 
@@ -23,7 +23,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps<OfferProps> = async (context) => {
   if (context?.params!.offer) {
     const filePath = context?.params!.offer.toString();
-    const markdown = await getMarkdownObject(filePath);
+    const markdown = await getMarkdownObjectOffers(filePath);
     return {
       props: {
         fileContents: markdown.fileContents,

@@ -1,9 +1,9 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
-import { getMarkdownObject } from 'src/tjenesteomrader/utils/tjenesteomradeFunctions';
 import {
   tjenesteomradePath,
   TjenesteomradeProps,
 } from 'src/tjenesteomrader/utils/tjenesteomradeTypes';
+import { getMarkdownObjectServiceAreas } from '../../../src/tjenesteomrader/utils/markdownFunctions';
 
 export { default } from 'src/tjenesteomrader/areas';
 
@@ -19,7 +19,7 @@ export const getStaticProps: GetStaticProps<TjenesteomradeProps> = async (
 ) => {
   if (context?.params!.omrade) {
     const filePath = context?.params!.omrade.toString();
-    const markdown = await getMarkdownObject(filePath);
+    const markdown = await getMarkdownObjectServiceAreas(filePath);
     return {
       props: {
         fileContents: markdown.fileContents,
