@@ -1,6 +1,7 @@
 ---
 name: kultur
 color: fad2e2
+category: kultur
 ---
 
 <div class="lead">

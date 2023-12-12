@@ -9,6 +9,7 @@ type HeaderBackgroundProps = {
   colorPair: ColorPair;
   whiteMode?: boolean;
   onVisibleChange?(visible: boolean): void;
+  breadcrumbsType?: string | null;
 };
 
 const HeaderBackground = ({
@@ -16,6 +17,7 @@ const HeaderBackground = ({
   colorPair,
   whiteMode = true,
   onVisibleChange,
+  breadcrumbsType = null,
 }: HeaderBackgroundProps) => {
   const SVG = `
     <svg
@@ -50,9 +52,30 @@ const HeaderBackground = ({
         className={style.header__text}
       >
         <div className={style['header__hero-max-width']}>
-          <Link href="/tjanster">
-            <a style={{ color: colorPair.text }}> Tjänsteområden /</a>
-          </Link>
+          <nav
+            className={style['header__breadcrumbs']}
+            aria-label="breadcrumb"
+            role="navigation"
+          >
+            <ul>
+              <Link href="/tjanster">
+                <a
+                  className={style['header__breadcrumbs-first-part']}
+                  style={{ color: colorPair.text }}
+                  aria-level={1}
+                >
+                  Tjänsteområden
+                </a>
+              </Link>
+              {breadcrumbsType && (
+                <Link href={`/tjanster/${breadcrumbsType.toLowerCase()}`}>
+                  <a style={{ color: colorPair.text }} aria-level={1}>
+                    {breadcrumbsType}
+                  </a>
+                </Link>
+              )}
+            </ul>
+          </nav>
           <Heading1
             style={{ color: colorPair.text }}
             styleLevel="2"

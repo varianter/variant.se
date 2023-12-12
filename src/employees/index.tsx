@@ -15,6 +15,7 @@ import { EmployeeItem } from './types';
 import { formatTelephone } from 'src/utils/phone';
 import { JobList } from '../jobs/components/job-list';
 import { useMediaQuery } from '../utils/use-media-query';
+import shuffleArray from '../utils/helpers';
 
 const getSoMeMetadata = () => {
   let description =
@@ -172,19 +173,4 @@ function JobsLink({ text }: { text: string }) {
       </Link>
     </div>
   );
-}
-
-/**
- * Shuffle function taken from here: https://javascript.info/task/shuffle
- * @param array
- */
-function shuffleArray(array: EmployeeItem[]) {
-  const tempArray = array.slice();
-
-  for (let i = tempArray.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [tempArray[i], tempArray[j]] = [tempArray[j], tempArray[i]];
-  }
-
-  return tempArray;
 }

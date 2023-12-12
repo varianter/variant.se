@@ -19,14 +19,11 @@ import { useState } from 'react';
 
 const Digital = () => {
   const blobColor = allColors.primary__shade2;
-  const [isMenuVisible, setMenuVisible] = useState(false);
+  const [_, setMenuVisible] = useState(false);
   const color = colorPairs.primary.shade![3];
 
   return (
-    <div
-      className={style.main}
-      style={isMenuVisible ? { position: 'fixed' } : { position: 'relative' }}
-    >
+    <div className={style.main} style={{ position: 'relative' }}>
       <Head>
         <title>Digital produkt- och tjänsteutveckling</title>
       </Head>

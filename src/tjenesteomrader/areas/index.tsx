@@ -9,6 +9,7 @@ import {
   TjenesteomradeProps,
 } from '../utils/tjenesteomradeTypes';
 import { sanitize } from 'isomorphic-dompurify';
+import OfferGallery from '../offer-gallery';
 
 const Areas = (prop: TjenesteomradeProps) => {
   const sanitizedHtmlContent = sanitize(prop.fileContents);
@@ -25,6 +26,7 @@ const Areas = (prop: TjenesteomradeProps) => {
         />
       </div>
       <div className={style['bottomText__service-area-width']}></div>
+      <OfferGallery selectedArea={prop.name} />
       <Footer color={`#${prop.color}`} />
     </div>
   );

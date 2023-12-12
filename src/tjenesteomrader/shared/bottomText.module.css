@@ -1,3 +1,8 @@
+.main {
+  overflow-x: hidden;
+  height: 100vh;
+}
+
 .bottomText {
   display: flex;
   flex-direction: column;
@@ -5,14 +10,29 @@
   margin: 0 auto;
 }
 
-.bottomText :global(.week-h4) {
+.bottomText :global(.time-h4) {
   font-family: "Graphik Web", Arial, sans-serif;
+}
+
+.bottomText :global(.offer-preamble) {
+  margin-top: 2.5rem;
+}
+
+.bottomText ul, .bottomText ol {
+  padding-left: 1.1rem;
 }
 
 .bottomText__service-area-width {
   max-width: calc(960px + 8rem);
   margin: 0 auto;
   padding: 0 4rem;
+  font-size: 20px;
+}
+
+.bottomText__offer-text-container {
+  font-size: 20px;
+  padding: 0 4rem;
+  max-width: calc(960px + 8rem);
 }
 
 .bottomText__content {
