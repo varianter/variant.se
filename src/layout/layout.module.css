@@ -28,7 +28,6 @@
 .header__logo img {
   display: block;
   margin: 1.2rem;
-  height: 0.9rem;
 }
 
 @keyframes backgroundPos {
