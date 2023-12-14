@@ -48,7 +48,11 @@ export default function PageHeader({
             aria-current={homepage ? 'page' : undefined}
           >
             <img
-              src={require(whiteMode ? './whiteVariant.svg' : './variant.svg')}
+              src={require(
+                whiteMode
+                  ? 'src/assets/variant-logo-white.svg'
+                  : 'src/assets/variant-logo.svg',
+              )}
               alt="Variant"
             />
           </a>
