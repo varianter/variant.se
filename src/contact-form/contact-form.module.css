@@ -1,49 +1,68 @@
-.formHeading {
+.contact-form__heading {
     padding-bottom: 2rem;
     margin-top: 8rem;
 }
 
-.contactForm__form {
+.contact-form__form {
     margin-top: 7rem;
 }
 
-.contactForm__form label {
+.contact-form__form label {
     display: block;
 }
 
-.contactForm__container > p {
+.contact-form__container > p {
     font-size: 1.6rem;
 }
 
-.contactForm__form input, .contactForm__form textarea {
+.contact-form__form input, .contact-form__form textarea {
     border: 2px solid var(--color-secondary1);
     border-radius: 30px;
     padding: 16px;
 }
 
-.contactForm__form label {
+.contact-form__content-container label {
     margin-bottom: 0.5rem;
 }
 
-.contactForm__form input {
+.contact-form__form input:not(input[type="checkbox"]) {
     margin-bottom: 1rem;
     width: 362px;
     max-width: 100%;
 }
 
-.contactForm__contentContainer {
+.contact-form__content-container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.contactForm__contactDetailsContainer {
-    margin-right: 15rem;
+.contact-form__input-wrapper {
+    width: 362px;
+    max-width: 100%;
 }
 
-.contactForm__less-margin {
-    margin-right: 5rem;
+.contact-form__input-wrapper input {
+    width: 100%;
 }
 
-.contactForm__form input[type="submit"] {
+.contact-form__textarea-container {
+    width: 647px;
+    max-width: 100%;
+}
+
+.contact-form__textarea-container textarea {
+    height: 237px;
+    width: 100%;
+}
+
+.contact-form__checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contact-form__form input[type="submit"] {
     background-color: var(--color-secondary1);
     border-color: transparent;
     color: #fff;
@@ -52,15 +71,14 @@
     cursor: pointer;
 }
 
-.contactForm__contacts {
-    /*margin: 15rem auto;*/
+.contact-form__contacts {
     margin: 7rem auto 15rem auto;
     display: flex;
     justify-content: space-between;
 }
 
 @media (max-width: 990px) {
-    .contactForm__contacts {
+    .contact-form__contacts {
         margin: 2rem auto 7rem auto;
         flex-wrap: wrap;
         justify-content: center;

@@ -7,7 +7,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getStaticProps } from 'pages/varianter';
-import React, { CSSProperties, useEffect, useState } from 'react';
+import React, { CSSProperties, useEffect, useMemo, useState } from 'react';
 import Layout from 'src/layout';
 import { and } from 'src/utils/css';
 import style from './employees.module.css';
@@ -105,11 +105,12 @@ export const EmployeeTile: React.FC<{
   photoSize?: number;
 }> = ({ employee: { name, telephone, email, imageUrl, officeName } }) => {
   const useResponsiveLayout = useMediaQuery(`(max-width: 990px)`) ?? true;
+  const randomOffset = useMemo(() => getRandomOffset(), []);
 
   return (
     <div
       className={style.employee}
-      style={{ '--randomOffset': getRandomOffset() } as CSSProperties}
+      style={{ '--randomOffset': randomOffset } as CSSProperties}
     >
       <Image
         width={useResponsiveLayout ? 300 : 400}
@@ -151,11 +152,12 @@ function getRandomOffset() {
 
 function JobsLink({ text }: { text: string }) {
   const useResponsiveLayout = useMediaQuery(`(max-width: 990px)`) ?? true;
+  const randomOffset = useMemo(() => getRandomOffset(), []);
 
   return (
     <div
       className={style.employee__jobsLinkContainer}
-      style={{ '--randomOffset': getRandomOffset() } as CSSProperties}
+      style={{ '--randomOffset': randomOffset } as CSSProperties}
     >
       <Link href="/jobs">
         <a className={style.employee__jobsLink}>
