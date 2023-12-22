@@ -9,6 +9,7 @@ import { JobList } from '../src/jobs/components/job-list';
 import { getFileListingData } from '../src/jobs/utils/getListings';
 import Tjenesteomrader from 'src/tjenesteomrader';
 import { useMediaQuery } from '../src/utils/use-media-query';
+import ClientLogos from '@components/client-logos';
 
 const stockholmBlobUrl = require('src/stockholm/assets/stokontor.png');
 const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
@@ -60,7 +61,7 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             .
           </p>
         </div>
-
+        <ClientLogos />
         <Tjenesteomrader />
         <ContactForm employees={employees} />
         <h3 className="fancy">Vi söker fler kollegor</h3>
