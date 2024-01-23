@@ -2,7 +2,7 @@
 title: Utvecklare i Stockholm
 h1_title: Utvecklare i Stockholm
 slug: utvecklare
-contact_emails: sara.doltz@variant.se
+contact_emails: andreas.bergstrom@variant.se
 meta_title: Vi söker utvecklare till Variant Stockholm
 meta_description: Vi söker dig som vill revolutionera Stockholm – tillsammans med andra och tillsammans med oss!
 meta_image: https://www.variant.se/images/utvecklare-meta.jpg
