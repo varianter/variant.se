@@ -26,11 +26,12 @@
 }
 
 .image {
-    max-width: calc(1000px/3);
+    max-width: calc(1080px/3);
     max-height:calc(900px/3);
 
-    min-width: calc(1000px/3);
+    min-width: calc(1080px/3);
     min-height:calc(900px/3);
+    padding: 0rem .6rem 0rem .6rem;
     object-fit:cover;
     border-radius: calc(20px/3);
 }
@@ -66,7 +67,7 @@
     position: relative;
     width: 100%;
     z-index: 2;
-    margin-top: -.2rem;
+    margin-top: -.4rem;
 
 }
 
@@ -102,12 +103,12 @@
 }
 
 .headerInfoLeft h3 {
-    font-size: 1.2rem;
+    font-size: 20px;
     font-weight: 500;
 }
 
 .headerInfoLeft p {
-    font-size: .7rem;
+    font-size: 12px;
     font-weight: 400;
 
 }
@@ -123,12 +124,11 @@
 
 .skill {
     margin: 0;
-    font-size: .9rem;
 }
 
 .iconImg {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 26px;
+    height: 26px;
 }
 
 .body { 
@@ -137,7 +137,7 @@
 }
 
 .body p {
-    font-size: .7rem;
+    font-size: 14px;
     line-height: 2;
     padding: .5rem;
     text-align: left;
@@ -156,7 +156,7 @@
 .footer p {
     margin: 0;
     padding: 0;
-    font-size: .7rem;
+    font-size: 14px;
 }
 
 .footer p:nth-child(1) {
