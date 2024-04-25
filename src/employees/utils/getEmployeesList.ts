@@ -25,7 +25,7 @@ export const getEmployeesByOffice = async (
   // Make images
   return await Promise.all<EmployeeItem>(
     employees.filter(
-      (employee) => employee.officeName?.toLowerCase() === officeName
+      (employee) => employee.officeName?.toLowerCase().replace('ö', 'o') === officeName
     )
   );
 };

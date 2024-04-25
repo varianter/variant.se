@@ -15,6 +15,7 @@ import { EmployeeItem } from './types';
 import { formatTelephone } from 'src/utils/phone';
 import { JobList } from '../jobs/components/job-list';
 import { useMediaQuery } from '../utils/use-media-query';
+import { OfficeSelector } from 'src/office-selector';
 
 const getSoMeMetadata = () => {
   let description =
@@ -32,6 +33,7 @@ const omVariantBlobUrl = require('src/stockholm/assets/lisa_and_david.png');
 export default function Employees({
   employeeList,
   listings,
+  officeName,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const useResponsiveLayout = useMediaQuery(`(max-width: 990px)`) ?? true;
 
@@ -67,6 +69,16 @@ export default function Employees({
         </header>
 
         <div className={style.employeesContainer}>
+          <OfficeSelector
+            currentOffice={officeName ?? undefined}
+            defaultLink="/varianter"
+            officeMap={{
+              Alla: '/varianter',
+              Göteborg: '/varianter/goteborg',
+              Stockholm: '/varianter/stockholm',
+            }}
+          />
+
           <div className={style.employees__layout}>
             {shuffledEmployeeList.map(
               (employee: EmployeeItem, index: number) => {
@@ -112,8 +124,8 @@ export const EmployeeTile: React.FC<{
       style={{ '--randomOffset': getRandomOffset() } as CSSProperties}
     >
       <Image
-        width={useResponsiveLayout ? 300 : 400}
-        height={useResponsiveLayout ? 300 : 400}
+        width={useResponsiveLayout ? 200 : 300}
+        height={useResponsiveLayout ? 200 : 300}
         alt={`Bild på ${name}`}
         src={imageUrl}
         loading="lazy"

@@ -106,15 +106,10 @@ async function getValidityStatuses(department?: Office): Promise<Offer[]> {
 // Loose coupling between internal types and departments in Recruitee
 function officeToDepartmentRegex(department: Office) {
   switch (department) {
-    case 'bergen':
-      return /bergen/i;
-    case 'oslo':
-      return /oslo/i;
-    case 'trondheim':
-      return /trondheim/i;
+    case 'goteborg':
+      return /(goteborg|göteborg)/i;
     case 'stockholm':
       return /stockholm/i;
-  
   }
 }
 

@@ -1,8 +1,11 @@
-import { getEmployeesByOffice } from "./getEmployeesList";
+import { Office } from "src/office-selector";
+import { getEmployeesByOffice, getEmployeesList } from "./getEmployeesList";
 
-export async function getStaticPropsEmployees() {
+export async function getStaticPropsEmployees(officeName?: Office) {
   // Set so we can run local as fallback.
-  const employeeList = await getEmployeesByOffice("stockholm");
+  const employeeList = officeName
+    ? await getEmployeesByOffice(officeName)
+    : await getEmployeesList();
 
   if (employeeList) {
     return {
