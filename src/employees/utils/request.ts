@@ -3,7 +3,7 @@ import { EmployeeItem } from "src/employees/types";
 const BASE_URL = "https://chewie-webapp-ld2ijhpvmb34c.azurewebsites.net";
 
 export async function requestEmployees(): Promise<EmployeeItem[] | undefined> {
-  const request = await fetch(`${BASE_URL}/employees`);
+  const request = await fetch(`${BASE_URL}/employees?country=se`);
 
   if (!request.ok) {
     return undefined;
