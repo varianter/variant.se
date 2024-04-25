@@ -124,8 +124,8 @@ export const EmployeeTile: React.FC<{
       style={{ '--randomOffset': getRandomOffset() } as CSSProperties}
     >
       <Image
-        width={useResponsiveLayout ? 300 : 400}
-        height={useResponsiveLayout ? 300 : 400}
+        width={useResponsiveLayout ? 200 : 300}
+        height={useResponsiveLayout ? 200 : 300}
         alt={`Bild på ${name}`}
         src={imageUrl}
         loading="lazy"
