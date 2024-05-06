@@ -42,8 +42,7 @@ const OmVariant = () => {
             <PageTitle title="Vilka är Variant?" />
             <p className={'lead'}>
               Vår vision är att skapa förtroende, transparens och jämlikhet i
-              europeiska företag. Variant grundades i Trondheim och har nu
-              kontor i Norges tre största städer.
+              europeiska företag. Variant grundades i Trondheim 2018, i Sverige har vi kontor i Stockholm och Göteborg.
             </p>
           </div>
           <img
@@ -59,8 +58,8 @@ const OmVariant = () => {
               Vi är totalt +100 engagerade kollegor i Norge och Sverige. Vi
               söker efter de bästa utvecklarna och designers som delar våra
               värderingar och som går igång på att skapa ett bättre digitalt
-              avtryck. Målet är att bygga upp en organisation där värdeskapande
-              design och utveckling skapar en strategisk fördel för våra kunder.
+              avtryck. 
+              
               Vi vill inte komma till våra kunder och endast vara experten, utan
               jobba tillsammans och hjälpa till att bygga upp kunskap och
               oberoende hos kunden. Vi vill dela med oss av vår kunskap, så att
