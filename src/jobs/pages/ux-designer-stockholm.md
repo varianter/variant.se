@@ -1,10 +1,10 @@
 ---
-title: UX Designer i Stockholm
-h1_title: UX Designer i Stockholm
+title: UX Designer i Stockholm och Göteborg
+h1_title: UX Designer i Stockholm och Göteborg
 slug: ux-designer-stockholm
 contact_emails: sara.doltz@variant.se
-meta_title: Vi söker UX Designer till Variant Stockholm
-meta_description: Vi söker dig som vill revolutionera Stockholm – tillsammans med andra och tillsammans med oss!
+meta_title: Vi söker UX Designer till Variant 
+meta_description: Vi söker dig som vill revolutionera Sverige – tillsammans med andra och tillsammans med oss!
 meta_image: https://www.variant.se/images/ux-designer-meta.jpg
 ---
 
@@ -34,6 +34,6 @@ Vår affärsmodell är enkel: Vi erbjuder bra människor. Då säger det sig sj�
 
 Vi vill öka transparensen. Därför har alla som vill möjlighet att delta på säljmöten och påverka vad som händer och inte minst var du kommer att arbeta. Vi har också lagt ut hela vår [personalhandbok](https://handbook.variant.se/) publikt, så vet du vad du kan förvänta dig när du börjar hos oss. Som medarbetare får du varje kvartal bonus, den beräknas på 30 procent av vinsten för varje kvartal och delas ut lika mellan alla anställda. Vi vill investera dig – och hoppas att du vill investera i oss! Variant är nämligen ett medarbetarägt företag där du får möjlighet att köpa in dig om du så önskar. Dessutom är lön inget vi håller hemligt och försöker pressa ner, alla vet vad kollegorna har i lön. Och självklart så är ledningens löner också publika 😉.
 
-En gång i månaden har vi något vi kallar Variantdag. En “innedag” där vi samlas för att utvecklas tillsammans och inte minst träffas, ha roligt och lära känna varandra ännu bättre. Med det sagt är det viktigt för Variant att det ska gynna hela din familj. Vi vill inte ha övertid. Vi underlättar träning – om du väljer att köpa gymkort eller uppgradera din hemmaträning är upp till dig. Vi har en fantastisk handbok att läsa lite mer om det mesta. (Pst, pro-tip: kolla in “Andra fördelar och fördelar”)
+Varannan vecka har vi något vi kallar Variantdag. En “innedag” där vi samlas för att utvecklas tillsammans och inte minst träffas, ha roligt och lära känna varandra ännu bättre. Med det sagt är det viktigt för Variant att det ska gynna hela din familj. Vi vill inte ha övertid. Vi underlättar träning – om du väljer att köpa gymkort eller uppgradera din hemmaträning är upp till dig. Vi har en fantastisk handbok att läsa lite mer om det mesta. (Pst, pro-tip: kolla in “Andra fördelar och fördelar”)
 
 Vi ser fram emot att höra från dig. Och vill du veta redan innan vad du kan förvänta dig efter du sänt in din ansökan, kan du läsa mer om [hur vår rekryteringsprocess ser ut](https://handbook.variant.se/#Trinn-i-prosessen).
