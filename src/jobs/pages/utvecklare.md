@@ -10,7 +10,6 @@ meta_image: https://www.variant.se/images/utvecklare-meta.jpg
 
 Välkommen till Variant. Vi är ett konsultföretag som lever för transperens, gillar människor med stor nyfikenhet och som prioriterar generositet. Vi vill arbeta med organisationer där teknik och design tillsammans skapar starka, hållbara lösningar. Vi erbjuder mer än schyssta villkor, bra lön samt möjlighet att arbeta på häftiga uppdrag tillsammans med engagerade kollegor. Vi tar transparensen till nya höjder, för vi tror att öppenhet inte kan skada. Tvärt om, skapar det samhörighet.
 
-Vi står i startgroparna för att dra igång Variant Sverige. 🎉 Vi letar efter dig som vill jobba som konsult, bygga upp kultur och bidra i vår uppstartsfas.
 
 ## Vem letar vi efter?
 
