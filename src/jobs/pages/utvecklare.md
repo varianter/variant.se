@@ -1,10 +1,10 @@
 ---
-title: Utvecklare i Stockholm
-h1_title: Utvecklare i Stockholm
+title: Utvecklare i Stockholm och Göteborg
+h1_title: Utvecklare i Stockholm och Göteborg
 slug: utvecklare
 contact_emails: andreas.bergstrom@variant.se
-meta_title: Vi söker utvecklare till Variant Stockholm
-meta_description: Vi söker dig som vill revolutionera Stockholm – tillsammans med andra och tillsammans med oss!
+meta_title: Vi söker utvecklare till Variant 
+meta_description: Vi söker dig som vill revolutionera Sverige – tillsammans med andra och tillsammans med oss!
 meta_image: https://www.variant.se/images/utvecklare-meta.jpg
 ---
 
@@ -31,7 +31,7 @@ Du bör vara en person som håller dig uppdaterad i utvecklingen. Men samtidigt 
 - Designsystem
 - och inte minst: empati och viljan att bygga utvecklarkultur.
 
-Du behöver **självklart** inte pricka in alla punkter ovan, vi söker dig som vill utvecklas! 🌱
+Du behöver **självklart** inte pricka in alla punkter ovan, prickar du av en – så sök! Vi söker dig som vill utvecklas! 🌱
 
 ## Hos oss får du:
 
@@ -49,6 +49,6 @@ Vi vill öka transparensen. Därför har alla som vill möjlighet att delta på 
 
 Som medarbetare får du bonus varje kvartal, den beräknas på 30 procent av vinsten för varje kvartal och delas ut lika mellan alla anställda. Vi vill investera dig – och hoppas att du vill investera i oss! Variant är nämligen ett medarbetarägt företag där du får möjlighet att köpa in dig om du så önskar. Dessutom är lön inget vi håller hemligt och försöker pressa ner, alla vet vad kollegorna har i lön. Och självklart så är ledningens löner också publika 😉.
 
-Vi ser fram emot att höra från dig. Connecta gärna med Sara Doltz på Linkedin och ställ dina frågor! Och vill du veta redan innan vad du kan förvänta dig efter du sänt in din ansökan, kan du läsa mer om [hur vår rekryteringsprocess ser ut](https://handbook.variant.se/#Trinn-i-prosessen).
+Vi ser fram emot att höra från dig. Och vill du veta redan innan vad du kan förvänta dig efter du sänt in din ansökan, kan du läsa mer om [hur vår rekryteringsprocess ser ut](https://handbook.variant.se/#Trinn-i-prosessen).
 
 Vill du veta ännu lite mer, [spana in vår Github](https://github.com/varianter).
