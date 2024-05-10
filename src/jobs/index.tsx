@@ -65,20 +65,7 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
                 kan betyda att vi behöver just dig.
               </p>
 
-              <p>
-                Vi vill skapa en arbetsplats som är till för medarbetarna. Vi
-                vill samla människor som bryr sig och tillsammans skapa
-                lösningar som skapar värde för samhället. Vi behöver människor
-                som är engagerade i både design och utveckling.
-              </p>
-
-              <p>
-                För oss spelar det ingen roll om du är en Java- eller F#-,
-                JavaScript- eller Lisp-person. Figma eller InDesign person. Vi
-                vill ha ärliga, motiverade, trevliga och personer som är villiga
-                att dela med sig till oss. Människor som vill påverka vardagen.
-              </p>
-
+  
               <p>
                 Kolla in vår{' '}
                 <a href="https://handbook.variant.se" rel="noopeneer">
