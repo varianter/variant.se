@@ -94,6 +94,8 @@ async function getValidityStatuses(department?: Office): Promise<Offer[]> {
       throw new Error('Could not fetch data from Recruitee');
     }
 
+    offer.careers_apply_url = insertSwedishLangUrl(offer.careers_apply_url);
+
     if (!department) {
       offers.push(offer);
     } else if (offer.department.match(officeToDepartmentRegex(department))) {
@@ -115,4 +117,16 @@ function officeToDepartmentRegex(department: Office) {
 
 function findStatus(offers: Offer[], slug: string): Offer | undefined {
   return offers.find((i) => i.slug === slug);
+}
+
+function insertSwedishLangUrl(originalUrl: string): string {
+  const insertBefore = '/o/';
+  const textToInsert = '/l/sv';
+
+  const index = originalUrl.indexOf(insertBefore);
+  if (index === -1) {
+      return originalUrl;
+  }
+
+  return originalUrl.slice(0, index) + textToInsert + originalUrl.slice(index);
 }
