@@ -20,6 +20,18 @@ interface ListingProps {
   listings: Listing[];
 }
 
+function insertSwedishLangUrl(originalUrl: string): string {
+  const insertBefore = '/o/';
+  const textToInsert = '/l/sv';
+
+  const index = originalUrl.indexOf(insertBefore);
+  if (index === -1) {
+      return originalUrl;
+  }
+
+  return originalUrl.slice(0, index) + textToInsert + originalUrl.slice(index);
+}
+
 const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
   React.memo(function Listing({ listing, listings }: ListingProps) {
     const innerHtml = useMemo(() => {
@@ -77,7 +89,7 @@ const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
             <PageTitle title={listing.h1_title} />
             <div className={style.button__top}>
               <ButtonLink
-                href={listing.careers_apply_url ?? 'https://jobs.variant.se/'}
+                href={insertSwedishLangUrl(listing.careers_apply_url) ?? 'https://jobs.variant.se/'}
               >
                 Sök jobbet
               </ButtonLink>
