@@ -1,7 +1,7 @@
 ---
 title: Tech Lead Frontend – JavaScript/React Guru sökes!
 h1_title: Tech Lead Frontend – JavaScript/React Guru sökes!
-slug: frontend-lead-stockholm-eller-goteborg
+slug: tech-lead-frontend
 contact_emails: andreas.bergstrom@variant.se
 meta_title: 🚀 Nyfiken och driven webbutvecklare sökes!
 meta_description: Vi söker dig som vill revolutionera Sverige – tillsammans med andra och tillsammans med oss!

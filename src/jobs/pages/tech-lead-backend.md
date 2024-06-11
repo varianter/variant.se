@@ -1,7 +1,7 @@
 ---
-title: Tech Lead Backend - .NET
-h1_title: Tech Lead Backend - .NET
-slug: backend-lead-stockholm-eller-goteborg
+title: Tech Lead Backend - .NET och molnmästare
+h1_title: Tech Lead Backend - .NET och molnmästare
+slug: tech-lead-backend
 contact_emails: andreas.bergstrom@variant.se
 meta_title: 🚀 Nyfiken och driven .NET sökes!
 meta_description: Vi söker dig som vill revolutionera Sverige – tillsammans med andra och tillsammans med oss!
