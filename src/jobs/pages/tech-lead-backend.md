@@ -9,7 +9,7 @@ meta_image: https://www.variant.se/images/utvecklare-meta.jpg
 ---
 ## 🌟 Bli en del av Variant – inte bara en konsultfirma, utan en revolution! 🌟
 
-Sedan vår spännande start i Norge 2019 har vi vuxit till en familj på 150 innovativa själar. Med kontor i både Stockholm och Göteborg sedan 2023, blandar vi teknik med design och skapar magi tillsammans.
+Sedan vår spännande start i Norge 2018 har vi vuxit till en familj på 150 innovativa själar. Med kontor i både Stockholm och Göteborg sedan 2023, blandar vi teknik med design och skapar magi tillsammans.
 
 ## 🔧 Ditt uppdrag? 
 
