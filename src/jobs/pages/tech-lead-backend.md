@@ -40,8 +40,8 @@ Det här är ju en önskelista, så sök sök sök, även om du inte prickar in 
 - Fast, konkurrenskraftig och transparent lönesättning
 - Prylbudget om 11 000 kr/år (+moms)
 - Friskvårdsbidrag: 5 000 kr/år
-- Extrapengar vid föräldraledighet och extra ledighet vid inskolning på förskola. [HUR MYCKET?]
-- Grym sjukvårdsförsäkring: Kolla här! [LÄNK TILL PDF]
+- Extrapengar vid föräldraledighet och extra ledighet vid inskolning på förskola.
+- Grym sjukvårdsförsäkring.
 - Bonus / vinstdelning
 - Möjlighet till delägarskap
 - Pension som följer ITP
