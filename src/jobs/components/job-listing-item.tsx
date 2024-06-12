@@ -16,7 +16,6 @@ export const JobListingItem = ({ item }: JobListingItemProps) => {
     <section className={style.job__listing__container}>
       <div>
         <h3 className={and(style.job__title, 'fancy')}>{item.title}</h3>
-        <span>{item.location}</span>
       </div>
       <ButtonNextLink href={`/jobs/${item.name}`} className={style.widerButton}>
         Läs hela annonsen
