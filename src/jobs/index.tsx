@@ -27,7 +27,7 @@ const JobsIndex: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
           />
           <meta
             property="og:title"
-            content="Bli en variant! Se lediga tjänster i Stockholm."
+            content="Bli en variant! Se lediga tjänster hos Variant Sverige."
             key="og:title"
           />
           <meta
