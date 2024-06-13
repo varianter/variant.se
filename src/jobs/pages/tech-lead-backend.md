@@ -47,7 +47,7 @@ Det här är ju en önskelista, så sök sök sök, även om du inte prickar in 
 - Pension som följer ITP
 
 ## 🌟 Varför Variant? 
-Som Tech Lead Frontend hos oss är du mer än bara en del av teamet; du är en nyckelspelare i att driva vår designvision framåt. Vi erbjuder en plats där du kan utforska din kreativitet, utveckla banbrytande lösningar och verkligen göra skillnad. Är du redo att skapa framtiden med oss?
+Som Tech Lead Backend hos oss är du mer än bara en del av teamet; du är en nyckelspelare i att driva vår designvision framåt. Vi erbjuder en plats där du kan utforska din kreativitet, utveckla banbrytande lösningar och verkligen göra skillnad. Är du redo att skapa framtiden med oss?
 
 ## Om Variant
 
