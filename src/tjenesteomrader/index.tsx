@@ -21,7 +21,9 @@ const Tjenesteomrader = ({ showHeading = true }) => {
           serviceName={'Digital produkt- och tjänsteutveckling'}
           buttonName={'Produkt- och tjänsteutveckling'}
           serviceText={
-            'Utveckling av digitala produkter och tjänster är kärnan i Variants leveranser. Med våra utvecklare, lösningsarkitekter, designers och verksamhetsutvecklare i teamet får du tillgång till best practice och erfarna experter som hjälper dig att lyckas.'
+            'Utveckling av digitala produkter och tjänster är kärnan i Variants leveranser. 
+            Med våra utvecklare, lösningsarkitekter, designers och verksamhetsutvecklare 
+        i teamet får du tillgång till best practice och erfarna experter som hjälper dig att lyckas.'
           }
           colorPair={colorPairs.primary}
           urlPath={'digital'}
@@ -30,7 +32,9 @@ const Tjenesteomrader = ({ showHeading = true }) => {
           blobPath={serviceBlob}
           serviceName={'Strategi och innovation'}
           serviceText={
-            'Små och stora organisatoriska vägval kräver tydliga målbilder och strategier. Och strategier som inte bara blir en pappersprodukt, utan du vet hur du ska agera på. Läs mer om hur Variant kan hjälpa din organisation att göra dessa val färre, enklare och mer hållbara. Vi hjälper er med ert innovationsarbete från ax till limpa – från det strategiska till implementationen.'
+            'En strategi får inte bli en pappersprodukt i en låda. Läs mer om hur Variant kan hjälpa din 
+            organisation att få strategin att bli en levande del i din verksamhet.  Vi hjälper er med ert 
+        innovationsarbete från ax till limpa – från det strategiska till implementationen.'
           }
           colorPair={colorPairs.secondary1}
           urlPath={'strategi'}
@@ -39,7 +43,10 @@ const Tjenesteomrader = ({ showHeading = true }) => {
           blobPath={kultur}
           serviceName={'Kultur och kommunikation'}
           serviceText={
-            'Att etablera och leda egna team för digital tjänsteutveckling kräver fokus och kunskap inom kulturbyggande. Våra konsulter arbetar för en hållbar och hälsosam utvecklingskultur– från team till topp. Kultur och kommunikation går hand i hand. För att kunna förmedla kultur, värderingar och värderbjudanden både internt och externt krävs målinriktad kommunikation och  engagerande dialog. Vi hjälper er med detta.'
+            'Att etablera och leda egna team för digital tjänsteutveckling kräver 
+            fokus och kunskap inom kulturbyggande. Kultur och kommunikation går hand i hand. 
+        För att kunna förmedla kultur, värderingar och värderbjudanden både internt och externt
+        krävs målinriktad kommunikation och  engagerande dialog. Vi hjälper er med detta.'
           }
           colorPair={colorPairs.primary}
           colorVariation={{ series: colorPairs.primary.tint!, colorLevel: 2 }}
