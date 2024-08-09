@@ -7,7 +7,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getStaticProps } from 'pages/varianter';
-import React, { CSSProperties, useEffect, useState } from 'react';
+import React, { CSSProperties, PropsWithChildren, useEffect, useState } from 'react';
 import Layout from 'src/layout';
 import { and } from 'src/utils/css';
 import style from './employees.module.css';
@@ -112,11 +112,12 @@ export default function Employees({
 const blurDataUrl =
   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAIHSURBVHgB7dhBbtNAFAbg/40lJHa9AbbgAL0BZoNkWpTmBOQIcIIoN6AnoD1BWlCxxAZzgoZ9JZsbZFkqeR4zJF0ggei8mYkqeN8yiyS/38yb8QOUUkoppf4bhMTaD31NhIkF1+7L99xH5faH1gysCHzOhTlrmmpABskCtRf9nJhf8ybEHX6ZT2DMInWw6ECfLvr9kXmJbSUCDQXR9PlBtUIiBhE+vr86ssyfIQvjle5hXLbtt1dIRFyhbWUukUpRzJrm0SkiiQK1bV9ijKrM7/7I2hA9i11+oiVH1s6RMIznm4nfi8tlf7em8gfBgXx1mGmGPMqHD+w7RAivkB1rZOQe1pE/yyAUHIhAE+RGPIdQeIWYSuRXS6sUHMht3n3shK0hEHWwZkX0FAL3N5DwWJAEGrAbJQQEXQ5r3GPBgdxl9At2Y4BAeIUMJ7vq/8UAgeBA1zfFGXaAmb9CIDjQdFq5PUQdMiNjRCtB1rYZC+Rm0EFAFKh5WXU5q+Q66Uo6a5AfrBmrxETHEBIH8lVi8BukN1zfQNx4oq4+Lw4fv3UnU/Qc4BdEi03jkYm+yzWHT2auxyZZfq5VHzcH1QkiJBw0XrlgJmLWYE9/PpxI6UfBgcH83dCNjReb5RsveaBbfm5nGbV7IZy4efbe7Yvhdsa9dnul43E8/z4WXcyeUUoppZRS/44fYomy++H/LMkAAAAASUVORK5CYII=';
 
-export const EmployeeTile: React.FC<{
-  employee: EmployeeItem;
-  photoSize?: number;
-}> = ({ employee: { name, telephone, email, imageUrl, officeName } }) => {
-  const useResponsiveLayout = useMediaQuery(`(max-width: 990px)`) ?? true;
+export const EmployeeTile = ({
+  employee: { name, telephone, email, imageUrl, officeName },
+}: PropsWithChildren<{ employee: EmployeeItem }>) => {
+  if (!imageUrl) {
+    return null;
+  }
 
   return (
     <div
@@ -124,8 +125,8 @@ export const EmployeeTile: React.FC<{
       style={{ '--randomOffset': getRandomOffset() } as CSSProperties}
     >
       <Image
-        width={useResponsiveLayout ? 200 : 300}
-        height={useResponsiveLayout ? 200 : 300}
+        width={300}
+        height={300}
         alt={`Bild på ${name}`}
         src={imageUrl}
         loading="lazy"
@@ -162,8 +163,6 @@ function getRandomOffset() {
 }
 
 function JobsLink({ text }: { text: string }) {
-  const useResponsiveLayout = useMediaQuery(`(max-width: 990px)`) ?? true;
-
   return (
     <div
       className={style.employee__jobsLinkContainer}
@@ -172,8 +171,8 @@ function JobsLink({ text }: { text: string }) {
       <Link href="/jobs">
         <a className={style.employee__jobsLink}>
           <BaseBlob
-            width={useResponsiveLayout ? 300 : 400}
-            height={useResponsiveLayout ? 300 : 400}
+            width={300}
+            height={300}
             randomness={2}
             extraPoints={6}
             color={colors.colorPairs.secondary1.default.bg}

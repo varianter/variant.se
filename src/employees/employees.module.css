@@ -15,15 +15,16 @@
 }
 
 .employees__layout {
-  --image-width: 400px;
+  --image-width: 300px;
   --column-margin: 0.8rem;
   --columns: 1;
 
   --total-margin: calc(var(--column-margin) * 2 * var(--columns));
   --total-images-width: calc(var(--image-width) * var(--columns));
 
-  max-width: calc(var(--total-images-width) + var(--total-margin));
+  max-width: calc(var(--total-images-width) + var(--total-margin) + 5rem);
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 4rem;
   padding-bottom: 10rem;
@@ -31,8 +32,7 @@
 
 .employee {
   /* Add margin based on a random offset to make it look more random. */
-  margin: calc(-4rem + 1rem * var(--randomOffset))
-    calc(1rem - 1rem * var(--randomOffset));
+  margin-top: calc(-2rem + 1rem * var(--randomOffset));
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,7 +46,7 @@
   color: var(--color-primary__tint1--text);
 }
 
-@media (max-width: 990px) {
+@media (max-width: 760px) {
   .employee {
     margin: 0;
   }
@@ -86,11 +86,10 @@
 
 .employee__phone {
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--color-standard__white--text);
   padding: 0.6rem 1.2rem;
   line-height: 1;
-  overflow: hidden;
 
   background: linear-gradient(
     to right,
