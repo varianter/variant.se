@@ -110,6 +110,8 @@ function officeToDepartmentRegex(department: Office) {
   switch (department) {
     case 'goteborg':
       return /(goteborg|göteborg)/i;
+    case 'linkoping':
+      return /(linkoping|linköping)/i;
     case 'stockholm':
       return /stockholm/i;
   }

@@ -75,6 +75,7 @@ export default function Employees({
             officeMap={{
               Alla: '/varianter',
               Göteborg: '/varianter/goteborg',
+              Linköping: '/varianter/linkoping',
               Stockholm: '/varianter/stockholm',
             }}
           />
