@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import style from './office.module.css';
 
-export const offices = ['goteborg', 'stockholm'] as const;
-export type Office = typeof offices[number];
+export const offices = ['goteborg', 'stockholm', 'linkoping'] as const;
+export type Office = (typeof offices)[number];
 
 export function stringToDepartment(dep?: string): Office | undefined {
   // Check if we have valid office, if not we can just return undefined.

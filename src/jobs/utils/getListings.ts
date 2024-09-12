@@ -71,6 +71,7 @@ type Offer = {
   department?: string;
   location: string;
   company_name: string;
+  country_code: string;
 };
 
 type OfferResult = {
@@ -94,15 +95,39 @@ async function getValidityStatuses(department?: Office): Promise<Offer[]> {
       throw new Error('Could not fetch data from Recruitee');
     }
 
+    const isSwedish = offer.country_code === 'SE';
+    if (!isSwedish) {
+      continue;
+    }
+
     offer.careers_apply_url = insertSwedishLangUrl(offer.careers_apply_url);
 
-    if (!department) {
+    if (!department || !offer.department) {
       offers.push(offer);
-    } else if (offer.department?.match(officeToDepartmentRegex(department))) {
+    } else if (
+      department &&
+      offer.department?.match(officeToDepartmentRegex(department))
+    ) {
       offers.push(offer);
     }
   }
   return offers;
+}
+
+function anyDepartment(dep: string | undefined) {
+  if (!dep) {
+    return false;
+  }
+  if (dep.match(officeToDepartmentRegex('goteborg'))) {
+    return true;
+  }
+  if (dep.match(officeToDepartmentRegex('stockholm'))) {
+    return true;
+  }
+  if (dep.match(officeToDepartmentRegex('linkoping'))) {
+    return true;
+  }
+  return false;
 }
 
 // Loose coupling between internal types and departments in Recruitee
@@ -110,6 +135,8 @@ function officeToDepartmentRegex(department: Office) {
   switch (department) {
     case 'goteborg':
       return /(goteborg|göteborg)/i;
+    case 'linkoping':
+      return /(linkoping|linköping)/i;
     case 'stockholm':
       return /stockholm/i;
   }
@@ -125,7 +152,7 @@ function insertSwedishLangUrl(originalUrl: string): string {
 
   const index = originalUrl.indexOf(insertBefore);
   if (index === -1) {
-      return originalUrl;
+    return originalUrl;
   }
 
   return originalUrl.slice(0, index) + textToInsert + originalUrl.slice(index);

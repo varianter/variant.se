@@ -20,7 +20,7 @@ interface ListingProps {
   listings: Listing[];
 }
 
-const Listing: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
+const ListingPage: NextPage<InferGetStaticPropsType<typeof getStaticProps>> =
   React.memo(function Listing({ listing, listings }: ListingProps) {
     const innerHtml = useMemo(() => {
       const md = new MarkdownIt({
@@ -143,4 +143,4 @@ export const ContactTile = ({
     </div>
   );
 };
-export default Listing;
+export default ListingPage;
