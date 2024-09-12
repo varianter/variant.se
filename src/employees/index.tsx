@@ -7,7 +7,12 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getStaticProps } from 'pages/varianter';
-import React, { CSSProperties, PropsWithChildren, useEffect, useState } from 'react';
+import React, {
+  CSSProperties,
+  PropsWithChildren,
+  useEffect,
+  useState,
+} from 'react';
 import Layout from 'src/layout';
 import { and } from 'src/utils/css';
 import style from './employees.module.css';
@@ -75,6 +80,7 @@ export default function Employees({
             officeMap={{
               Alla: '/varianter',
               Göteborg: '/varianter/goteborg',
+              Linköping: '/varianter/linkoping',
               Stockholm: '/varianter/stockholm',
             }}
           />
