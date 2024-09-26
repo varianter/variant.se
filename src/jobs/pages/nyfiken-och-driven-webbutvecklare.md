@@ -10,7 +10,7 @@ meta_image: https://www.variant.se/images/og-utv-min.jpg
 
 ## 🌟 Joina Variant – där idéer blir innovationer! 🌟
 
-Sedan vår spännande start i Norge 2018 har vi snabbt expanderat och öppnat våra kreativa hubbar i både Stockholm och Göteborg (utöver Trondheim, Bergen och Oslo!). Med ett team på 150 dynamiska individer är vi en smältdegel av teknologi och design.
+Sedan vår spännande start i Norge 2018 har vi snabbt expanderat och öppnat våra kreativa hubbar i både Stockholm, Göteborg och Linköping (utöver Trondheim, Bergen och Oslo!). Med ett team på 150 dynamiska individer är vi en smältdegel av teknologi och design.
 
 ## 🔧 Din nya utmaning?
 
