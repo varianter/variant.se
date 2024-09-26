@@ -10,7 +10,7 @@ meta_image: https://www.variant.se/images/og-utv-min.jpg
 
 ## 🌈 Gå med i Variant – vi inte bara jobbar, vi skapar! 🌈
 
-Från Norges fjordar till Sveriges storstäder, Variant har sedan starten 2018 blivit en kreativ kraftverk med 100 talangfulla individer. Nu, med blomstrande kontor i Stockholm och Göteborg, kombinerar vi teknologi och design för att skapa något helt unikt.
+Från Norges fjordar till Sveriges storstäder, Variant har sedan starten 2018 blivit en kreativ kraftverk med 100 talangfulla individer. Nu, med blomstrande kontor i Linköping, Stockholm och Göteborg, kombinerar vi teknologi och design för att skapa något helt unikt.
 
 ## 🖥 Din Mission?
 
