@@ -70,6 +70,7 @@ type Offer = {
   position: number;
   department?: string;
   location: string;
+  locations: { city: string }[];
   company_name: string;
   country_code: string;
 };
