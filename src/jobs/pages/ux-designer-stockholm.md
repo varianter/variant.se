@@ -3,9 +3,9 @@ title: UX Designer i Stockholm och Göteborg
 h1_title: UX Designer i Stockholm och Göteborg
 slug: ux-designer-stockholm
 contact_emails: sara.doltz@variant.se
-meta_title: Vi söker UX Designer till Variant 
+meta_title: Vi söker UX Designer till Variant
 meta_description: Vi söker dig som vill revolutionera Sverige – tillsammans med andra och tillsammans med oss!
-meta_image: https://www.variant.se/images/ux-designer-meta.jpg
+meta_image: https://www.variant.se/images/og-design-min.jpg
 ---
 
 Välkommen till Variant. Vi är ett konsultföretag som lever för transperens, gillar människor med stor nyfikenhet och som prioriterar generositet. Vi vill arbeta med organisationer där teknik och design tillsammans skapar starka, hållbara lösningar. Vi erbjuder mer än schyssta villkor, bra lön samt möjlighet att arbeta på häftiga uppdrag tillsammans med engagerade kollegor. Vi tar transparensen till nya höjder, för vi tror att öppenhet inte kan skada. Tvärt om, skapar det samhörighet.
