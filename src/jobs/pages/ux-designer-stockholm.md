@@ -3,7 +3,7 @@ title: UX Designer i Stockholm och Göteborg
 h1_title: UX Designer i Stockholm och Göteborg
 slug: ux-designer-stockholm
 contact_emails: sara.doltz@variant.se
-meta_title: Vi söker UX Designer till Variant
+meta_title: Vi söker designers till Variant
 meta_description: Vi söker dig som vill revolutionera Sverige – tillsammans med andra och tillsammans med oss!
 meta_image: https://www.variant.se/images/og-design-min.jpg
 ---
