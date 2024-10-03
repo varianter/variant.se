@@ -31,7 +31,6 @@ export const getStaticProps: GetStaticProps<{
   listings: Listing[];
   officeName: Office | null;
   employeeList: {
-    revalidate: number;
     props: { employeeList: EmployeeItem[] };
   };
 }> = async (context) => {
@@ -46,5 +45,6 @@ export const getStaticProps: GetStaticProps<{
       listings: listings,
       officeName: officeName ?? null,
     },
+    revalidate: employeeItem.revalidate,
   };
 };
