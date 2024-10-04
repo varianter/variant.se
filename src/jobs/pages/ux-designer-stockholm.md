@@ -1,7 +1,7 @@
 ---
 title: Designers till Variant
 h1_title: Designers till Variant
-slug: ux-designer-stockholm
+slug: designer-se
 contact_emails: sara.doltz@variant.se,lina.lundgren@variant.se,malin.skagerlund@variant.se
 meta_title: Vi söker designers till Variant
 meta_description: Vi söker dig som vill revolutionera Sverige – tillsammans med andra och tillsammans med oss!

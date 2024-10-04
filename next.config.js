@@ -1,4 +1,4 @@
-const withImages = require("next-images");
+const withImages = require('next-images');
 
 const regexEqual = (x, y) => {
   return (
@@ -19,9 +19,13 @@ const nextConfig = {
   images: {
     disableStaticImages: true,
     domains: [
-      "variantno.blob.core.windows.net",
-      "chewiesald2ijhpvmb34c.blob.core.windows.net",
+      'variantno.blob.core.windows.net',
+      'chewiesald2ijhpvmb34c.blob.core.windows.net',
     ],
+  },
+
+  redirects: {
+    'jobs/ux-designer-stockholm': '/jobs/designer-se',
   },
 
   webpack: (config) => {
@@ -29,19 +33,19 @@ const nextConfig = {
     // Overrides css loader config setting modules mode to local
 
     const oneOf = config.module.rules.find(
-      (rule) => typeof rule.oneOf === "object"
+      (rule) => typeof rule.oneOf === 'object',
     );
     if (oneOf) {
       const moduleCssRule = oneOf.oneOf.find(
-        (rule) => regexEqual(rule.test, /\.module\.css$/)
+        (rule) => regexEqual(rule.test, /\.module\.css$/),
         // regexEqual(rule.test, /\.module\.(scss|sass)$/)
       );
       if (moduleCssRule) {
         const cssLoader = moduleCssRule.use.find(({ loader }) =>
-          loader.includes("css-loader")
+          loader.includes('css-loader'),
         );
         if (cssLoader) {
-          cssLoader.options.modules.mode = "local";
+          cssLoader.options.modules.mode = 'local';
         }
       }
     }
