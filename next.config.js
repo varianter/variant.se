@@ -24,9 +24,13 @@ const nextConfig = {
     ],
   },
 
-  redirects: {
-    'jobs/ux-designer-stockholm': '/jobs/designer-se',
-  },
+  redirects: [
+    {
+      source: '/jobs/ux-designer-stockholm',
+      destination: '/jobs/designer-se',
+      permanent: true,
+    },
+  ],
 
   webpack: (config) => {
     // Allows for non-pure CSS Modules in Nextjs.
