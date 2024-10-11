@@ -5,7 +5,7 @@ slug: cto-till-variant-sverige
 contact_emails: david.dinka@variant.se,lina.lundgren@variant.se
 meta_title: 🚀 CTO till Variant Sverige
 meta_description: Vi söker dig som vill revolutionera Sverige – tillsammans med andra och tillsammans med oss!
-meta_image: https://www.variant.se/images/og-utv-min.jpg
+meta_image: https://www.variant.se/images/og-cto-min.jpg
 ---
 
 
