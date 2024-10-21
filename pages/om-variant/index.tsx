@@ -68,7 +68,7 @@ const OmVariant = () => {
 
             <img
               className={style['om-variant__map']}
-              src="/illustrations/map-norway-sweden.png"
+              src="/illustrations/map-norway-sweden-2024.png"
               alt="Karta över kontor i Trondheim, Bergen, Oslo och Stockholm."
             />
           </div>
