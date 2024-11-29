@@ -2,7 +2,7 @@
 title: CTO till Variant Sverige
 h1_title: CTO till Variant Sverige
 slug: cto-till-variant-sverige
-contact_emails: david.dinka@variant.se,lina.lundgren@variant.se
+contact_emails: david.dinka@variant.se
 meta_title: 🚀 CTO till Variant Sverige
 meta_description: Vi söker dig som vill revolutionera Sverige – tillsammans med andra och tillsammans med oss!
 meta_image: https://www.variant.se/images/og-cto-min.jpg
@@ -16,7 +16,7 @@ Vi vill skapa en företagskultur där medarbetarna kan utvecklas och använda si
 Vi söker en operativ CTO som kan engagera och motivera utvecklare och designers hos oss och hos våra kunder  med en god portion entusiasm och nyfikenhet. Du kan sitta i Stockholm, Göteborg eller Linköping, men kommer att vara CTO för hela vår svenska koncernen.
 Ett av våra värdeord är Lärglädje, så du bör vara generös med att dela med dig av din egen expertis och dina erfarenheter och kunna hjälpa andra att göra detsamma. Det gör du på konferenser, Meetups, YouTube, poddar, Open Source eller i den kanal du gillar bäst. 
 
-Ett viktigt jobb som CTO hos oss på Variant är att hjälpa till att förvalta Variants professionella varumärke och att etablera en kultur som lever upp till detta. Du trivs med att hålla dig uppdaterad kring utveckling i stort, ny teknik, best practice, olika regelverk som tex WCAG 2.1 AA eller olika effektiva arbetssätt. För oss är symbiosen mellan design och utveckling A och O. Vi förstår varandra, vi gillar att jobba tillsammans och förstår värdet av våra enskilda roller i teamet och att det faktiskt blir som bäst när vi jobbar tillsammans.
+Ett viktigt jobb som CTO hos oss på Variant är att hjälpa till att förvalta Variants professionella varumärke och att etablera en kultur som lever upp till detta. Du trivs med att hålla dig uppdaterad kring utveckling i stort, ny teknik, best practice och olika effektiva arbetssätt. För oss är symbiosen mellan design och utveckling A och O. Vi förstår varandra, vi gillar att jobba tillsammans och förstår värdet av våra enskilda roller i teamet och att det faktiskt blir som bäst när vi jobbar tillsammans.
 
 Därför tror vi att du:
 
