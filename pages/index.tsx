@@ -51,6 +51,9 @@ const Stockholm: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             transparent och med stor lärglädje! Från Trondheim till Stockholm
             &ndash; vi är +100 utvecklare, designers och strateger som står redo
             att samarbeta med nya kunder och kollegor.
+            Förutom Stockholm så expanderade vi till Göteborg under våren 2024. 
+            Sommaren 2024 fick vi genom köpet av designbyrån Usify även ett kontor 
+            och nya kollegor i Linköping.
           </p>
           <p className={style['homepage__bigger-paragraph-text']}>
             Läs mer om oss och våra värderingar i{' '}
