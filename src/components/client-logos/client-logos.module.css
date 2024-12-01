@@ -1,0 +1,16 @@
+.client-logos__container {
+    margin-bottom: 5rem;
+}
+
+.client-logos__img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2.5rem 6rem;
+}
+
+.client-logos__img-container img {
+    max-width: 100%;
+}
