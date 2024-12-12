@@ -7,10 +7,7 @@ export const getStaticProps = async () => {
   try {
     const listings = await getFileListingData('linkoping');
     const employees = await getContactsByEmails([
-      'oms@variant.no',
-      'ah@variant.no',
-      'mb@variant.no',
-      'te@variant.no',
+      'david.dinka@variant.se'
     ]);
 
     return {

@@ -9,12 +9,12 @@ export default function Home() {
     <Layout>
       <Wrapper mode="purple" className={styles.page1}>
         <Content mode="right_bottom">
-          <h1>Hallo der!</h1>
+          <h1>Hallå där!</h1>
 
-          <p>
-            Her har vi skrevet litt om våre tanker om å bygge Variant i
-            Stavanger. Nå er vi spente på hva du tenker. Hva tror du er viktig
-            for å lykkes? Hvordan ønsker du å utvikle Stavanger sammen med oss?
+          <p>          
+              Här har vi skrivit lite om våra tankar kring att bygga Variant i Linköping. 
+              Nu är vi nyfikna på vad du tycker. Vad tror du är viktigt för att lyckas? 
+              Hur skulle du vilja utveckla Linköping tillsammans med oss?
           </p>
         </Content>
       </Wrapper>
@@ -22,19 +22,24 @@ export default function Home() {
       <Wrapper className={styles.page2}>
         <Content mode="left">
           <Block>
-            <h2>Vil du utvikle Stavanger?</h2>
+            <h2>Vill du utveckla Linköping?</h2>
 
             <p>
-              For det er nettopp det vi ønsker du skal gjøre, – sammen med flere og sammen med oss. 
-              Stavanger har allerede et rikt og spennende næringsliv, og vi tror vi kan være med å utfordre her. 
-              Vil vil etablere neste generasjons selskapskultur hvor medarbeideres potensial utnyttes til det 
-              fulle ved å gi tillit og transparens. En kultur som består av gjensidig raushet, åpenhet og læreglede. 
-              En kultur som har mot til å stå som et eksempel for andre og ydmykhet til å lære av de samme.
+            För det är precis det vi vill att du ska göra – 
+            tillsammans med fler och tillsammans med oss.
+            Linköping har redan ett rikt och spännande 
+            näringsliv, och vi tror att vi kan vara med och utmana här.
+            Vi vill skapa nästa generations företagskultur, 
+            där medarbetarnas potential tas tillvara till 
+            fullo genom tillit och transparens. En kultur som 
+            bygger på ömsesidig generositet, öppenhet och glädjen 
+            i att lära. En kultur som har mod att stå som ett 
+            exempel för andra, och ödmjukhet att lära av dem samtidigt.
             </p>
           </Block>
 
           <Block>
-            <h2>Vil du utvikle Variant Stavanger AS?</h2>
+            <h2>Vill du utveckla Variant Linköping AB?</h2>
 
             <img
               src={varianthuset}
@@ -42,26 +47,26 @@ export default function Home() {
               className={styles.page2__varianthuset}
             />
             <p>
-              For det er nettopp det vi ønsker du skal gjøre, – sammen med flere og sammen 
-              med oss. Vi har tillit til dine tanker og 
-              forslag til hvordan selskapet mellom de syv fjell skal bygges og drives. Vi gir dere 
-              frihet som om dere skulle startet for dere selv. 
-              Så gir vi dere trygghet for at det dere ønsker å gjøre lykkes. 
-              Frihet og trygghet – vi kommer tilbake til det.
+            För det är precis det vi vill att du ska göra – tillsammans med fler och tillsammans med oss. 
+            Vi har tillit till dina idéer och förslag på hur företaget i hjärtat av 
+            Östergötland ska byggas och drivas. Vi ger dig friheten att arbeta som om 
+            du startade något eget, samtidigt som vi ger dig tryggheten att det du vill 
+            skapa har förutsättningar att lyckas. Frihet och trygghet – vi återkommer till det.
             </p>
           </Block>
 
           <Block>
-            <h2>Vil du utvikle Variant?</h2>
+            <h2>Vill du utveckla Variant?</h2>
 
             <p>
-              For det er nettopp det vi ønsker du skal gjøre, – sammen med flere og sammen med oss. 
-              Vi vil ikke at du skal bli som oss. Å være en Variant handler om å lære av hverandre og ha 
-              egne tanker. Det er en Variants plikt å lære bort like sterkt som å lære av. Vi har lovd 
-              oss selv å alltid være ydmyk for andres erfaringer, kunnskap og idéer. Vi har erfaring 
-              med å prøve ut ting. Om det ikke fungerer så justerer vi. Dette gjelder stort og smått. 
-              Vi kommer med et standpunkt og en filosofi slik håndboken vår beskriver. Utover det ønsker 
-              vi at du og ditt team bidrar til å utvikle konsernet Variant på lik linje med oss.
+            För det är precis det vi vill att du ska göra – tillsammans med fler och tillsammans med oss.
+            Vi vill inte att du ska bli som oss. Att vara en Variant handlar om att lära av v
+            arandra och ha egna idéer. En Variants ansvar är lika mycket att dela med sig 
+            som att lära sig av andra. Vi har lovat oss själva att alltid vara ödmjuka 
+            inför andras erfarenheter, kunskap och idéer.
+            Vi har erfarenhet av att testa nya saker – och om det inte fungerar, då justerar vi. 
+            Det gäller både stort och smått. Vi kommer med en ståndpunkt och en filosofi, som vår
+            handbok beskriver, men utöver det vill vi att du och ditt team bidrar till att utveckla Variant-koncernen på samma villkor som oss.
             </p>
           </Block>
         </Content>
@@ -72,40 +77,40 @@ export default function Home() {
           <h2>2028</h2>
           <div className={styles.strong}>
             <p>
-              Vi har latt tankene spinne. Vi har latt fantasien løpe fritt. 
-              Hvordan tror vi at Variant Stavanger kan bli? Sånn litt inn i framtida? 
-              Dette er tanker som du og ditt team må være med å forbedre og foredle. 
-              Så med alle forbehold, her er slik vi ser for oss at oktober 2028 <i>kan</i> se ut.
+              Vi har låtit tankarna snurra och låtit fantasin löpa fritt.
+              Hur tror vi att Variant Linköping kan se ut – lite längre fram i tiden?
+              Det här är idéer som du och ditt team kommer att behöva förbättra och vidareutveckla.
+              Så med alla förbehåll, här är en bild av hur oktober 2028 <i>kan</i> se ut.
             </p>
           </div>
 
           <div className={styles.em}>
             <p>
-              Den store snakkisen under lunsjen den siste tiden er våre nye lokaler. 
-              Vi har til de grader vokst fra Vingtor. De har vært en god match for oss 
-              så langt, men nå kjenner vi behovet for å “flytte hjemmefra.” 18.-20. 
-              desember går flyttelasset og fra 2. januar holder vi til i egne lokaler i 
-              Kirkegata.
+              Den stora snackisen under lunchen den senaste tiden är våra nya lokaler.
+              Vi har verkligen vuxit ur våra nuvarande utrymmen. De har varit en bra match för 
+              oss hittills, men nu känner vi att det är dags att "flytta hemifrån." Den 18–20 
+              december går flyttlasset, och från den 2. januari håller vi till i 
+              större och finare lokaler på Apotekaregatan.
             </p>
             <p>
-              Mandag 2. oktober startet Arne og Anna, hennholdsvis designer og 
-              utvikler. Arne kommer fra Bouvet hvor han har jobbet som interaksjonsdesigner 
-              mens Anna har vært utvikler i Miles de siste 3 årene. Med disse to om 
-              bord er vi nå 31 konsulenter i Stavanger. Og i neste måned får vi en transfer 
-              fra Variant Oslo, da Torill flytter hjem etter sju år i hovedstaden.
+              Måndag den 2. oktober började Sophia och Luca, en designer och en utvecklare.
+              Luca kommer från Knowit där han arbetat som interaktionsdesigner, medan Sophia har varit 
+              utvecklare på Consid de senaste tre åren. Med dessa två ombord är vi nu 31 konsulter i Linköping. 
+              Och nästa månad får vi en transfer från Variant Oslo, då Pelle flyttar 
+              hem igen efter sju år i efter sju år i grannlandet.
             </p>
 
             <p>
-              Fredag 6. oktober holder vi som vanlig variantdag den føste fredagen i måneden. 
-              Keynote for dagen holdes av produktsjef Sarah fra vår kunde Aker BP. Her forteller han 
-              hvordan Aker via digitalisering og predikativ modellering reduserte karbonavtrykket for sine 
-              utviklingsprosjekter med 27%. Faktisk helt nede på 3,1 kg carbon emisjon per fat Olje. Vi er ikke så rent lite 
-              stolte av å ha vært en betydelig bidragsyter i denne utviklingen. 
-              Videre gjennomføres variantdagen i to ulike spor. For utviklerne har vi et videregående 
-              kurs i Kotlin og Spring som nå endlig har fått stor oppmerksomhet hos våre kunder. På designsiden har 
-              Tonje Evanger kommet på besøk, og sammen med henne har vi sesjoner innen tjenestedesign. 
-              Dagen avsluttes som vanlig med at vår daglige leder går igennom selskapstatus, hvor forrige måneds resultater 
-              legges fram sammen med prognosene for året. 
+              Torsdag den 5. oktober håller vi som vanligt Variantdagen, den första fredagen i månaden.
+              Keynote för dagen hålls av produktchefen Sarah från vår kund SAAB. Hon berättar om hur SAAB genom 
+              avancerad digitalisering och prediktiv modellering har förbättrat sin produktionsprocess, 
+              vilket har resulterat i en 15 % effektivisering och en minskning av produktionscyklerna 
+              med 20 %. Vi är väldigt stolta över att ha varit en betydande del av detta framsteg.
+              Variantdagen fortsätter sedan i två spår. För utvecklarna erbjuder vi en fördjupningskurs i 
+              Kotlin och Spring, som äntligen fått stort genomslag hos våra kunder. På designsidan har vi besök av 
+              Tonje Evanger, vår norska CDO, och tillsammans med henne har vi sessioner inom tjänstedesign.
+              Dagen avslutas som vanligt med att vår VD går igenom företagets status, där förra månadens 
+              resultat presenteras tillsammans med prognoserna för året.
             </p>
           </div>
         </Content>
@@ -113,16 +118,16 @@ export default function Home() {
         <Content mode="right" className={styles.page3__right}>
           <div className={styles.em}>
             <p className={styles.page7}>
-              Etter variantdagen arrangeres rebus. Dette har blitt en tradisjon i Variant Stavanger, der ulike team 
-              drar rundt i byens gater og streder for å finne løsninger på ulike gåter som vår gåtemester lager. 
-              I fjor var noen av oppgavene så vanskelige at ene teamet endte på Backstage i stedet. 
+                  Efter Variantdagen arrangeras en rebus – en tradition som har blivit en 
+                  favorit här på Variant Linköping. Olika team ger sig ut i stadens gator och gränder för att lösa 
+                  kluriga gåtor skapade av vår alldeles egna gåtmästare. Förra året var några av uppgifterna så svåra 
+                  att ett av lagen slutade upp på Dahlboms istället för att lösa rebusen!
             </p>
 
             <p>
-              I mai oppnådde Variant som helhet en 3.-plass i Universums kåring
-              over Norges mest etter-traktede arbeidsgivere. Samme måned mottok
-              vi 15 relevante søknader fra erfarne designere og utviklere som
-              ønsker å jobbe i Stavanger.
+                I maj nådde Variant som helhet en tredjeplats i Universums ranking över Sveriges  
+                mest eftertraktade arbetsgivare. Samma månad fick vi in 15 relevanta ansökningar 
+                från erfarna designers och utvecklare som vill arbeta i Linköping.
             </p>
           </div>
         </Content>
@@ -130,7 +135,7 @@ export default function Home() {
 
       <Wrapper className={styles.page4}>
         <Content mode="left">
-          <h2>Det første året</h2>
+          <h2>Det första året</h2>
 
           <div className={styles.page4__padded}>
             <img
@@ -140,43 +145,31 @@ export default function Home() {
             />
             <div className={styles.strong}>
               <p>
-                Også det første året vil i stor grad påvirkes av hva du og ditt
-                team ønsker å gjøre og ønsker å prøve. Vi har også her noen
-                tanker over hva vi tror kan være en fin tilnærming de første 12
-                måneder. Fortsatt må dette ses på som vårt forslag, vi er
-                superspent på hva du tenker på dette.
+                Även det första året kommer till stor del att påverkas av vad du och resten av 
+                Linköpingsteamet vill göra och testa. Vi har dock några tankar om vad vi 
+                tror kan vara en bra ansats under de första 12 månaderna. Men detta 
+                ska fortfarande ses som vårt förslag – vi är supernyfikna på vad du tänker om det!
               </p>
             </div>
 
             <div className={styles.em}>
               <p>
-                Ved oppstart 1. januar 2025 er vi 7 ansatte. Dette er da
-                CEO, CTO og CDO sammen med fire andre ganske erfarne konsulenter.
-                Alle er lett å få ut i oppdrag.
+                När du börjar är vi 8 Varianter på plats. Alla är erfarna 
+                och skickliga konsulter, och vi har redan avtal med flera spännande kunder.
               </p>
 
               <p>
-                Fokus resten av 2025 er todelt, rekruttere flere og få folk ut i
-                oppdrag. I løpet av våre har vi signert 6 nye, og de første
-                begynner i mai. Idet selskapet er ett år jobber det 15
-                mennesker der, 2 av dem er nyutdannede som startet i august.
-                Stavanger støtter seg kraftig på konsernets
-                rekrutteringskapasitet.
+                Fokuset resten av 2025 är tvådelat: att rekrytera fler och få ut konsulterna 
+                i uppdrag. Under året har vi signerat 6 nya medarbetare, och de första börjar i maj. 
+                Vid slutet av året arbetar 15 personer här, varav 2 är utvecklare som började 
+                i augusti. Linköping drar starkt nytta av koncernens rekryteringskapacitet.
               </p>
               <p>
-                Allerede i september inviteres dere med på Varianttur med
-                Variant Trondheim. Da blir dere sammen med følge 
-                introdusert for Trønderne, og vi og dere får
-                sjansen til å bli godt kjent.
+                I september åker vi på Variantresa till Helsingfors tillsammans med 
+                resten av Variant Sverige. Då får ni chansen att lära känna alla andra 
+                Varianter ordentligt och bygga starkare band inom teamet!
               </p>
-              <p>
-                Det første halvåret selger vi oppdrag basert på CV-salg til
-                eksisterende Variantkunder og gjennom megleravtaler og
-                rammeavtaler som Variant har tilgang til. På høsten har Variant
-                Stavanger også begynt å vinne egne kunder. Men gjennom hele det
-                første året handler det om CV-salg, og det må rekrutteringen ta
-                høyde for. Konsernet bidrar med salgskompetanse og -kapasitet.
-              </p>
+        
             </div>
           </div>
         </Content>
@@ -184,17 +177,10 @@ export default function Home() {
         <Content mode="right">
           <div className={styles.em}>
             <p>
-              Det første året gjennomføres Variantdager dels sammen andre selskaper 
-              og dels på egenhånd. Noen ganger reiser varianter
-              mellom byene, andre ganger benyttes video. 5. september 2026
-              drar vi på Varianttur sammen med følge til Reykjavik.
-            </p>
-
-            <p>
-              Den første tiden leier Variant et kontor i Vingtor arbeidsbar.
-              Antallet rom og arbeidsplasser utvides etter hvert som vi vokser.
-              Konsernet stiller med struktur- og systemkapital. Konsernets
-              ledelse jobber tett på en coachende måte med Stavangers ledergruppe.
+                Det första året genomförs Variantdagen ibland tillsammans med andra 
+                kontor och ibland på egen hand. Ibland reser Varianter mellan städerna, 
+                andra gånger sker det via video. Den 5 september 2026 åker vi på Variantresa 
+                tillsammans med respektive till Helsingfors.
             </p>
           </div>
         </Content>
@@ -206,18 +192,16 @@ export default function Home() {
             <h2>Frihet</h2>
 
             <p>
-              Vi husker det så godt. Hvor givende det var å kunne forme
-              selskapet slik vi mente det helst skulle gjøres. Noen ganger
-              trådte vi feil og måtte justere kurs, men det var like fullt så
-              morsomt. Denne opplevelsen ønsker vi å gi deg og ditt team. Og det
-              er ikke først og fremst for at vi er så snille eller så ivrig på å
-              gi folk gode opplevelser, selv om vi er det også. Av samme grunn
-              som vi har tillit til at summen av enkeltpersoners vurderinger
-              overgår ledelsens så tror vi også at ved å gi autonomi, frihet og
-              tillit til de ulike selskapene i konsernet vil selskapene som sum
-              bli bedre enn hvis styrt fra en konsernledelse. Vi er derfor ute
-              etter ditt entreprenørskap og din gründerånd. Dette skal være som
-              å starte for deg selv, bare med trygghet.
+              Vi minns det så väl. Hur givande det var att få forma företaget precis så som vi tyckte att det borde vara. 
+              Ibland tog vi fel steg och behövde justera kursen, men det var lika fullt en fantastisk resa. 
+              Denna upplevelse vill vi nu ge dig och ditt team. Och det är inte bara för att vi är så vänliga eller så 
+              entusiastiska över att ge människor bra upplevelser – även om det också är sant. 
+              Av samma anledning som vi litar på att summan av individers bedömningar överträffar ledningens, 
+              tror vi också att genom att ge autonomi, frihet och tillit till de olika bolagen i koncernen, kommer 
+              helheten att bli starkare än om allt styrs av en central ledning.
+
+              Vi söker därför ditt entreprenörskap och din pionjäranda. Det här 
+              ska kännas som att starta något eget – fast med tryggheten i ryggen.
             </p>
           </Block>
         </Content>
@@ -227,28 +211,27 @@ export default function Home() {
             <h2>Trygghet</h2>
 
             <p>
-              Det er mange ting som må funke for at en konsulentstartup skal
-              fly. Dette strekker seg fra finansiering, salg, rekruttering,
-              bemanning, kulturbygging, kompetansebygging, etablering av
-              strukturkapital og systemkapital. Så skal vi være litt ærlige. Alt
-              dette er ikke like morsomt. Alt går ikke like fort. På den andre
-              siden er mye av dette utrolig givende, vi kan hjelpe dere der du
-              og ditt team ikke har deres styrker, slik at dere kan jobbe med
-              det dere er gode på.
+              Det är många saker som måste fungera för att en konsultstartup ska ta fart. 
+              Det handlar om allt från finansiering, försäljning, rekrytering, bemanning, kulturbyggande 
+              och kompetensutveckling till att etablera strukturkapital och systemkapital.
+
+              Om vi ska vara ärliga – allt detta är inte alltid lika roligt. Och det går 
+              inte alltid lika snabbt. Å andra sidan är mycket av det här otroligt givande. Vi finns här 
+              för att hjälpa dig och ditt team där ni kanske inte har era starkaste sidor, 
+              så att ni kan fokusera på det ni är bäst på.
             </p>
 
             <p>
-              For det er ikke slik at vi tenker at dere skal greie dere selv opp
-              i autonomi og tillit. Vi har mye erfaring som vi gjerne deler med
-              dere, men da først og fremst som coacher og ikke veiledere.
+              För det är inte så att vi tänker att ni ska klara er själva enbart med autonomi och 
+              tillit. Vi har mycket erfarenhet som vi gärna delar med er, men då främst i 
+              rollen som coacher snarare än som rådgivare.
             </p>
 
             <p>
-              Mye strukturkapital og systemkapital har vi på plass. Lite av
-              dette er obligatorisk, men vi antar nesten at du ikke brenner for
-              å føre regnskapet selv. Eller bygge ditt eget bemanningssystem. Vi
-              har også en håndbok som vi er ikke så lite stolte av. Den tipper
-              vi du gjerne vil utnytte.
+              Mycket av vår strukturkapital och systemkapital finns redan på plats. Lite av detta är 
+              obligatoriskt, men vi antar att du inte brinner för att själv sköta bokföringen eller 
+              bygga ett eget bemanningssystem. Vi har också en handbok som vi är ganska 
+              stolta över. Vi gissar att du gärna vill dra nytta av den!
             </p>
           </Block>
         </Content>

@@ -94,15 +94,15 @@
   left: 0;
 }
 
-.stavangerBlob {
-  shape-outside: url('./assets/stavanger.png');
+.linkopingBlob {
+  shape-outside: url('./assets/domkyrka.png');
   float: right;
-  margin-top: 3rem;
+  margin-top: 10rem;
   shape-margin: 2rem;
   margin-left: 1.5rem;
   margin-right: -3rem;
   display: block;
-  max-width: 395px;
+  max-width: 500px;
   width: 100%;
 }
 
@@ -206,14 +206,10 @@
 }
 
 @media (max-width: 500px) {
-  .stavangerBlob,
+  .linkopingBlob,
   .lufthavn {
     float: none;
     margin-bottom: 2rem;
-  }
-  .barcode {
-    float: none;
-    margin: 0 auto;
   }
 }
 

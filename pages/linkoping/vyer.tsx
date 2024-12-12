@@ -1,1 +1,1 @@
-export { default } from 'src/stavanger/stavangervyer';
+export { default } from 'src/linkoping/linkopingvyer';
