@@ -133,6 +133,7 @@
     url('./assets/bg-page4-2.svg') bottom left no-repeat,
     url('./assets/bg-page4-3.jpg') bottom right no-repeat,
     var(--color-secondary4__tint3);
+  background-size: 700px;  
 }
 @media (max-width: 1100px) {
   .page4 {
