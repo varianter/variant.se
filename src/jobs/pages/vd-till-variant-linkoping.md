@@ -29,7 +29,7 @@ Variant är ett värderingsstyrt bolag som värdesätter samarbete, transparens 
 - Bidra operativt genom egna kunduppdrag och säkerställa att teamets kompetenser matchar kundernas behov.
 - På Variant tror vi inte på stjärnor som lyser ensamstående – vi bygger framgång tillsammans. Om du vill skapa något som verkligen gör skillnad och har hjärtat för både affärer och människor, vill vi gärna höra från dig!
 
-## 🌟 Lön och ersättningar 
+## 🌟 Lön och ersättningar  
 Vi vill vara så öppna som möjligt i allt vi gör, det gäller även våra olika incitament. I vår handbok (handbook.variant.se) delar vi med oss vad vi erbjuder våra anställda. Vi må vara i en uppstart, men ersättningen är marknadsmässig med möjlighet att köpa in sig tidigt i ett bolag som vi verkligen tror kommer ha en god värdeutveckling över tid.
 
 Vi är ambitiösa och söker dig som vill vara ambitiös tillsammans med oss! Har du mycket snack – och mycket verkstad, då är du den vi söker!
