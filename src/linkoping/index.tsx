@@ -11,6 +11,7 @@ import BlobLink from '@components/blob-link';
 
 import style from './linkoping.module.css';
 import { ButtonNextLink } from '@components/button';
+import { Listing } from 'src/jobs/utils/getListings';
 
 const linkopingBlobUrl = require('./assets/domkyrka.png');
 const bygningUrl = require('./assets/torget.png');
@@ -82,18 +83,18 @@ const Linkoping: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             </header>
 
             <p className="lead">
-              I 2024 blev Usify en del av Variant. Nu behöver fler vi folk, riktigt duktiga människor – 
-              många människor! Vill du vara med och forma ett annorlunda konsultföretag?
+              I 2024 blev Usify en del av Variant. Nu behöver fler vi folk,
+              riktigt duktiga människor – många människor! Vill du vara med och
+              forma ett annorlunda konsultföretag?
             </p>
             <p>
-              Läs mer om oss och våra värderingar i {" "}
+              Läs mer om oss och våra värderingar i{' '}
               <a
                 href="https://handbook.variant.se"
                 title="Handboken till Variant"
               >
                 vår öppna handbok
               </a>
-              
             </p>
           </div>
 
@@ -108,35 +109,41 @@ const Linkoping: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
             <div className={style.contentNarrow}>
               <p>
-              
-                Den korta versionen: Linköping är en dynamisk stad med ett 
-                spännande näringsliv, innovativa teknologimiljöer och starka 
-                universitet. Dessutom – här finns fantastiska människor som vi 
+                Den korta versionen: Linköping är en dynamisk stad med ett
+                spännande näringsliv, innovativa teknologimiljöer och starka
+                universitet. Dessutom – här finns fantastiska människor som vi
                 vill jobba med.
               </p>
 
               <p>
-                Den längre versionen: Sedan Variant grundades 2018 har vi haft en otrolig tillväxt. 
-                Variant-konceptet har blivit varmt mottaget och vi har till och med fått höra att vi 
-                inspirerat andra. Vi vill därför sprida våra värderingar och tankesätt till fler platser. 
-                Hållbarhet har alltid varit centralt för oss, och vi tror att just Linköping är en 
-                perfekt plats för att arbeta med de riktigt viktiga hållbarhetsutmaningarna.
+                Den längre versionen: Sedan Variant grundades 2018 har vi haft
+                en otrolig tillväxt. Variant-konceptet har blivit varmt mottaget
+                och vi har till och med fått höra att vi inspirerat andra. Vi
+                vill därför sprida våra värderingar och tankesätt till fler
+                platser. Hållbarhet har alltid varit centralt för oss, och vi
+                tror att just Linköping är en perfekt plats för att arbeta med
+                de riktigt viktiga hållbarhetsutmaningarna.
               </p>
             </div>
 
             <div className={style.contentSplit}>
-              <img src={bygningUrl} alt="Av Katlinke - Eget arbete, CC BY-SA 4.0" />
+              <img
+                src={bygningUrl}
+                alt="Av Katlinke - Eget arbete, CC BY-SA 4.0"
+              />
 
               <div>
-                <p>              
-                  Vi har lärt oss mycket från uppstarten i Stockholm och Göteborg som vi tar med oss till 
-                  Östergötland. Ju fler kontor vi har, desto fler perspektiv och röster 
-                  får vi in i Variant-gemenskapen. Linköping kommer att ge oss ännu fler insikter 
-                  och bidra till att utveckla det växande Variant-familjen.
+                <p>
+                  Vi har lärt oss mycket från uppstarten i Stockholm och
+                  Göteborg som vi tar med oss till Östergötland. Ju fler kontor
+                  vi har, desto fler perspektiv och röster får vi in i
+                  Variant-gemenskapen. Linköping kommer att ge oss ännu fler
+                  insikter och bidra till att utveckla det växande
+                  Variant-familjen.
                 </p>
 
                 <p>
-                Om du vill veta mer kan du{" "}
+                  Om du vill veta mer kan du{' '}
                   <a
                     href="https://blog.variant.no/link%C3%B6ping-nu-kommer-vi-a6b897b07730"
                     title="Linköping, nu kommer vi!"
@@ -156,17 +163,21 @@ const Linkoping: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
             >
               <h3 className={and('fancy')}>Ny VD</h3>
               <p>
-                Variant Linköping söker en handlingskraftig VD som vill leda vår tillväxtresa. 
-                Vi är i dag ett litet team på 7-8 personer med fokus på design, men vi har stora ambitioner. 
-                Din uppgift blir att utveckla och växa företaget till ett mångsidigt och starkt team på över 
-                30 personer, med spetskompetens inom både design och utveckling.
+                Variant Linköping söker en handlingskraftig VD som vill leda vår
+                tillväxtresa. Vi är i dag ett litet team på 7-8 personer med
+                fokus på design, men vi har stora ambitioner. Din uppgift blir
+                att utveckla och växa företaget till ett mångsidigt och starkt
+                team på över 30 personer, med spetskompetens inom både design
+                och utveckling.
               </p>
 
               <p>
-                För att lyckas i rollen behöver du ha ett starkt lokalt nätverk och en förmåga att 
-                skapa och vårda kundrelationer. Du är trygg med att sälja våra tjänster och ser värdet i att också 
-                arbeta nära våra kunder i konkreta uppdrag. Vi söker en VD som både kan inspirera internt och representera 
-                Variant externt – en person som trivs lika bra med strategiska beslut som med att kavla upp 
+                För att lyckas i rollen behöver du ha ett starkt lokalt nätverk
+                och en förmåga att skapa och vårda kundrelationer. Du är trygg
+                med att sälja våra tjänster och ser värdet i att också arbeta
+                nära våra kunder i konkreta uppdrag. Vi söker en VD som både kan
+                inspirera internt och representera Variant externt – en person
+                som trivs lika bra med strategiska beslut som med att kavla upp
                 ärmarna och bidra i operativa leveranser.
               </p>
             </div>
@@ -194,8 +205,8 @@ const Linkoping: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
 
           <div className={and(style.content, style['content--block'])}>
             <p className={and('lead', 'fancy', style.footerLine)}>
-              Är det något du undrar över? Det enklaste är att ta ett 
-              snack med oss om du är nyfiken (det gillar vi!)!
+              Är det något du undrar över? Det enklaste är att ta ett snack med
+              oss om du är nyfiken (det gillar vi!)!
             </p>
           </div>
 
@@ -226,7 +237,7 @@ function mailToTitle(mail: string) {
   if (mail.startsWith('david.dinka@')) {
     return 'VD Variant Sverige';
   }
-  
+
   return undefined;
 }
 
@@ -246,7 +257,7 @@ type Location = {
   street: string;
 };
 type JobListingItemProps = {
-  item: JobItem;
+  item: Listing;
 };
 function JobListingItem({ item }: JobListingItemProps) {
   return (
