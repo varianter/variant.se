@@ -9,26 +9,25 @@ meta_image: https://www.variant.se/images/og-vd-min.jpg
 ---
 
 
-## 🌱  Vill du vara med bygga Variant?
-Vi vill skapa en företagskultur där medarbetarna kan utvecklas och använda sin fulla potential genom tillit och öppenhet. En kultur där vi är generösa mot varandra, delar med oss och lär oss tillsammans. Vi strävar efter att vara ett gott exempel och samtidigt vara ödmjuka nog att lära av andra.
+## 🌱  Vill du leda och utveckla Variant Linköping?
+Vi söker en operativ och målinriktad VD som vill ta Variant Linköping till nästa nivå. Din främsta uppgift blir att bygga och leda ett starkt konsultföretag – från ett mindre team på 6–7 personer till en verksamhet med över 30 medarbetare inom både design och utveckling. Med fokus på att använda ditt nätverk i regionen kommer du att skapa nya affärsmöjligheter och matcha rätt konsulter med rätt kunder.
 
-## 🔧 Vem letar vi efter?
-Vi söker en operativ och inspirerande VD som kan ta Variant Linköping från att vara ett mindre team på 6-7 personer till ett starkt och mångsidigt konsultföretag med över 30 medarbetare inom både design och utveckling. Du blir ansvarig för att bygga upp företaget, skapa nya affärer och leda organisationen med glädje, transparens och energi.
+Som VD hos oss behöver du växla mellan att se de stora strategiska riktningarna och att vara detaljorienterad nog för att skapa konkreta affärsförslag. Du är skicklig på att bygga relationer – både med kunder och ditt team – och trivs med att kombinera ledarskap med ett operativt ansvar i egna uppdrag.
 
-Variant värdesätter öppenhet och samarbete, och som VD förväntas du vara en kulturbyggare som både internt och externt förvaltar våra värderingar. Du är en person som trivs med att arbeta nära kunderna, både genom att skapa relationer och leverera i uppdrag. Samtidigt är du skicklig på att bygga nätverk och att identifiera nya affärsmöjligheter i Linköping och Östergötland.
+##  🔧 Vad vi söker hos dig:
+- Du har erfarenhet av att sälja konsulttjänster och har ett starkt nätverk i Linköping och Östergötland.
+- Du har förmågan att se affärsmöjligheter och skapa långsiktiga kundrelationer.
+- Du är en god ledare som motiverar och utvecklar andra, med ett öga för att skapa matchningar mellan konsult och kund.
 
-Därför tror vi att du:
+## 🕵🏼‍♂️ Varför Variant?
+Variant är ett värderingsstyrt bolag som värdesätter samarbete, transparens och tillit. Som VD i Linköping blir du en del av ledningsgruppen för Variant Sverige, med inflytande på företagets inriktning och kultur. Vi tror på tillitsbaserat ledarskap och att varje kontor ska ha sin egen unika identitet, samtidigt som vi delar samma värderingar.
 
-- Har erfarenhet av att sälja konsulttjänster och ett starkt nätverk i regionen.
-- Är en god ledare som motiverar och utvecklar andra.
-- Har arbetat nära kunder och förstår deras behov, gärna genom erfarenhet av uppdrag i konsultbranschen.
+## 🏢 Ditt ansvar:
 
-Som VD på Variant Linköping blir du en del av en större Variant-familj med kontor i Norge och Sverige. Vi tror på tillitsbaserat ledarskap och en horisontellt skalad organisation, där varje kontor har sin egen unika identitet men delar samma värderingar. Vill du vara med och skapa något som verkligen gör skillnad? 
-
-
-
-## 🏢  Ansvar
-Du kommer att bli en del av ledningsgruppen på Variant Sverige, och genom detta vara med och forma företagets inriktning och kultur. Du kommer vara ansvarig för tjänsteutveckling, rekrytering och att bygga starka relationer med våra kunder i regionen. Vi vill att våra chefer förstår behoven hos både sina egna konsultkollegor och våra kunder, därför lägger våra chefer en stor del av sin tid som konsult på egna kunduppdrag.
+- Skapa och utveckla starka kundrelationer i regionen.
+- Driva tjänsteutveckling och leda rekrytering av nya medarbetare.
+- Bidra operativt genom egna kunduppdrag och säkerställa att teamets kompetenser matchar kundernas behov.
+- På Variant tror vi inte på stjärnor som lyser ensamstående – vi bygger framgång tillsammans. Om du vill skapa något som verkligen gör skillnad och har hjärtat för både affärer och människor, vill vi gärna höra från dig!
 
 ## 🌟 Lön och ersättningar 
 Vi vill vara så öppna som möjligt i allt vi gör, det gäller även våra olika incitament. I vår handbok (handbook.variant.se) delar vi med oss vad vi erbjuder våra anställda. Vi må vara i en uppstart, men ersättningen är marknadsmässig med möjlighet att köpa in sig tidigt i ett bolag som vi verkligen tror kommer ha en god värdeutveckling över tid.
