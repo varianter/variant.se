@@ -15,16 +15,17 @@ Vi söker en operativ och målinriktad VD som vill ta Variant Linköping till n�
 Som VD hos oss behöver du växla mellan att se de stora strategiska riktningarna och att vara detaljorienterad nog för att skapa konkreta affärsförslag. Du är skicklig på att bygga relationer – både med kunder och ditt team – och trivs med att kombinera ledarskap med ett operativt ansvar i egna uppdrag.
 
 ##  🔧 Vad vi söker hos dig:
-- Du har erfarenhet av att sälja konsulttjänster och har ett starkt nätverk i Linköping och Östergötland.
+- Du har erfarenhet av att sälja konsulttjänster inom tex design, IT, utveckling och digital kommunikation och har ett starkt nätverk i Linköping och Östergötland.
 - Du har förmågan att se affärsmöjligheter och skapa långsiktiga kundrelationer.
-- Du är en god ledare som motiverar och utvecklar andra, med ett öga för att skapa matchningar mellan konsult och kund.
+- Du är en erfaren och god ledare som motiverar och utvecklar andra, med ett öga för att skapa matchningar mellan konsult och kund.
 
 ## 🕵🏼‍♂️ Varför Variant?
 Variant är ett värderingsstyrt bolag som värdesätter samarbete, transparens och tillit. Som VD i Linköping blir du en del av ledningsgruppen för Variant Sverige, med inflytande på företagets inriktning och kultur. Vi tror på tillitsbaserat ledarskap och att varje kontor ska ha sin egen unika identitet, samtidigt som vi delar samma värderingar.
 
 ## 🏢 Ditt ansvar:
 
-- Skapa och utveckla starka kundrelationer i regionen.
+- Skapa och utveckla starka relationer med kunder och partners i regionen.
+- Resultatansvar, budget och uppföljning för din region.
 - Driva tjänsteutveckling och leda rekrytering av nya medarbetare.
 - Bidra operativt genom egna kunduppdrag och säkerställa att teamets kompetenser matchar kundernas behov.
 - På Variant tror vi inte på stjärnor som lyser ensamstående – vi bygger framgång tillsammans. Om du vill skapa något som verkligen gör skillnad och har hjärtat för både affärer och människor, vill vi gärna höra från dig!
